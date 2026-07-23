@@ -1,301 +1,210 @@
-# AGENTS.md — Instruções Oficiais de Criação
-
-Instruções compiladas de fontes oficiais: GitHub Copilot, OpenAI Codex, Claude Code, Cursor e outros agentes de IA.
-
----
-
-## O que é AGENTS.md?
-
-Um arquivo Markdown na raiz do repositório que serve como **README para agentes de IA**. Define contexto, instruções e preferências que o agente precisa para trabalhar efetivamente no projeto.
-
-**Suportado por**: GitHub Copilot, Claude Code, OpenAI Codex, Cursor, Aider, e outras ferramentas de IA.
-
----
-
-## Estrutura Recomendada
-
-**Tamanho ideal**: 100-200 linhas (máximo 300)
-
-### 1. **Project Overview** (Obrigatório)
-```markdown
 # AGENTS.md
 
-> [Uma frase descrevendo o projeto] usando [Stack técnico com versões]
-```
-**Exemplo:**
-> This is a TypeScript CLI tool for Next.js projects using Node 22, TypeScript 5.3, and Vitest.
+> Backup privado de Raycast Notes em formato Markdown. Um repositório para armazenar e gerenciar notas pessoais sobre IA, infraestrutura, desenvolvimento e tecnologia.
 
-### 2. **Tech Stack** (Obrigatório)
-Seja específico com versões:
-```markdown
 ## Tech Stack
-- Node.js 22.x
-- TypeScript 5.3+
-- React 18 + Vite 5.x
-- Tailwind CSS 3.x
-- Vitest for testing
+
+- **Linguagem**: Markdown
+- **Versionamento**: Git + GitHub
+- **Estrutura**: Notas organizadas por tópico
+- **Formato**: Markdown plano (sem dependências externas)
+
+## Project Overview
+
+Este repositório é um backup privado de todas as Raycast Notes convertidas para formato Markdown. Cada nota é armazenada como um arquivo separado para fácil navegação, busca e controle de versão.
+
+**Tópicos principais**:
+1. Self-host IA: Coolify, agentes e RAG
+2. Trilhas e cursos de IA
+3. Repos de IA (GitHub Trending)
+4. Assistento - Skill Pessoal
+5. PR Visual Evidence
+6. Wellhub requests
+7. Ciclo criado pela IA
+
+## Directory Structure
+
+```
+raycast-notes-backup/
+├── AGENTS.md                          # Este arquivo
+├── README.md                          # Índice de notas
+└── notes/                             # Diretório principal de notas
+    ├── 01-self-host-ia-coolify-agentes-rag.md
+    ├── 02-trilhas-cursos-ia.md
+    ├── 03-repos-ia-github-trending.md
+    ├── 04-assistento-skill-pessoal.md
+    ├── 05-pr-visual-evidence.md
+    ├── 06-wellhub-requests.md
+    └── 07-ciclo-criado-pela-ia.md
 ```
 
-### 3. **Build & Test Commands** (Obrigatório - maior impacto)
-**CRÍTICO**: Coloque aqui ANTES de qualquer coisa.
-```markdown
 ## Commands
 
 ### Setup
-\`\`\`bash
-npm install
-# or
-pnpm install
-\`\`\`
+```bash
+# Clonar repositório
+git clone git@github.com:ronanrodrigo/raycast-notes-backup.git
+cd raycast-notes-backup
+```
 
-### Development
-\`\`\`bash
-npm run dev
-\`\`\`
+### Viewing & Searching
+```bash
+# Listar todas as notas
+ls -la notes/
 
-### Testing
-\`\`\`bash
-npm test              # Run all tests
-npm run test:watch   # Watch mode
-npm run coverage     # Coverage report
-\`\`\`
+# Buscar por conteúdo
+grep -r "termo-buscado" notes/
 
-### Linting & Type Checking
-\`\`\`bash
-npm run lint         # Run ESLint
-npm run type-check   # TypeScript check
-npm run format       # Prettier format
-\`\`\`
+# Visualizar uma nota específica
+cat notes/01-self-host-ia-coolify-agentes-rag.md
+```
 
-### Build
-\`\`\`bash
-npm run build        # Production build
+### Contributing
+```bash
+# Criar branch de feature
+git checkout -b feature/nova-nota
+
+# Adicionar/modificar notas
+# ... editar arquivos markdown
+
+# Commit usando Conventional Commits
+git add notes/
+git commit -m "feat: adicionar nova nota sobre tema"
+
+# Push
+git push origin feature/nova-nota
+
+# Criar Pull Request no GitHub
+```
+
+## Code Style & Conventions
+
+### Markdown Formatting
+
+**Good Example** - Estrutura clara e hierárquica:
+```markdown
+# Título Principal
+
+## Seção 1
+
+### Subseção 1.1
+
+- Item 1
+- Item 2
+
+### Subseção 1.2
+
+**Destaque importante**: Usar negrito para conceitos-chave
+
+> Citações ou notas importantes em blockquote
+
+\`\`\`code
+Blocos de código quando necessário
 \`\`\`
 ```
 
-**Regra**: Inclua flags e opções completas, NÃO apenas nomes de ferramentas.
-
-### 4. **Project Structure** (Recomendado)
+**Anti-pattern** - Evitar:
 ```markdown
-## Directory Structure
-- `/src` — Source code
-  - `/src/components` — React components
-  - `/src/services` — Business logic
-  - `/src/utils` — Helper functions
-- `/tests` — Test files
-- `/docs` — Documentation
-- `/scripts` — Build scripts
+# titulo em lowercase
+sem hierarquia clara
+tudo misturado num único parágrafo sem estrutura nem separação
 ```
-
-### 5. **Code Style & Conventions** (Recomendado)
-**Use exemplos reais, NÃO explicações abstratas:**
-
-```markdown
-## Code Style
-
-### Good Example
-\`\`\`typescript
-function calculateTotal(items: CartItem[]): number {
-  return items.reduce((sum, item) => sum + item.price, 0);
-}
-\`\`\`
-
-### Anti-pattern (Avoid)
-\`\`\`typescript
-function calc(i) {
-  let t = 0;
-  for (let x = 0; x < i.length; x++) {
-    t = t + i[x].p;
-  }
-  return t;
-}
-\`\`\`
 
 ### Conventions
-- Use descriptive names (no abbreviations)
-- Prefer const/let over var
-- Keep functions under 30 lines
-- Write JSDoc for public functions
-- Use TypeScript strict mode
-```
 
-### 6. **Boundaries (Always / Ask First / Never)** (Obrigatório)
-```markdown
+- **Nomes de arquivo**: Use kebab-case com prefixo numérico (`01-nome-descritivo.md`)
+- **Títulos**: Use H1 (#) para título principal, H2 (##) para seções
+- **Links**: Use links relativos quando possível (`../notes/outro-arquivo.md`)
+- **Listas**: Use `-` para bullets, `1.` para listas numeradas
+- **Ênfase**: Use `**bold**` para conceitos importantes, `_italic_` para termos estrangeiros
+- **Blocos de código**: Use ` ``` ` com linguagem especificada quando aplicável
+- **Referências**: Cite fontes com links quando apropriado
+
 ## Boundaries
 
 ### Always
-- Modify `/src` and `/tests` directories
-- Run validation commands before suggesting changes
-- Write tests for new features
-- Follow commit message format: \`type(scope): message\`
+- Modificar/adicionar notas dentro do diretório `/notes`
+- Usar Conventional Commits: `feat:`, `fix:`, `docs:`, `chore:`
+- Manter nomenclatura consistente com prefixo numérico
+- Usar Markdown plano (sem HTML ou templates complexos)
+- Documentar mudanças no README.md quando adicionar novas notas
 
 ### Ask First
-- New dependencies or major upgrades
-- Database migrations
-- CI/CD workflow changes
-- Infrastructure changes
+- Mudanças na estrutura de diretórios
+- Reorganizar ou renomear notas existentes
+- Adicionar novas ferramentas ou automações
+- Mudar formato de armazenamento
+- Adicionar dependências externas
 
 ### Never
-- Commit secrets or API keys
-- Delete test files
-- Modify \`package-lock.json\` directly
-- Touch vendor/ or node_modules/
-- Alter environment configuration files
-```
+- Commit de dados pessoais ou sensíveis
+- Modificar README.md sem atualizar índice
+- Usar formatação proprietária (não-Markdown)
+- Adicionar arquivos binários grandes
+- Deletar notas sem documentar em commit
+- Commit de arquivos `.env` ou secrets
 
-### 7. **Testing Requirements** (Recomendado)
-```markdown
-## Testing
-
-- Framework: Vitest
-- Coverage goal: 80% or higher
-- Location: `/tests` directory
-- Run \`npm test\` before committing
-- Integration tests in `/tests/integration`
-- Unit tests in `/tests/unit`
-```
-
-### 8. **Git Workflow** (Recomendado)
-```markdown
 ## Git Workflow
 
-1. Create a feature branch: \`git checkout -b feature/my-feature\`
-2. Commit using Conventional Commits: \`feat: add new component\`
-3. Push and create a Draft PR
-4. Ensure all tests pass: \`npm test\`
-5. Mark as "Ready for Review"
+1. **Branch**: `git checkout -b feature/nome-descritivo`
+2. **Editar**: Adicionar/modificar notas em `/notes`
+3. **Commit**: `git commit -m "feat: descrição clara"`
+   - `feat:` - Nova nota ou seção
+   - `fix:` - Correção de conteúdo
+   - `docs:` - Atualização de README/AGENTS.md
+   - `chore:` - Reorganização ou formatação
+4. **Push**: `git push origin feature/nome-descritivo`
+5. **PR**: Criar Pull Request com descrição clara
+6. **Merge**: Revisar e fazer merge na `main`
 
-### Conventional Commits
-- \`feat:\` New feature
-- \`fix:\` Bug fix
-- \`docs:\` Documentation
-- \`test:\` Tests
-- \`chore:\` Build, dependencies
-```
+### Conventional Commits Examples
+- `feat: adicionar nota sobre self-hosting com Coolify`
+- `fix: corrigir links quebrados na nota 03`
+- `docs: atualizar índice no README.md`
+- `chore: reformatar seções com melhor indentação`
 
-### 9. **Critical Files & Entry Points** (Opcional)
-```markdown
 ## Important Files
-- Entry point: \`src/index.ts\`
-- Config: \`vite.config.ts\`
-- Type definitions: \`src/types/\`
-- API routes: \`src/api/\` (if applicable)
-```
 
-### 10. **Common Gotchas** (Recomendado)
-```markdown
+- **README.md** - Índice de todas as notas
+- **AGENTS.md** - Instruções para agentes de IA (este arquivo)
+- **notes/** - Diretório principal com todas as notas em Markdown
+
 ## Common Pitfalls
 
-### Issue: Tests fail with "Cannot find module"
-**Cause**: TypeScript compiled but not bundled
-**Fix**: Run \`npm run build\` before testing
+### Problema: Links quebrados após renomear nota
+**Causa**: Referências relativas não foram atualizadas
+**Solução**: Buscar todos os links `../notes/` que referenciam o arquivo renomeado e atualizar
 
-### Issue: Prettier conflicts with ESLint
-**Cause**: Not running \`npm run format\` after lint
-**Fix**: Always run \`npm run lint && npm run format\`
-```
-
----
-
-## Template Mínimo (para projetos novos)
-
-```markdown
-# AGENTS.md
-
-> [Uma linha: o que é este projeto e stack]
-
-## Tech Stack
-- [Linguagem] [versão]
-- [Framework] [versão]
-- [Ferramentas principais]
-
-## Commands
-\`\`\`bash
-npm install
-npm run dev
-npm test
-npm run build
-npm run lint
-\`\`\`
-
-## Boundaries
-### Always
-- Modify src/ e tests/
-- Run validation before changes
-
-### Ask First
-- New dependencies
-- Infrastructure changes
-
-### Never
-- Commit secrets
-- Modify generated files
-```
-
----
-
-## Onde Colocar
-
-- **Preferido**: Raiz do repositório `/AGENTS.md` (maiúsculo)
-- **Alternativas**: `/agents.md`, `/.well-known/agents.md`, `/docs/AGENTS.md`
-- **Monorepos**: Arquivo raiz + arquivos aninhados em cada package
-
----
-
-## Dicas Oficiais
-
-✅ **FAÇA:**
-- Coloque comandos ANTES de explicações
-- Use exemplos reais do seu código
-- Seja específico (versões, flags completas)
-- Mantenha sob 200 linhas
-- Atualize quando a estrutura mudar
-
-❌ **NÃO FAÇA:**
-- Descrições vagas ("use React" → "React 18 with TypeScript + Vite 5")
-- Comandos sem flags (npm test → npm test -- --coverage)
-- Explicações abstratas (use snippets reais)
-- Deixar ficar > 300 linhas
-- Copiar exemplos de outros projetos
-
----
-
-## Validação
-
-Use a ferramenta oficial: https://agent-ready.dev
-
-Seu AGENTS.md deve ter pelo menos **2 de 3**:
-- ✅ Comandos de instalação/build/teste
-- ✅ Detalhes de configuração
-- ✅ Exemplos de uso
-
----
-
-## Para Claude Code (CLAUDE.md)
-
-Se quiser instruções específicas para Claude:
-
-**Opção 1**: Referenciar AGENTS.md
-```markdown
-# CLAUDE.md
-
-@AGENTS.md
-
-## Claude-specific instructions
-[conteúdo adicional específico]
-```
-
-**Opção 2**: Symlink
+**Exemplo correto**:
 ```bash
-ln -s AGENTS.md CLAUDE.md
+grep -r "nome-antigo" notes/
+# Atualizar para novo nome
 ```
 
----
+### Problema: Arquivo não aparece no README.md
+**Causa**: Não adicionado manualmente ao índice
+**Solução**: Adicionar entry no README.md com número sequencial e descrição
 
-## Fontes Oficiais
+**Formato correto no README**:
+```markdown
+8. [Nome da Nota](./notes/08-nome-descritivo.md)
+```
 
-- https://github.com/agentsmd/agents.md (especificação aberta)
-- https://github.blog/ai-and-ml/github-copilot/how-to-write-a-great-agents-md-lessons-from-over-2500-repositories/ (GitHub oficial)
-- https://docs.github.com/en/copilot/reference/custom-agents-configuration (GitHub Copilot docs)
-- https://agent-ready.dev/how-to-write-an-effective-agents-md (Agent Ready)
-- https://developers.openai.com/codex/guides/agents-md.md (OpenAI Codex)
+## Status do Repositório
+
+- **Tipo**: Private repository
+- **Criado**: 23 de julho de 2026
+- **Última atualização**: 23 de julho de 2026
+- **Branch padrão**: `main`
+- **Issues**: 0
+- **Pull Requests**: 0
+
+## Para Claude Code
+
+Se estiver usando Claude Code especificamente, copie este arquivo:
+
+```bash
+cp AGENTS.md CLAUDE.md
+```
+
+E adicione instruções específicas ao final conforme necessário.
