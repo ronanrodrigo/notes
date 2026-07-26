@@ -1,13 +1,12 @@
 title: Notes
 description: Notas organizadas por data
+baseurl: /notes
 
-# Collections para notas
 collections:
   notes:
     output: true
-    permalink: /notes/:name/
+    permalink: /:collection/:name/
 
-# Defaults para notas
 defaults:
   - scope:
       path: ""
@@ -15,13 +14,11 @@ defaults:
     values:
       layout: page
 
-# Markdown
 markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
 
-# Plugins
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
