@@ -1,10 +1,17 @@
 title: Notes
 description: Notas organizadas por data
 
+# Collections para notas
+collections:
+  notes:
+    output: true
+    permalink: /notes/:name/
+
 # Defaults para notas
 defaults:
   - scope:
-      path: "notes"
+      path: ""
+      type: "notes"
     values:
       layout: page
 
