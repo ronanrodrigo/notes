@@ -35,9 +35,17 @@ jobs:
           notes = []
           for path in sorted(Path('notes').glob('*.md'), reverse=True):
               lines = path.read_text(encoding='utf-8').splitlines()
-              title = next((line[2:].strip() for line in lines if line.startswith('# ')), path.stem)
+              
+              # Extract title from first line starting with #
+              full_title = next((line[2:].strip() for line in lines if line.startswith('# ')), path.stem)
+              
+              # Remove date from title if it starts with YYYY/MM/YYYY or DD/MM/YYYY format
+              title = re.sub(r'^\d{1,2}\/\d{1,2}\/\d{4}\s*-\s*', '', full_title)
+              
+              # Extract date from filename (YYYY-MM-DD format)
               date = path.name[:10]
               pretty_date = f'{date[8:10]}/{date[5:7]}/{date[0:4]}'
+              
               notes.append(f'- [{pretty_date} - {title}](notes/{path.name})')
 
           index = '\n'.join(notes)
