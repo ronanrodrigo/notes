@@ -1,3 +1,16 @@
+---
+title: Repos de IA (GitHub Trending)
+date: 2026-07-23
+tags:
+  - ia
+  - github
+  - open-source
+  - repositories
+  - tools
+  - trending
+  - reference
+---
+
 # Repos de IA (GitHub Trending) — referência
 
 - Headroom (context compression para agentes) — https://github.com/chopratejas/headroom
