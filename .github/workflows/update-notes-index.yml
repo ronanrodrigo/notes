@@ -1,4 +1,4 @@
-name: Update notes index
+name: Update notes index and site index
 
 on:
   push:
@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - "notes/*.md"
+      - "README.md"
   workflow_dispatch:
 
 permissions:
@@ -21,53 +22,45 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Rebuild README index
+      - name: Rebuild README and index.md
         run: |
           python <<'PY'
           from pathlib import Path
           import re
 
-          readme = Path('README.md')
-          start = '<!-- NOTES_INDEX_START -->'
-          end = '<!-- NOTES_INDEX_END -->'
-          pattern = re.compile(re.escape(start) + r'.*?' + re.escape(end), re.S)
-
+          # Build list of notes
           notes = []
           for path in sorted(Path('notes').glob('*.md'), reverse=True):
               lines = path.read_text(encoding='utf-8').splitlines()
-              
-              # Extract title from first line starting with #
               full_title = next((line[2:].strip() for line in lines if line.startswith('# ')), path.stem)
-              
-              # Remove date from title if it starts with YYYY/MM/YYYY or DD/MM/YYYY format
               title = re.sub(r'^\d{1,2}\/\d{1,2}\/\d{4}\s*-\s*', '', full_title)
-              
-              # Extract date from filename (YYYY-MM-DD format)
               date = path.name[:10]
-              pretty_date = f'{date[8:10]}/{date[5:7]}/{date[0:4]}'
-              
-              notes.append(f'- [{pretty_date} - {title}](notes/{path.name})')
+              pretty = f"{date[8:10]}/{date[5:7]}/{date[0:4]}"
+              notes.append(f"- [{pretty} - {title}](notes/{path.name})")
 
-          index = '\n'.join(notes)
-          replacement = f"{start}\n\n{index}\n\n{end}" if index else f"{start}\n\n{end}"
+          index_md = "\n".join(notes)
+
+          # Update README.md
+          readme = Path('README.md')
+          start, end = '<!-- NOTES_INDEX_START -->', '<!-- NOTES_INDEX_END -->'
+          pattern = re.compile(re.escape(start) + r'.*?' + re.escape(end), re.S)
+          new_block = f"{start}\n\n{index_md}\n\n{end}"
           text = readme.read_text(encoding='utf-8')
-          updated = pattern.sub(replacement, text)
-          if updated == text:
-              print('README index already up to date.')
-          else:
-              readme.write_text(updated, encoding='utf-8')
-              print('README index updated.')
+          updated = pattern.sub(new_block, text)
+          readme.write_text(updated, encoding='utf-8')
+
+          # Also update index.md for site
+          index_file = Path('index.md')
+          index_file.write_text(updated, encoding='utf-8')
+          print('Updated README.md and index.md')
           PY
 
-      - name: Commit and push changes
+      - name: Commit & Push changes
         run: |
-          if git diff --quiet; then
-            echo "No changes to commit."
-            exit 0
-          fi
-
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md
-          git commit -m "docs: update notes index"
-          git push origin HEAD:${GITHUB_REF_NAME}
+          git add README.md index.md
+          git diff --quiet HEAD || (
+            git commit -m "docs: update notes index and index.md"
+            git push origin HEAD:${GITHUB_REF_NAME}
+          )
