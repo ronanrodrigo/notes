@@ -1,3 +1,16 @@
+---
+title: Prompts Claude para Aprender Mais Rápido
+date: 2026-07-23
+tags:
+  - claude
+  - prompts
+  - learning
+  - education
+  - study-techniques
+  - spaced-repetition
+  - active-recall
+---
+
 # 23/07/2026 - Prompts Claude para Aprender Mais Rápido
 
 ## Learn Anything in 20 Hours
