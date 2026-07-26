@@ -1,40 +1,32 @@
 title: Notes
 description: Notas organizadas por data
 remote_theme: daattali/beautiful-jekyll@6.0.1
+
 plugins:
-- jekyll-remote-theme
-- jekyll-titles-from-headings
-- jekyll-readme-index
-- jekyll-relative-links
-- jekyll-optional-liquid-headings
+  - jekyll-remote-theme
+  - jekyll-titles-from-headings
+  - jekyll-relative-links
 
-# Permite que arquivos .md na raiz sejam servidos como páginas
-include:
-  - README.md
+# Aplica layout e permalink automáticos para as notas
+# sem precisar de pipeline custom para gerar índices.
+defaults:
+  - scope:
+      path: "notes"
+    values:
+      layout: note
+      permalink: /notes/:basename/
 
-# Excluir arquivos que não precisam ser processados
-exclude:
-  - AGENTS.md
-
-# Configurações de permalinks para URLs limpas
-permalink: pretty
-
-# Títulos automáticos a partir do primeiro heading de cada página
-titles_from_heading:
-  enabled: true
-  strip_title: true
-
-# Links relativos convertidos para links do Jekyll
-relative_links:
-  enabled: true
-  collections: true
-
-# Habilita a renderização de Markdown com front matter
+# Configurações de Markdown
 markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
 
-# GitHub Pages defaults
+# GitHub Pages / Jekyll
 lsi: false
 safe: true
+permalink: pretty
+
+# Arquivos que não precisam ser processados como página do site
+exclude:
+  - AGENTS.md
