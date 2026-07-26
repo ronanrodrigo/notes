@@ -7,7 +7,6 @@ Notas organizadas por data no padrão `YYYY-MM-DD-slug.md`.
 <!-- NOTES_INDEX_START -->
 
 - [26/07/2026 - 26/07/2026 - YouTube: Prompts e Estratégia para Crescimento de Canal](notes/2026-07-26-youtube-prompts-estrategia-canal.md)
-- [26/07/2026 - 26/07/2026 - Teste GitHub Action](notes/2026-07-26-teste-github-action.md)
 - [26/07/2026 - 26/07/2026 - Hermes: Agente IA Open Source com Memória Persistente](notes/2026-07-26-hermes-agente-ia-open-source.md)
 - [26/07/2026 - 26/07/2026 - Ferramentas, Plugins e Skills do Claude](notes/2026-07-26-ferramentas-plugins-skills-claude.md)
 - [26/07/2026 - 26/07/2026 - Agentes IA de Pesquisa e Automação Web](notes/2026-07-26-agentes-ia-pesquisa-automacao.md)
