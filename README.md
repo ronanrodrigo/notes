@@ -8,7 +8,6 @@ Notas organizadas por data no padrão `YYYY-MM-DD-slug.md`.
 
 - [26/07/2026 - YouTube: Prompts e Estratégia para Crescimento de Canal](notes/2026-07-26-youtube-prompts-estrategia-canal.md)
 - [26/07/2026 - Hermes: Agente IA Open Source com Memória Persistente](notes/2026-07-26-hermes-agente-ia-open-source.md)
-- [26/07/2026 - Hello World](notes/2026-07-26-hello-world.md)
 - [26/07/2026 - Ferramentas, Plugins e Skills do Claude](notes/2026-07-26-ferramentas-plugins-skills-claude.md)
 - [26/07/2026 - Agentes IA de Pesquisa e Automação Web](notes/2026-07-26-agentes-ia-pesquisa-automacao.md)
 - [25/07/2026 - OmniRoute - Gateway IA Gratuito](notes/2026-07-25-omniroute-gateway-ia.md)
