@@ -4,7 +4,7 @@ title: Índice por Tags
 permalink: /tags/
 ---
 
-{% assign notes = site.pages | where_exp: "item", "item.path contains 'notes/' and item.date" %}
+{% assign notes = site.notes %}
 {% capture raw_tags %}{% for note in notes %}{% if note.tags %}{% for tag in note.tags %}{{ tag }}|{% endfor %}{% endif %}{% endfor %}{% endcapture %}
 {% assign all_tags = raw_tags | split: '|' | uniq | sort %}
 
