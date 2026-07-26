@@ -1,3 +1,18 @@
+---
+title: Claude - Ferramentas, Plugins e Skills
+date: 2026-07-26
+tags:
+  - claude
+  - mcp
+  - plugins
+  - skills
+  - integrations
+  - notion
+  - slack
+  - github
+  - tools
+---
+
 # 26/07/2026 - Ferramentas, Plugins e Skills do Claude
 
 ## Comece aqui
