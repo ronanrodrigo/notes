@@ -1,11 +1,5 @@
 title: Notes
 description: Notas organizadas por data
-remote_theme: daattali/beautiful-jekyll@6.0.1
-
-plugins:
-  - jekyll-remote-theme
-  - jekyll-titles-from-headings
-  - jekyll-relative-links
 
 # Aplica layout e permalink automáticos para as notas
 # sem precisar de pipeline custom para gerar índices.
@@ -13,7 +7,7 @@ defaults:
   - scope:
       path: "notes"
     values:
-      layout: note
+      layout: post
       permalink: /notes/:basename/
 
 # Configurações de Markdown
@@ -21,6 +15,11 @@ markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
+
+# Jekyll defaults
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
 
 # GitHub Pages / Jekyll
 lsi: false
