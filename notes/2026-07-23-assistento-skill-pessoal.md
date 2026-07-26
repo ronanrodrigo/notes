@@ -1,3 +1,17 @@
+---
+title: Assistento - Skill Pessoal
+date: 2026-07-23
+tags:
+  - claude
+  - skills
+  - automation
+  - productivity
+  - workflow
+  - git
+  - github
+  - custom-agent
+---
+
 # Assistento - Skill Pessoal
 
 ```yaml
