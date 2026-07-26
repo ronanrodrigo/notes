@@ -1,3 +1,16 @@
+---
+title: Ciclo Criado pela IA
+date: 2026-07-23
+tags:
+  - ia
+  - psychology
+  - productivity
+  - paradox
+  - work-culture
+  - behavior
+  - reflection
+---
+
 # Ciclo criado pela IA
 
 ## O Paradoxo da Aceleração
