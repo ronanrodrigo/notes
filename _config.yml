@@ -6,7 +6,7 @@ defaults:
   - scope:
       path: "notes"
     values:
-      layout: post
+      layout: page
 
 # Markdown
 markdown: kramdown
