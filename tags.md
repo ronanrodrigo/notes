@@ -11,11 +11,12 @@ permalink: /tags/
 {% for tag in all_tags %}
 {% assign current_tag = tag | strip %}
 {% if current_tag != blank %}
-<h2 id="{{ current_tag | slugify }}">{{ current_tag }}</h2>
+
+## {{ current_tag }}
 
 {% assign tagged_notes = notes | where_exp: "item", "item.tags contains current_tag" | sort: "date" | reverse %}
 {% for note in tagged_notes %}
-* [{{ note.date | date: "%d/%m/%Y" }} - {{ note.title }}]({{ note.url | relative_url }})
+- [{{ note.date | date: "%d/%m/%Y" }} - {{ note.title }}]({{ note.url }})
 {% endfor %}
 
 {% endif %}
