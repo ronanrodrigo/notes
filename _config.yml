@@ -1,31 +1,23 @@
 title: Notes
 description: Notas organizadas por data
 
-# Aplica layout e permalink automáticos para as notas
-# sem precisar de pipeline custom para gerar índices.
+# Defaults para notas
 defaults:
   - scope:
       path: "notes"
     values:
       layout: post
-      permalink: /notes/:basename/
 
-# Configurações de Markdown
+# Markdown
 markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
 
-# Jekyll defaults
+# Plugins
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-# GitHub Pages / Jekyll
-lsi: false
-safe: true
-permalink: pretty
-
-# Arquivos que não precisam ser processados como página do site
 exclude:
   - AGENTS.md
