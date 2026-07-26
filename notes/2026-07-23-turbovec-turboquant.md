@@ -1,16 +1,14 @@
 ---
-title: Turbovec - Índice Vetorial com TurboQuant
+title: Turbovec - Índice Vetorial Rust com TurboQuant
 date: 2026-07-23
 tags:
   - rust
-  - vector-db
-  - performance
-  - compression
-  - quantization
   - open-source
   - search
+  - quantization
+  - compression
 ---
 
 # 23/07/2026 - Turbovec: Índice Vetorial Rust com TurboQuant
 
-## Conteúdo sobre Turbovec
+Índice vetorial de alta performance em Rust com quantização avançada.

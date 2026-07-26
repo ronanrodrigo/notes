@@ -9,7 +9,6 @@ tags:
   - shorts
   - monetization
   - seo
-  - thumbnails
 ---
 
 # 26/07/2026 - YouTube: Prompts e Estratégia para Crescimento de Canal

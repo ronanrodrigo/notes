@@ -4,12 +4,10 @@ date: 2026-07-25
 tags:
   - ia
   - open-source
-  - ferramentas
-  - code
-  - developer-tools
+  - tools
   - self-hosted
 ---
 
 # 25/07/2026 - Ferramentas de IA Open Source
 
-## Conteúdo sobre ferramentas open source de IA
+Coletânea de ferramentas de IA open source para self-hosting.

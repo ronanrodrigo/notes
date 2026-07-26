@@ -4,14 +4,11 @@ date: 2026-07-23
 tags:
   - ia
   - self-hosted
-  - coolify
   - agentes
-  - rag
   - docker
   - infrastructure
-  - open-source
 ---
 
 # 23/07/2026 - Self-host IA: Coolify, Agentes e RAG
 
-## Conteúdo sobre self-hosting de IA
+Guia completo para fazer self-hosting de IA com Coolify, agentes inteligentes e RAG.
