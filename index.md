@@ -1,8 +1,7 @@
 ---
-layout: home
+layout: page
+title: Notas
 ---
-
-# Notas
 
 Notas organizadas por data no repositório privado.
 
