@@ -10,4 +10,4 @@ tags:
 
 # 23/07/2026 - PR Visual Evidence
 
-Ferramentas e técnicas para adicionar evídencia visual em pull requests.
+Ferramentas e técnicas para adicionar evidência visual em pull requests.
