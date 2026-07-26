@@ -1,6 +1,6 @@
 # AGENTS.md
 
-> Backup privado de Raycast Notes em formato Markdown. Um repositório para armazenar e gerenciar notas pessoais sobre IA, infraestrutura, desenvolvimento e tecnologia.
+> Repositório de notas em formato Markdown. Armazenar e gerenciar notas pessoais sobre IA, infraestrutura, desenvolvimento e tecnologia.
 
 ## Tech Stack
 
@@ -11,7 +11,7 @@
 
 ## Project Overview
 
-Este repositório é um backup privado de todas as Raycast Notes convertidas para formato Markdown. Cada nota é armazenada como um arquivo separado para fácil navegação, busca e controle de versão.
+Este repositório é um backup privado de notas convertidas para formato Markdown. Cada nota é armazenada como um arquivo separado para fácil navegação, busca e controle de versão.
 
 **Tópicos principais**:
 1. Self-host IA: Coolify, agentes e RAG
