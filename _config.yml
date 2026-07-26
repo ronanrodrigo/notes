@@ -1,0 +1,40 @@
+title: Raycast Notes Backup
+description: Backup privado de Raycast Notes em formato Markdown
+remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+- jekyll-remote-theme
+- jekyll-titles-from-headings
+- jekyll-readme-index
+- jekyll-relative-links
+- jekyll-optional-liquid-headings
+
+# Permite que arquivos .md na raiz sejam servidos como páginas
+include:
+  - README.md
+
+# Excluir arquivos que não precisam ser processados
+exclude:
+  - AGENTS.md
+
+# Configurações de permalinks para URLs limpas
+permalink: pretty
+
+# Títulos automáticos a partir do primeiro heading de cada página
+titles_from_heading:
+  enabled: true
+  strip_title: true
+
+# Links relativos convertidos para links do Jekyll
+relative_links:
+  enabled: true
+  collections: true
+
+# Habilita a renderização de Markdown com front matter
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# GitHub Pages defaults
+lsi: false
+safe: true
