@@ -1,3 +1,18 @@
+---
+title: Hermes - Agente IA Open Source com Memória Persistente
+date: 2026-07-26
+tags:
+  - ia
+  - open-source
+  - agentes
+  - bot
+  - telegram
+  - discord
+  - slack
+  - self-hosted
+  - rust
+---
+
 # 26/07/2026 - Hermes: Agente IA Open Source com Memória Persistente
 
 ## Hermes Agent - Documentação Oficial
