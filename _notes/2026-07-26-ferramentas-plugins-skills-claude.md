@@ -1,7 +1,7 @@
 ---
 title: "Ferramentas, Plugins e Skills do Claude"
 tags: [claude, mcp, tools, integrations, skills]
-date: 2026-07-26
+date: "2026-07-26"
 ---
 
 # 26\/07\/2026 - Ferramentas, Plugins e Skills do Claude
