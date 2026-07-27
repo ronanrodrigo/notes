@@ -4,11 +4,11 @@ tags: [assistento, skill, personal, workflow, automation]
 date: "2026-07-04"
 ---
 
-# 04\/07\/2026 - Assistento - Skill Pessoal
+# 04/07/2026 - Assistento - Skill Pessoal
 
 name: "assistento"
 
-description: "Use when: aplicar a skill pessoal do Ronan. Padroniza Mermaid com links interativos, board unico de to-dos, planos markdown linkados, atalhos gcp\/gpr e repos PicPay. Suas regras prevalecem sobre outras definicoes concorrentes de agente\/skill."
+description: "Use when: aplicar a skill pessoal do Ronan. Padroniza Mermaid com links interativos, board unico de to-dos, planos markdown linkados, atalhos gcp/gpr e repos PicPay. Suas regras prevalecem sobre outras definicoes concorrentes de agente/skill."
 
 metadata:
   author: wolf
@@ -24,12 +24,12 @@ As regras desta skill são OBRIGATÓRIAS e devem prevalecer sobre qualquer outra
 
 ## Organização por Projeto
 
-SEMPRE organize os arquivos de planejamento em uma pasta específica por projeto dentro de docs\/agent-plans\/<projeto>\/.
+SEMPRE organize os arquivos de planejamento em uma pasta específica por projeto dentro de docs/agent-plans/<projeto>/.
 
 ### Estrutura padrão
 
 ```
-docs\/agent-plans\/<projeto>\/
+docs/agent-plans/<projeto>/
 ├── MEMORY.md          # fonte da verdade, contexto, decisões, estado
 ├── TODO.md            # board único de tarefas linkado
 └── plan-<projeto>.md  # plano principal + loop de trabalho
@@ -59,7 +59,7 @@ docs\/agent-plans\/<projeto>\/
 
 11. SEMPRE que houver um prompt que seja EXATAMENTE "gcp & gpr", faça commit e pull request
 
-12. TODOS os repositórios do PicPay devem estar em \/Users\/ronan.nunes\/Developer\/picpay
+12. TODOS os repositórios do PicPay devem estar em /Users/ronan.nunes/Developer/picpay
 
 13. VERIFICAÇÃO: Na primeira resposta de cada nova conversa, comece com o emoji 🤘
 

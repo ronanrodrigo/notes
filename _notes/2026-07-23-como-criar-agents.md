@@ -4,19 +4,19 @@ tags: [agents, github, ia, documentation, examples]
 date: "2026-07-23"
 ---
 
-# 23\/07\/2026 - Como criar um arquivo Agents.md (baseado em repositórios famosos do GitHub)
+# 23/07/2026 - Como criar um arquivo Agents.md (baseado em repositórios famosos do GitHub)
 
-Instruções reais extraídas de arquivos **AGENTS.md** \/ **Agents.md** de repositórios conhecidos:
+Instruções reais extraídas de arquivos **AGENTS.md** / **Agents.md** de repositórios conhecidos:
 
 ## Exemplos de repositórios famosos que usam o arquivo
 
-- **google\/benchmark** → `AGENTS.md`
-- **radareorg\/radare2** → `AGENTS.md`
-- **nextdns\/nextdns** → `AGENTS.md`
-- **DataDog\/stratus-red-team** → `AGENTS.md`
-- **PaloAltoNetworks\/docusaurus-openapi-docs** → `AGENTS.md`
-- **chartbrew\/chartbrew** → `AGENTS.md`
-- **yanyiwu\/nodejieba** → `AGENTS.md`
+- **google/benchmark** → `AGENTS.md`
+- **radareorg/radare2** → `AGENTS.md`
+- **nextdns/nextdns** → `AGENTS.md`
+- **DataDog/stratus-red-team** → `AGENTS.md`
+- **PaloAltoNetworks/docusaurus-openapi-docs** → `AGENTS.md`
+- **chartbrew/chartbrew** → `AGENTS.md`
+- **yanyiwu/nodejieba** → `AGENTS.md`
 
 ## Estrutura recomendada (compilada de arquivos reais)
 

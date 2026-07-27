@@ -4,7 +4,7 @@ tags: [ia, ferramentas, saas, produtividade, "2026"]
 date: "2026-07-26"
 ---
 
-# 26\/07\/2026 - Melhores ferramentas de IA em 2026
+# 26/07/2026 - Melhores ferramentas de IA em 2026
 
 ## Assistentes gerais e pesquisa
 
@@ -68,7 +68,7 @@ Gerador de código com IA que cria componentes React e páginas web funcionais a
 Integração nativa de IA no Figma. Gera wireframes, sugere componentes, auto-layouts, variações de design system em tempo real. Mais maduro em 2026. Ideal para quem já usa Figma.
 
 ### Galileo AI
-Especializada em geração de UI\/UX. Transforma descrições em texto em protótipos navegáveis completos e de alta fidelidade em minutos. Reduz 65% do tempo em UI components. Integra com Figma.
+Especializada em geração de UI/UX. Transforma descrições em texto em protótipos navegáveis completos e de alta fidelidade em minutos. Reduz 65% do tempo em UI components. Integra com Figma.
 
 ### Uizard
 Converte esboços feitos à mão em protótipos digitais e gera interfaces a partir de descrições em texto. Reduz 70% do tempo em wireframing. Amigável para iniciantes.
@@ -125,7 +125,7 @@ Executa tarefas de forma autônoma no computador: organiza arquivos, escreve ema
 ### Grok
 Assistente com capacidade de fact-check e geração de imagens e vídeos. Integrado ao X (Twitter) para usuários Premium.
 
-## Regime 80\/20
+## Regime 80/20
 
 Para a maioria dos profissionais, **assinar um modelo fundacional forte** (ChatGPT Plus ou Claude Pro) resolve **80% das necessidades** de texto, pesquisa e código básico. Os outros **20%** devem ser preenchidos com ferramentas hiper-especializadas:
 

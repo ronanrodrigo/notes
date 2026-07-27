@@ -4,7 +4,7 @@ tags: [agents, github, ia, documentation, conventions]
 date: "2026-07-23"
 ---
 
-# 23\/07\/2026 - AGENTS.md - Instruções Oficiais de Criação
+# 23/07/2026 - AGENTS.md - Instruções Oficiais de Criação
 
 Instruções compiladas de fontes oficiais: GitHub Copilot, OpenAI Codex, Claude Code, Cursor e outros agentes de IA.
 
@@ -45,7 +45,7 @@ Organize como:
 
 Use exemplos reais, NÃO explicações abstratas
 
-### 6. **Boundaries (Always \/ Ask First \/ Never)** (Obrigatório)
+### 6. **Boundaries (Always / Ask First / Never)** (Obrigatório)
 
 Defina o que o agente pode fazer livremente, o que requer aprovação, e o que é proibido
 
@@ -75,8 +75,8 @@ Problemas comuns que o agente deve evitar
 
 ## Onde Colocar
 
-- **Preferido**: Raiz do repositório `\/AGENTS.md` (maiúsculo)
-- **Alternativas**: `\/agents.md`, `\/.well-known\/agents.md`, `\/docs\/AGENTS.md`
+- **Preferido**: Raiz do repositório `/AGENTS.md` (maiúsculo)
+- **Alternativas**: `/agents.md`, `/.well-known/agents.md`, `/docs/AGENTS.md`
 - **Monorepos**: Arquivo raiz + arquivos aninhados em cada package
 
 ---
@@ -101,10 +101,10 @@ Problemas comuns que o agente deve evitar
 
 ## Validação
 
-Use a ferramenta oficial: https:\/\/agent-ready.dev
+Use a ferramenta oficial: https://agent-ready.dev
 
 Seu AGENTS.md deve ter pelo menos **2 de 3**:
-- ✅ Comandos de instalação\/build\/teste
+- ✅ Comandos de instalação/build/teste
 - ✅ Detalhes de configuração
 - ✅ Exemplos de uso
 
@@ -112,8 +112,8 @@ Seu AGENTS.md deve ter pelo menos **2 de 3**:
 
 ## Fontes Oficiais
 
-- https:\/\/github.com\/agentsmd\/agents.md (especificação aberta)
-- https:\/\/github.blog\/ai-and-ml\/github-copilot\/how-to-write-a-great-agents-md-lessons-from-over-2500-repositories\/ (GitHub oficial)
-- https:\/\/docs.github.com\/en\/copilot\/reference\/custom-agents-configuration (GitHub Copilot docs)
-- https:\/\/agent-ready.dev\/how-to-write-an-effective-agents-md (Agent Ready)
-- https:\/\/developers.openai.com\/codex\/guides\/agents-md.md (OpenAI Codex)
+- https://github.com/agentsmd/agents.md (especificação aberta)
+- https://github.blog/ai-and-ml/github-copilot/how-to-write-a-great-agents-md-lessons-from-over-2500-repositories/ (GitHub oficial)
+- https://docs.github.com/en/copilot/reference/custom-agents-configuration (GitHub Copilot docs)
+- https://agent-ready.dev/how-to-write-an-effective-agents-md (Agent Ready)
+- https://developers.openai.com/codex/guides/agents-md.md (OpenAI Codex)

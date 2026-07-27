@@ -4,7 +4,7 @@ tags: [youtube, prompts, marketing, content, growth]
 date: "2026-07-26"
 ---
 
-# 26\/07\/2026 - YouTube: Prompts e Estratégia para Crescimento de Canal
+# 26/07/2026 - YouTube: Prompts e Estratégia para Crescimento de Canal
 
 ## 10 Ideias de Shorts com Alto Potencial de Visualização
 
@@ -40,7 +40,7 @@ Collection de 50+ prompts específicos para creator de YouTube, cobrindo estrat�
 
 ## Sistema de Otimização de Thumbnails
 
-Guia detalhado sobre otimização de thumbnails, incluindo por que 30% da thumbnail deve ser o rosto (com expressão exagerada), uso de cores complementares para destaque, máximo 4-6 palavras com fonte gigante, regra dos terços, e como testar thumbnail com A\/B testing no YouTube Studio.
+Guia detalhado sobre otimização de thumbnails, incluindo por que 30% da thumbnail deve ser o rosto (com expressão exagerada), uso de cores complementares para destaque, máximo 4-6 palavras com fonte gigante, regra dos terços, e como testar thumbnail com A/B testing no YouTube Studio.
 
 ## Roteiros com Retenção Otimizada
 

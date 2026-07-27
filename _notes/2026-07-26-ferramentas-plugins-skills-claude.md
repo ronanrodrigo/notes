@@ -4,7 +4,7 @@ tags: [claude, mcp, tools, integrations, skills]
 date: "2026-07-26"
 ---
 
-# 26\/07\/2026 - Ferramentas, Plugins e Skills do Claude
+# 26/07/2026 - Ferramentas, Plugins e Skills do Claude
 
 Guia completo sobre as extensões e integrações do Claude: Model Context Protocol (MCP), Skills especializados e Plugins reutilizáveis.
 
@@ -25,7 +25,7 @@ Ler repositórios, gerenciar issues e pull requests, automatizar workflows.
 Integração com Sheets, Drive, Gmail, Calendar, Docs, Slides e Tasks via OAuth remoto.
 
 ### Supabase MCP
-Conectar Claude a projetos Supabase com transports HTTP\/SSE e OAuth.
+Conectar Claude a projetos Supabase com transports HTTP/SSE e OAuth.
 
 ---
 
@@ -35,7 +35,7 @@ Pacotes reutilizáveis que estendem o Claude com conhecimento especializado e wo
 
 **Como criar:** Pasta com `skill.md` + frontmatter YAML → ZIP → Upload em Settings > Capabilities
 
-**Como usar:** Settings > Capabilities (individual) ou Organization settings > Skills (Team\/Enterprise)
+**Como usar:** Settings > Capabilities (individual) ou Organization settings > Skills (Team/Enterprise)
 
 ---
 
@@ -58,9 +58,9 @@ Acessar: Claude Desktop → Settings → Connectors → Add
 
 ## Recursos Úteis
 
-- [Model Context Protocol - Documentação Oficial](https:\/\/modelcontextprotocol.io\/introduction)
-- [Claude Code Documentation - MCP](https:\/\/code.claude.com\/docs\/mcp)
-- [Awesome Claude Code - Plugins & MCP Servers](https:\/\/github.com\/jmanhype\/awesome-claude-code)
-- [Claude Skills Center](https:\/\/support.claude.com\/en\/articles\/12512198-how-to-create-custom-skills)
-- [Slack MCP Guide](https:\/\/slack.com\/help\/articles\/48855576908307-Guide-to-Model-Context-Protocol-in-Slack)
-- [Notion MCP Setup](https:\/\/developers.notion.com\/guides\/mcp\/get-started-with-mcp)
+- [Model Context Protocol - Documentação Oficial](https://modelcontextprotocol.io/introduction)
+- [Claude Code Documentation - MCP](https://code.claude.com/docs/mcp)
+- [Awesome Claude Code - Plugins & MCP Servers](https://github.com/jmanhype/awesome-claude-code)
+- [Claude Skills Center](https://support.claude.com/en/articles/12512198-how-to-create-custom-skills)
+- [Slack MCP Guide](https://slack.com/help/articles/48855576908307-Guide-to-Model-Context-Protocol-in-Slack)
+- [Notion MCP Setup](https://developers.notion.com/guides/mcp/get-started-with-mcp)
