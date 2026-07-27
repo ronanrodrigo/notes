@@ -1,6 +1,10 @@
-# 23\/07\/2026 - Trilhas e cursos de IA (OpenAI, DeepLearning.AI, Anthropic, Google, Make, n8n)
+---
+title: "Trilhas e cursos de IA"
+tags: [learning, courses, ia, education, certifications]
+date: 2026-07-23
+---
 
-**Tags:** `#learning` `#courses` `#ia` `#education` `#certifications`
+# 23\/07\/2026 - Trilhas e cursos de IA (OpenAI, DeepLearning.AI, Anthropic, Google, Make, n8n)
 
 ## OpenAI Academy Courses
 Trilhas de aprendizagem prática da OpenAI para ganhar fluência em IA, com foco em tarefas do trabalho, instruções claras e workflows com agentes.
