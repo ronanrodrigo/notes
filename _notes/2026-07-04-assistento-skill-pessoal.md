@@ -1,6 +1,10 @@
-# 04\/07\/2026 - Assistento - Skill Pessoal
+---
+title: "Assistento - Skill Pessoal"
+tags: [assistento, skill, personal, workflow, automation]
+date: 2026-07-04
+---
 
-**Tags:** `#assistento` `#skill` `#personal` `#workflow` `#automation`
+# 04\/07\/2026 - Assistento - Skill Pessoal
 
 name: "assistento"
 
