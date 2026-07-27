@@ -1,4 +1,4 @@
-name: Normalize note links
+name: Normalize Note Links
 
 on:
   workflow_dispatch:
@@ -41,7 +41,6 @@ jobs:
               spans = []
               for pattern in (FENCE, COMMENT, FRONTMATTER, LINK, HEADING):
                   spans.extend((m.start(), m.end()) for m in pattern.finditer(text))
-              # Inline code: only backtick-delimited spans, including multi-backtick code.
               for m in re.finditer(r'(`+)(.*?)\1', text, re.S):
                   spans.append((m.start(), m.end()))
               spans.sort()
@@ -54,7 +53,6 @@ jobs:
               return merged
 
           def is_protected(pos, spans):
-              # spans is sorted; the files are small, so a linear check is clear and safe.
               return any(start <= pos < end for start, end in spans)
 
           def normalize(text):
@@ -64,7 +62,6 @@ jobs:
                   if is_protected(match.start(), spans):
                       continue
                   raw = match.group(0)
-                  # Do not absorb sentence punctuation or Markdown closing punctuation.
                   trailing = ''
                   while raw and raw[-1] in '.,;:!?':
                       trailing = raw[-1] + trailing
