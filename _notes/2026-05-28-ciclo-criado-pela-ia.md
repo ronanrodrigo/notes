@@ -4,8 +4,6 @@ tags: [ia, productivity, paradox, workplace, society]
 date: "2026-05-28"
 ---
 
-# 28/05/2026 - Ciclo criado pela IA
-
 ## O Ciclo da IA
 
 Aceleração de tarefas → Elevação de expectativas de velocidade
