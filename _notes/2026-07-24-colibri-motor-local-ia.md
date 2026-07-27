@@ -1,6 +1,10 @@
-# 24\/07\/2026 - Colibri - Motor Local de IA
+---
+title: "Colibri - Motor Local de IA"
+tags: [localhost, rust, llm, glm, opensource]
+date: 2026-07-24
+---
 
-**Tags:** `#localhost` `#rust` `#llm` `#glm` `#opensource`
+# 24\/07\/2026 - Colibri - Motor Local de IA
 
 ## Colibri - Motor de Inferência Local
 Runtime open source escrito em Rust que permite rodar modelos MoE (Mixture of Experts) gigantes com streaming seletivo do armazenamento. Roda o GLM-5.2 (744B parâmetros) com apenas 25GB RAM sem GPU necessária.
