@@ -1,6 +1,10 @@
-# 24\/07\/2026 - Ferramentas Claude Avançadas
+---
+title: "Ferramentas Claude Avançadas"
+tags: [claude, tools, notebooklm, graphify, rag]
+date: 2026-07-24
+---
 
-**Tags:** `#claude` `#tools` `#notebooklm` `#graphify` `#rag`
+# 24\/07\/2026 - Ferramentas Claude Avançadas
 
 ## NotebookLM API Não-Oficial (notebooklm-py)
 API Python que reverte engenharia da interface web do NotebookLM para acesso programático completo, incluindo funcionalidades não expostas na interface web, com 14+ mil estrelas no GitHub.
