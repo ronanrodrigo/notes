@@ -1,7 +1,7 @@
 ---
 title: "Como criar um arquivo Agents.md"
 tags: [agents, github, ia, documentation, examples]
-date: 2026-07-23
+date: "2026-07-23"
 ---
 
 # 23\/07\/2026 - Como criar um arquivo Agents.md (baseado em repositórios famosos do GitHub)
