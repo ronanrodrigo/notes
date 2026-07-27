@@ -3,10 +3,10 @@
 set -euo pipefail
 
 expected_branch="migrate/notes-to-jekyll-posts"
-current_ref="${GITHUB_REF:-}"
+current_branch="${MIGRATION_BRANCH:-}"
 
-if [[ "$current_ref" != "refs/heads/$expected_branch" ]]; then
-  echo "Refusing to run outside $expected_branch (GITHUB_REF: ${current_ref:-unset})." >&2
+if [[ "$current_branch" != "$expected_branch" ]]; then
+  echo "Refusing to run outside $expected_branch (MIGRATION_BRANCH: ${current_branch:-unset})." >&2
   exit 1
 fi
 
