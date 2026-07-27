@@ -1,7 +1,7 @@
 ---
 title: "Ferramentas Claude Avançadas"
 tags: [claude, tools, notebooklm, graphify, rag]
-date: 2026-07-24
+date: "2026-07-24"
 ---
 
 # 24\/07\/2026 - Ferramentas Claude Avançadas
