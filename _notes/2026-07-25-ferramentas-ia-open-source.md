@@ -1,6 +1,10 @@
-# 25\/07\/2026 - Ferramentas de IA Open Source
+---
+title: "Ferramentas de IA Open Source"
+tags: [opensource, ia, tools, javascript, security]
+date: 2026-07-25
+---
 
-**Tags:** `#opensource` `#ia` `#tools` `#javascript` `#security`
+# 25\/07\/2026 - Ferramentas de IA Open Source
 
 ## page-agent
 Agente GUI JavaScript em página para controlar interfaces web com linguagem natural. Repositório Alibaba com 27,6k stars.
