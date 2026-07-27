@@ -1,0 +1,35 @@
+name: Normalize escaped slashes
+
+on:
+  push:
+    branches:
+      - fix/escaped-slashes-all-files
+
+permissions:
+  contents: write
+
+jobs:
+  normalize:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Replace escaped slashes in Markdown notes
+        run: |
+          find _notes -type f -name '*.md' -print0 | xargs -0 sed -i 's#\\\\/#/#g'
+          if [ -f tags.md ]; then
+            sed -i 's#\\\\/#/#g' tags.md
+          fi
+
+      - name: Commit normalized files
+        run: |
+          if git diff --quiet; then
+            echo "No escaped slashes found."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add _notes tags.md
+          git commit -m "fix: remove escaped slashes from rendered notes"
+          git push
