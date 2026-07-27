@@ -1,4 +1,4 @@
-name: Normalize escaped slashes in notes
+name: Replace Escaped Slashes in Notes
 
 on:
   workflow_dispatch:
@@ -27,7 +27,7 @@ jobs:
           changed = []
           for path in Path("_notes").rglob("*.md"):
               original = path.read_text(encoding="utf-8")
-              corrected = original.replace("\\/", "/")
+              corrected = original.replace("\\\\/", "/")
               if corrected != original:
                   path.write_text(corrected, encoding="utf-8")
                   changed.append(str(path))
