@@ -4,6 +4,7 @@ tags: [opensource, ia, tools, javascript, security]
 date: "2026-07-25"
 ---
 
+
 ## page-agent
 Agente GUI JavaScript em página para controlar interfaces web com linguagem natural. Repositório Alibaba com 27,6k stars.
 

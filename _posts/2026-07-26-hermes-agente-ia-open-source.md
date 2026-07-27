@@ -4,6 +4,7 @@ tags: [opensource, agents, ia, nous-research, tools]
 date: "2026-07-26"
 ---
 
+
 ## Hermes Agent - Documentação Oficial
 Agente IA autônomo open source desenvolvido pela Nous Research com foco em execução real de tarefas, memória persistente e integração com múltiplos canais.
 

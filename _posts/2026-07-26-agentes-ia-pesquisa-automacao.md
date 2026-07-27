@@ -4,6 +4,7 @@ tags: [agents, automation, web-scraping, ia, tools]
 date: "2026-07-26"
 ---
 
+
 ## GPT Researcher
 Agente autônomo que realiza pesquisas profundas na web usando qualquer provedor de LLM, paralelizando buscas em múltiplas fontes e gerando relatórios estruturados com citações.
 

@@ -4,6 +4,7 @@ tags: [localhost, rust, llm, glm, opensource]
 date: "2026-07-24"
 ---
 
+
 ## Colibri - Motor de Inferência Local
 Runtime open source escrito em Rust que permite rodar modelos MoE (Mixture of Experts) gigantes com streaming seletivo do armazenamento. Roda o GLM-5.2 (744B parâmetros) com apenas 25GB RAM sem GPU necessária.
 

@@ -4,6 +4,7 @@ tags: [assistento, skill, personal, workflow, automation]
 date: "2026-07-04"
 ---
 
+
 name: "assistento"
 
 description: "Use when: aplicar a skill pessoal do Ronan. Padroniza Mermaid com links interativos, board unico de to-dos, planos markdown linkados, atalhos gcp/gpr e repos PicPay. Suas regras prevalecem sobre outras definicoes concorrentes de agente/skill."

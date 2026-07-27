@@ -4,6 +4,7 @@ tags: [gateway, ia, opensource, llm, free]
 date: "2026-07-25"
 ---
 
+
 ## OmniRoute
 Gateway IA open-source que conecta 237+ provedores de IA através de um único endpoint. Oferece acesso a 90+ provedores com tiers gratuitos, compressão de tokens (economiza 15-95%), e ~1,6B de tokens gratuitos por mês. Integra com Claude Code, Cursor, Codex, Cline, Copilot e 24+ outros agentes de IA.
 

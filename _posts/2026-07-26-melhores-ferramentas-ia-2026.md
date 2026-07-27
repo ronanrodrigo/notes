@@ -4,6 +4,7 @@ tags: [ia, ferramentas, saas, produtividade, "2026"]
 date: "2026-07-26"
 ---
 
+
 ## Assistentes gerais e pesquisa
 
 ### ChatGPT

@@ -4,6 +4,7 @@ tags: [agents, github, ia, documentation, examples]
 date: "2026-07-23"
 ---
 
+
 Instruções reais extraídas de arquivos **AGENTS.md** / **Agents.md** de repositórios conhecidos:
 
 ## Exemplos de repositórios famosos que usam o arquivo

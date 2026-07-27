@@ -4,6 +4,7 @@ tags: [agents, github, ia, documentation, conventions]
 date: "2026-07-23"
 ---
 
+
 Instruções compiladas de fontes oficiais: GitHub Copilot, OpenAI Codex, Claude Code, Cursor e outros agentes de IA.
 
 ---

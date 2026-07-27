@@ -4,6 +4,7 @@ tags: [youtube, prompts, marketing, content, growth]
 date: "2026-07-26"
 ---
 
+
 ## 10 Ideias de Shorts com Alto Potencial de Visualização
 
 O especialista em Shorts da estratégia propõe gerar 30 ideias de vídeo com maior potencial de alcance para o nicho, priorizando aquelas que equilibram fácil produção com alto potencial de visualização. Cada ideia deve ter um ângulo específico que a diferencia.

@@ -4,6 +4,7 @@ tags: [claude, mcp, tools, integrations, skills]
 date: "2026-07-26"
 ---
 
+
 Guia completo sobre as extensões e integrações do Claude: Model Context Protocol (MCP), Skills especializados e Plugins reutilizáveis.
 
 ---

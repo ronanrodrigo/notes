@@ -4,6 +4,7 @@ tags: [learning, courses, ia, education, certifications]
 date: "2026-07-23"
 ---
 
+
 ## OpenAI Academy Courses
 Trilhas de aprendizagem prática da OpenAI para ganhar fluência em IA, com foco em tarefas do trabalho, instruções claras e workflows com agentes.
 
@@ -30,7 +31,7 @@ Curso técnico para aprender a usar o Claude via API (com tópicos como prompt e
 [Acesse aqui](https://anthropic.skilljar.com/claude-with-the-anthropic-api)
 
 ## Claude Code 101
-Curso para usar o Claude Code no fluxo de desenvolvimento, incluindo conceitos de agentic loop, contexto, ferramentas/permissões e práticas com instalações e configuração.
+Curso para usar o Claude Code no fluxo de desenvolvimento, incluindo conceitos de agentic loop, contexto, ferramentas/permiteções e práticas com instalações e configuração.
 
 [Acesse aqui](https://anthropic.skilljar.com/claude-code-101)
 
