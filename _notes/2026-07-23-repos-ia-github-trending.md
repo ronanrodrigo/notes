@@ -1,6 +1,10 @@
-# 23\/07\/2026 - Repos de IA (GitHub Trending) — referência
+---
+title: "Repos de IA (GitHub Trending)"
+tags: [github, trending, opensource, ia, reference]
+date: 2026-07-23
+---
 
-**Tags:** `#github` `#trending` `#opensource` `#ia` `#reference`
+# 23\/07\/2026 - Repos de IA (GitHub Trending) — referência
 
 - Headroom (context compression para agentes) — https:\/\/github.com\/chopratejas\/headroom
 - Agent-Reach (acesso a internet\/social para agentes) — https:\/\/github.com\/Panniantong\/agent-reach
