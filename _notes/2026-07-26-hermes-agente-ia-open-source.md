@@ -1,7 +1,7 @@
 ---
 title: "Hermes Agent IA open source"
 tags: [opensource, agents, ia, nous-research, tools]
-date: 2026-07-26
+date: "2026-07-26"
 ---
 
 # 26\/07\/2026 - Hermes Agent IA open source
