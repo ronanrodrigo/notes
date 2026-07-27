@@ -101,7 +101,7 @@ Problemas comuns que o agente deve evitar
 
 ## Validação
 
-Use a ferramenta oficial: https://agent-ready.dev
+Use a ferramenta oficial: [Acesse aqui](https://agent-ready.dev)
 
 Seu AGENTS.md deve ter pelo menos **2 de 3**:
 - ✅ Comandos de instalação/build/teste
@@ -112,8 +112,8 @@ Seu AGENTS.md deve ter pelo menos **2 de 3**:
 
 ## Fontes Oficiais
 
-- https://github.com/agentsmd/agents.md (especificação aberta)
-- https://github.blog/ai-and-ml/github-copilot/how-to-write-a-great-agents-md-lessons-from-over-2500-repositories/ (GitHub oficial)
-- https://docs.github.com/en/copilot/reference/custom-agents-configuration (GitHub Copilot docs)
-- https://agent-ready.dev/how-to-write-an-effective-agents-md (Agent Ready)
-- https://developers.openai.com/codex/guides/agents-md.md (OpenAI Codex)
+- [Acesse aqui](https://github.com/agentsmd/agents.md) (especificação aberta)
+- [Acesse aqui](https://github.blog/ai-and-ml/github-copilot/how-to-write-a-great-agents-md-lessons-from-over-2500-repositories/) (GitHub oficial)
+- [Acesse aqui](https://docs.github.com/en/copilot/reference/custom-agents-configuration) (GitHub Copilot docs)
+- [Acesse aqui](https://agent-ready.dev/how-to-write-an-effective-agents-md) (Agent Ready)
+- [Acesse aqui](https://developers.openai.com/codex/guides/agents-md.md) (OpenAI Codex)

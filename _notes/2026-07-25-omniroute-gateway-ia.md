@@ -9,7 +9,7 @@ date: "2026-07-25"
 ## OmniRoute
 Gateway IA open-source que conecta 237+ provedores de IA através de um único endpoint. Oferece acesso a 90+ provedores com tiers gratuitos, compressão de tokens (economiza 15-95%), e ~1,6B de tokens gratuitos por mês. Integra com Claude Code, Cursor, Codex, Cline, Copilot e 24+ outros agentes de IA.
 
-https://omniroute.online/
+[Acesse aqui](https://omniroute.online/)
 
 ## Recursos principais:
 - **237+ provedores** (90+ com tier gratuito)
@@ -21,6 +21,6 @@ https://omniroute.online/
 - **11 provedores permanentemente gratuitos** sem limite de tokens
 
 ## Links:
-- **GitHub**: https://github.com/diegosouzapw/OmniRoute
-- **Site**: https://omniroute.online/
-- **Docker Hub**: https://hub.docker.com/r/diegosouzapw/omniroute
+- **GitHub**: [Acesse aqui](https://github.com/diegosouzapw/OmniRoute)
+- **Site**: [Acesse aqui](https://omniroute.online/)
+- **Docker Hub**: [Acesse aqui](https://hub.docker.com/r/diegosouzapw/omniroute)
