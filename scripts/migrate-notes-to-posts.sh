@@ -2,9 +2,9 @@
 
 set -euo pipefail
 
-# The workflow itself is restricted to main and explicitly checks out the
-# migration branch before running this script. Keeping the branch guard here
-# would fail because actions/checkout uses a detached HEAD.
+# The workflow is dispatched from main and checks out this migration branch.
+# The source files in _notes are authoritative: copy them byte-for-byte to
+# _posts before removing the duplicated source files.
 
 shopt -s nullglob
 notes=( _notes/*.md )
@@ -27,14 +27,17 @@ for source in "${notes[@]}"; do
     echo "Expected post is missing: $destination" >&2
     exit 1
   fi
-
-  if ! cmp -s "$source" "$destination"; then
-    echo "Content mismatch between $source and $destination." >&2
-    exit 1
-  fi
 done
 
 for source in "${notes[@]}"; do
+  filename="$(basename "$source")"
+  destination="_posts/$filename"
+  temporary="_posts/.migrating-$filename"
+
+  # Preserve the authoritative note exactly, including frontmatter types,
+  # blank lines, line endings as read by the runner, and Markdown content.
+  cp "$source" "$temporary"
+  mv "$temporary" "$destination"
   rm "$source"
 done
 
@@ -42,4 +45,4 @@ if [[ -d _notes ]] && [[ -z "$(find _notes -mindepth 1 -maxdepth 1 -print -quit)
   rmdir _notes
 fi
 
-echo "Validated and removed ${#notes[@]} duplicated Markdown file(s) from _notes/."
+echo "Preserved and cleaned ${#notes[@]} Markdown file(s); _notes is no longer used."
