@@ -1,7 +1,7 @@
 ---
 title: "Turbovec: Índice Vetorial Rust com Compressão TurboQuant"
 tags: [vectordb, rust, compression, rag, google]
-date: 2026-07-23
+date: "2026-07-23"
 ---
 
 # 23\/07\/2026 - Turbovec: Índice Vetorial Rust com Compressão TurboQuant
