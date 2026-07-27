@@ -68,7 +68,6 @@ jobs:
           removed_count = 0
 
           for path in files:
-              # Use bytes so Python never normalizes CRLF/LF or other file details while reading.
               original_bytes = path.read_bytes()
               original = original_bytes.decode('utf-8')
               lines = original.splitlines(keepends=True)
