@@ -1,7 +1,7 @@
 ---
 title: "Colibri - Motor Local de IA"
 tags: [localhost, rust, llm, glm, opensource]
-date: 2026-07-24
+date: "2026-07-24"
 ---
 
 # 24\/07\/2026 - Colibri - Motor Local de IA
