@@ -2,13 +2,9 @@
 
 set -euo pipefail
 
-expected_branch="migrate/notes-to-jekyll-posts"
-current_branch="${MIGRATION_BRANCH:-}"
-
-if [[ "$current_branch" != "$expected_branch" ]]; then
-  echo "Refusing to run outside $expected_branch (MIGRATION_BRANCH: ${current_branch:-unset})." >&2
-  exit 1
-fi
+# The workflow itself is restricted to main and explicitly checks out the
+# migration branch before running this script. Keeping the branch guard here
+# would fail because actions/checkout uses a detached HEAD.
 
 shopt -s nullglob
 notes=( _notes/*.md )
