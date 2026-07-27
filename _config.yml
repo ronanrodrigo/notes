@@ -2,17 +2,12 @@ title: Notes
 description: Notas organizadas por data
 baseurl: /notes
 
-collections:
-  notes:
-    output: true
-    permalink: /:collection/:name/
-
 defaults:
   - scope:
       path: ""
-      type: "notes"
+      type: "posts"
     values:
-      layout: page
+      layout: post
 
 markdown: kramdown
 kramdown:

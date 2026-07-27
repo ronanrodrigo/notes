@@ -5,9 +5,9 @@ permalink: /tags/
 ---
 
 {% assign all_tags = '' | split: '' %}
-{% for note in site.notes %}
-  {% if note.tags %}
-    {% for tag in note.tags %}
+{% for post in site.posts %}
+  {% if post.tags %}
+    {% for tag in post.tags %}
       {% assign all_tags = all_tags | push: tag | uniq %}
     {% endfor %}
   {% endif %}
@@ -19,9 +19,9 @@ permalink: /tags/
   {% if tag != '' %}
 ## {{ tag }}
 
-{% for note in site.notes reversed %}
-  {% if note.tags and note.tags contains tag %}
-- [{{ note.date | date: "%d/%m/%Y" }} - {{ note.title }}]({{ note.url | relative_url }})
+{% for post in site.posts %}
+  {% if post.tags and post.tags contains tag %}
+- [{{ post.date | date: "%d/%m/%Y" }} - {{ post.title }}]({{ post.url | relative_url }})
   {% endif %}
 {% endfor %}
 
