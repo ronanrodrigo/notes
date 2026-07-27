@@ -1,6 +1,10 @@
-# 29\/06\/2026 - PR Visual Evidence
+---
+title: "PR Visual Evidence"
+tags: [github, pr, testing, maestro, documentation]
+date: 2026-06-29
+---
 
-**Tags:** `#github` `#pr` `#testing` `#maestro` `#documentation`
+# 29\/06\/2026 - PR Visual Evidence
 
 Use esta skill quando for solicitado adicionar evidências visuais (screenshots, gravações de tela, vídeos de simulador) a um Pull Request no GitHub. O objetivo é documentar visualmente o que foi feito sem sujar o repositório com arquivos binários.
 
