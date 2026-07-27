@@ -1,7 +1,7 @@
 ---
 title: "OmniRoute - Gateway IA Gratuito"
 tags: [gateway, ia, opensource, llm, free]
-date: 2026-07-25
+date: "2026-07-25"
 ---
 
 # 25\/07\/2026 - OmniRoute - Gateway IA Gratuito
