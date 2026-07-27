@@ -34,11 +34,10 @@ jobs:
       - name: Copy raw Markdown files
         run: |
           mkdir -p _site
-          sudo cp -a _site-jekyll/. _site/
+          cp -a _site-jekyll/. _site/
           cp AGENTS.md _site/agents.md
           mkdir -p _site/skills
           cp skills/curadoria-de-conteudos.md _site/skills/curadoria-de-conteudos.md
-          sudo chown -R "$(id -u):$(id -g)" _site
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
