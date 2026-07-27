@@ -1,6 +1,10 @@
-# 26\/07\/2026 - YouTube: Prompts e Estratégia para Crescimento de Canal
+---
+title: "YouTube: Prompts e Estratégia para Crescimento de Canal"
+tags: [youtube, prompts, marketing, content, growth]
+date: 2026-07-26
+---
 
-**Tags:** `#youtube` `#prompts` `#marketing` `#content` `#growth`
+# 26\/07\/2026 - YouTube: Prompts e Estratégia para Crescimento de Canal
 
 ## 10 Ideias de Shorts com Alto Potencial de Visualização
 
