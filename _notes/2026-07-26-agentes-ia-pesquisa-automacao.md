@@ -1,7 +1,7 @@
 ---
 title: "Agentes IA de Pesquisa e Automação Web"
 tags: [agents, automation, web-scraping, ia, tools]
-date: 2026-07-26
+date: "2026-07-26"
 ---
 
 # 26\/07\/2026 - Agentes IA de Pesquisa e Automação Web
