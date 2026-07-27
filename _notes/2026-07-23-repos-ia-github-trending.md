@@ -1,7 +1,7 @@
 ---
 title: "Repos de IA (GitHub Trending)"
 tags: [github, trending, opensource, ia, reference]
-date: 2026-07-23
+date: "2026-07-23"
 ---
 
 # 23\/07\/2026 - Repos de IA (GitHub Trending) — referência
