@@ -1,6 +1,10 @@
-# 26\/06\/2026 - Wellhub requests
+---
+title: "Wellhub requests"
+tags: [wellhub, api, fitness, graphql, integration]
+date: 2026-06-26
+---
 
-**Tags:** `#wellhub` `#api` `#fitness` `#graphql` `#integration`
+# 26\/06\/2026 - Wellhub requests
 
 ## Conexão Fitness - Check-in Data
 
