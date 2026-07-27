@@ -23,7 +23,6 @@ jobs:
           fetch-depth: 2
 
       - name: Remove eligible H1 headings
-        id: remove
         shell: bash
         run: |
           python3 <<'PY'
@@ -32,66 +31,74 @@ jobs:
 
           ROOT = Path('_notes')
           H1 = re.compile(r'^[ \t]{0,3}#(?!#)[ \t]+.+$')
+          FENCE = re.compile(r'^[ \t]{0,3}```')
 
           def protected_lines(lines):
               protected = set()
               fenced = False
               html_comment = False
               frontmatter = bool(lines and lines[0].rstrip('\r\n') == '---')
-              for i, line in enumerate(lines):
+              for index, line in enumerate(lines):
                   stripped = line.rstrip('\r\n')
                   if frontmatter:
-                      protected.add(i)
-                      if i > 0 and stripped == '---':
+                      protected.add(index)
+                      if index > 0 and stripped == '---':
                           frontmatter = False
                       continue
                   if html_comment:
-                      protected.add(i)
+                      protected.add(index)
                       if '-->' in line:
                           html_comment = False
                       continue
                   if '<!--' in line:
-                      protected.add(i)
+                      protected.add(index)
                       if '-->' not in line[line.index('<!--') + 4:]:
                           html_comment = True
                       continue
-                  if re.match(r'^[ \t]{0,3}```', line):
-                      protected.add(i)
+                  if FENCE.match(line):
+                      protected.add(index)
                       fenced = not fenced
                       continue
                   if fenced:
-                      protected.add(i)
+                      protected.add(index)
               return protected
 
           files = sorted(ROOT.rglob('*.md')) if ROOT.exists() else []
           changed = []
-          total_removed = 0
+          removed_count = 0
+
           for path in files:
-              original = path.read_bytes()
-              text = original.decode('utf-8')
-              lines = text.splitlines(keepends=True)
+              # Use bytes so Python never normalizes CRLF/LF or other file details while reading.
+              original_bytes = path.read_bytes()
+              original = original_bytes.decode('utf-8')
+              lines = original.splitlines(keepends=True)
               protected = protected_lines(lines)
               kept = []
               count = 0
-              for i, line in enumerate(lines):
-                  # Inline code is not a line-level H1; only a complete eligible line is removed.
-                  if i not in protected and H1.match(line):
+
+              for index, line in enumerate(lines):
+                  if index not in protected and H1.match(line):
                       count += 1
                   else:
                       kept.append(line)
+
               new = ''.join(kept)
-              if count and new != text:
-                  # Preserve the original encoding and newline style; only trim excess blank lines
-                  # immediately after frontmatter when removal created three or more blank lines.
+              if count and new != original:
                   if lines and lines[0].rstrip('\r\n') == '---':
-                      new = re.sub(r'(^---\r?\n.*?^---[ \t]*\r?\n)(?:[ \t]*\r?\n){3,}', r'\1\n\n', new, count=1, flags=re.MULTILINE | re.DOTALL)
+                      new = re.sub(
+                          r'(^---\r?\n.*?^---[ \t]*\r?\n)(?:[ \t]*\r?\n){3,}',
+                          r'\1\n\n',
+                          new,
+                          count=1,
+                          flags=re.MULTILINE | re.DOTALL,
+                      )
                   path.write_bytes(new.encode('utf-8'))
                   changed.append(str(path))
-                  total_removed += count
+                  removed_count += count
 
           print(f'Arquivos analisados: {len(files)}')
           print(f'Arquivos alterados: {len(changed)}')
-          print(f'H1 removidos: {total_removed}')
+          print(f'H1 removidos: {removed_count}')
           print('Arquivos alterados:')
           for name in changed:
               print(f'  - {name}')
@@ -106,52 +113,84 @@ jobs:
         run: |
           python3 <<'PY'
           from pathlib import Path
-          import re, subprocess, sys
-          root = Path('_notes')
-          h1 = re.compile(r'^[ \t]{0,3}#(?!#)[ \t]+.+$')
-          h2 = re.compile(r'^[ \t]{0,3}#{2,}[ \t]+.+$')
+          import re
+          import subprocess
+          import sys
+
+          ROOT = Path('_notes')
+          H1 = re.compile(r'^[ \t]{0,3}#(?!#)[ \t]+.+$')
+          H2_OR_LOWER = re.compile(r'^[ \t]{0,3}#{2,}[ \t]+.+$')
           changed = Path('/tmp/notes-validation.txt').read_text(encoding='utf-8').splitlines()
           failures = []
 
-          def protected(lines):
-              out=set(); fence=False; comment=False; front=bool(lines and lines[0].rstrip('\r\n')=='---')
-              for i,line in enumerate(lines):
-                  s=line.rstrip('\r\n')
-                  if front:
-                      out.add(i)
-                      if i>0 and s=='---': front=False
+          def protected_lines(lines):
+              protected = set()
+              fenced = False
+              html_comment = False
+              frontmatter = bool(lines and lines[0].rstrip('\r\n') == '---')
+              for index, line in enumerate(lines):
+                  stripped = line.rstrip('\r\n')
+                  if frontmatter:
+                      protected.add(index)
+                      if index > 0 and stripped == '---':
+                          frontmatter = False
                       continue
-                  if comment:
-                      out.add(i)
-                      if '-->' in line: comment=False
+                  if html_comment:
+                      protected.add(index)
+                      if '-->' in line:
+                          html_comment = False
                       continue
                   if '<!--' in line:
-                      out.add(i)
-                      if '-->' not in line[line.index('<!--')+4:]: comment=True
+                      protected.add(index)
+                      if '-->' not in line[line.index('<!--') + 4:]:
+                          html_comment = True
                       continue
-                  if re.match(r'^[ \t]{0,3}```', line): out.add(i); fence=not fence; continue
-                  if fence: out.add(i)
-              return out
+                  if re.match(r'^[ \t]{0,3}```', line):
+                      protected.add(index)
+                      fenced = not fenced
+                      continue
+                  if fenced:
+                      protected.add(index)
+              return protected
 
-          for p in sorted(root.rglob('*.md')):
-              lines=p.read_text(encoding='utf-8').splitlines(keepends=True)
-              safe=protected(lines)
-              real=[(i+1,l.rstrip('\r\n')) for i,l in enumerate(lines) if i not in safe and h1.match(l)]
-              if real: failures.append(f'{p}: H1 real restante em {real}')
+          for path in sorted(ROOT.rglob('*.md')):
+              lines = path.read_bytes().decode('utf-8').splitlines(keepends=True)
+              protected = protected_lines(lines)
+              remaining = [
+                  (index + 1, line.rstrip('\r\n'))
+                  for index, line in enumerate(lines)
+                  if index not in protected and H1.match(line)
+              ]
+              if remaining:
+                  failures.append(f'{path}: H1 real restante em {remaining}')
+
           for name in changed:
-              p=Path(name); lines=p.read_text(encoding='utf-8').splitlines(keepends=True)
-              if lines and lines[0].rstrip('\r\n')=='---' and not any(re.match(r'^title[ \t]*:',l) for l in lines[1:]):
-                  failures.append(f'{p}: campo title ausente após alteração')
-          diff=subprocess.run(['git','diff','--','_notes'],capture_output=True,text=True).stdout
+              path = Path(name)
+              lines = path.read_bytes().decode('utf-8').splitlines(keepends=True)
+              if lines and lines[0].rstrip('\r\n') == '---':
+                  if not any(re.match(r'^title[ \t]*:', line) for line in lines[1:]):
+                      failures.append(f'{path}: campo title ausente após alteração')
+
+          diff = subprocess.run(
+              ['git', 'diff', '--', '_notes'],
+              capture_output=True,
+              text=True,
+              check=False,
+          ).stdout
           for line in diff.splitlines():
-              if line.startswith('-') and not line.startswith('---') and h2.match(line[1:]):
-                  failures.append('H2/H3 removido indevidamente: ' + line)
+              if line.startswith('-') and not line.startswith('---') and H2_OR_LOWER.match(line[1:]):
+                  failures.append(f'H2/H3 removido indevidamente: {line}')
+
           if failures:
-              print('\n'.join(failures)); print('VALIDAÇÃO: FALHOU'); sys.exit(1)
+              print('\n'.join(failures))
+              print('VALIDAÇÃO: FALHOU')
+              sys.exit(1)
+
           print('VALIDAÇÃO: APROVADA — nenhum H1 real elegível permaneceu; H2/H3 e frontmatter preservados.')
           PY
 
       - name: Commit and push changes
+        shell: bash
         run: |
           if git diff --quiet -- _notes; then
             echo 'Nenhuma alteração necessária; nenhum commit criado.'
