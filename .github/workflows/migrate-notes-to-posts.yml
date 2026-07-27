@@ -1,0 +1,37 @@
+name: Migrate notes to Jekyll posts
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  migrate:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    env:
+      MIGRATION_BRANCH: migrate/notes-to-jekyll-posts
+
+    steps:
+      - name: Checkout migration branch
+        uses: actions/checkout@v4
+        with:
+          ref: migrate/notes-to-jekyll-posts
+          fetch-depth: 0
+
+      - name: Validate and remove duplicated notes
+        run: bash scripts/migrate-notes-to-posts.sh
+
+      - name: Commit and push cleanup
+        run: |
+          if git diff --quiet; then
+            echo "No migration changes to commit."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A _notes
+          git commit -m "Remove duplicated notes after posts migration"
+          git push origin HEAD:migrate/notes-to-jekyll-posts
