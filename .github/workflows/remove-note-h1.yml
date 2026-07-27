@@ -32,27 +32,18 @@ jobs:
 
           ROOT = Path('_notes')
           H1 = re.compile(r'^[ \t]{0,3}#(?!#)[ \t]+.+$')
-          H2_OR_LOWER = re.compile(r'^[ \t]{0,3}#{2,}[ \t]+.+$')
-
-          def split_lines(data: str):
-              return data.splitlines(keepends=True)
-
-          def is_fence(line: str):
-              return re.match(r'^[ \t]{0,3}```', line) is not None
 
           def protected_lines(lines):
               protected = set()
               fenced = False
               html_comment = False
               frontmatter = bool(lines and lines[0].rstrip('\r\n') == '---')
-              frontmatter_end = None
               for i, line in enumerate(lines):
                   stripped = line.rstrip('\r\n')
                   if frontmatter:
                       protected.add(i)
                       if i > 0 and stripped == '---':
                           frontmatter = False
-                          frontmatter_end = i
                       continue
                   if html_comment:
                       protected.add(i)
@@ -64,58 +55,49 @@ jobs:
                       if '-->' not in line[line.index('<!--') + 4:]:
                           html_comment = True
                       continue
-                  if is_fence(line):
+                  if re.match(r'^[ \t]{0,3}```', line):
                       protected.add(i)
                       fenced = not fenced
                       continue
                   if fenced:
                       protected.add(i)
-              return protected, frontmatter_end
+              return protected
 
           files = sorted(ROOT.rglob('*.md')) if ROOT.exists() else []
           changed = []
-          removed = []
           total_removed = 0
-          before_h2h3 = {}
-          had_title = {}
-
           for path in files:
-              original = path.read_text(encoding='utf-8', newline='')
-              lines = split_lines(original)
-              protected, _ = protected_lines(lines)
-              before_h2h3[path] = [line for i, line in enumerate(lines)
-                                   if i not in protected and H2_OR_LOWER.match(line)]
-              had_title[path] = bool(lines and lines[0].rstrip('\r\n') == '---' and
-                                      any(re.match(r'^title[ \t]*:', line) for line in lines[1:]))
+              original = path.read_bytes()
+              text = original.decode('utf-8')
+              lines = text.splitlines(keepends=True)
+              protected = protected_lines(lines)
               kept = []
               count = 0
               for i, line in enumerate(lines):
+                  # Inline code is not a line-level H1; only a complete eligible line is removed.
                   if i not in protected and H1.match(line):
                       count += 1
                   else:
                       kept.append(line)
-              if count:
-                  new = ''.join(kept)
-                  # Only collapse blank lines immediately after frontmatter when removal left excess.
+              new = ''.join(kept)
+              if count and new != text:
+                  # Preserve the original encoding and newline style; only trim excess blank lines
+                  # immediately after frontmatter when removal created three or more blank lines.
                   if lines and lines[0].rstrip('\r\n') == '---':
-                      match = re.match(r'^(---\r?\n.*?^---[ \t]*\r?\n)(?:[ \t]*\r?\n){3,}', new, re.MULTILINE | re.DOTALL)
-                      if match:
-                          new = match.group(1) + (match.group(0)[len(match.group(1)):].splitlines(keepends=True)[0] if False else '\n\n') + new[match.end():]
-                  if new != original:
-                      path.write_text(new, encoding='utf-8', newline='')
-                      changed.append(str(path))
-                      removed.append(str(path))
-                      total_removed += count
+                      new = re.sub(r'(^---\r?\n.*?^---[ \t]*\r?\n)(?:[ \t]*\r?\n){3,}', r'\1\n\n', new, count=1, flags=re.MULTILINE | re.DOTALL)
+                  path.write_bytes(new.encode('utf-8'))
+                  changed.append(str(path))
+                  total_removed += count
 
           print(f'Arquivos analisados: {len(files)}')
           print(f'Arquivos alterados: {len(changed)}')
           print(f'H1 removidos: {total_removed}')
           print('Arquivos alterados:')
-          for name in changed: print(f'  - {name}')
+          for name in changed:
+              print(f'  - {name}')
           print('Arquivos que continham H1 removidos:')
-          for name in removed: print(f'  - {name}')
-
-          # Persist validation data for the next step without changing tracked files.
+          for name in changed:
+              print(f'  - {name}')
           Path('/tmp/notes-validation.txt').write_text('\n'.join(changed), encoding='utf-8')
           PY
 
@@ -124,10 +106,12 @@ jobs:
         run: |
           python3 <<'PY'
           from pathlib import Path
-          import re, sys
+          import re, subprocess, sys
           root = Path('_notes')
           h1 = re.compile(r'^[ \t]{0,3}#(?!#)[ \t]+.+$')
           h2 = re.compile(r'^[ \t]{0,3}#{2,}[ \t]+.+$')
+          changed = Path('/tmp/notes-validation.txt').read_text(encoding='utf-8').splitlines()
+          failures = []
 
           def protected(lines):
               out=set(); fence=False; comment=False; front=bool(lines and lines[0].rstrip('\r\n')=='---')
@@ -149,28 +133,25 @@ jobs:
                   if fence: out.add(i)
               return out
 
-          failures=[]
           for p in sorted(root.rglob('*.md')):
               lines=p.read_text(encoding='utf-8').splitlines(keepends=True)
               safe=protected(lines)
               real=[(i+1,l.rstrip('\r\n')) for i,l in enumerate(lines) if i not in safe and h1.match(l)]
               if real: failures.append(f'{p}: H1 real restante em {real}')
-              if lines and lines[0].rstrip('\r\n')=='---' and not any(re.match(r'^title[ \t]*:',l) for l in lines[1:]):
-                  # Files without title are allowed only when they had none originally; this check is enforced for changed files below.
-                  pass
-          for name in Path('/tmp/notes-validation.txt').read_text(encoding='utf-8').splitlines():
-              p=Path(name)
-              lines=p.read_text(encoding='utf-8').splitlines(keepends=True)
+          for name in changed:
+              p=Path(name); lines=p.read_text(encoding='utf-8').splitlines(keepends=True)
               if lines and lines[0].rstrip('\r\n')=='---' and not any(re.match(r'^title[ \t]*:',l) for l in lines[1:]):
                   failures.append(f'{p}: campo title ausente após alteração')
+          diff=subprocess.run(['git','diff','--','_notes'],capture_output=True,text=True).stdout
+          for line in diff.splitlines():
+              if line.startswith('-') and not line.startswith('---') and h2.match(line[1:]):
+                  failures.append('H2/H3 removido indevidamente: ' + line)
           if failures:
               print('\n'.join(failures)); print('VALIDAÇÃO: FALHOU'); sys.exit(1)
-          print('VALIDAÇÃO: APROVADA — nenhum H1 Markdown real elegível permaneceu; frontmatter title preservado.')
+          print('VALIDAÇÃO: APROVADA — nenhum H1 real elegível permaneceu; H2/H3 e frontmatter preservados.')
           PY
 
       - name: Commit and push changes
-        if: steps.remove.outcome == 'success'
-        shell: bash
         run: |
           if git diff --quiet -- _notes; then
             echo 'Nenhuma alteração necessária; nenhum commit criado.'
