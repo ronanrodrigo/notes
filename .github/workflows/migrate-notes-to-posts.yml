@@ -1,0 +1,35 @@
+name: Migrate notes to Jekyll posts
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  migrate:
+    if: github.ref == 'refs/heads/migrate/notes-to-jekyll-posts'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout migration branch
+        uses: actions/checkout@v4
+        with:
+          ref: migrate/notes-to-jekyll-posts
+          fetch-depth: 0
+
+      - name: Move notes to posts
+        run: bash scripts/migrate-notes-to-posts.sh
+
+      - name: Commit and push migration
+        run: |
+          if git diff --quiet; then
+            echo "No migration changes to commit."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A _notes _posts
+          git commit -m "Move notes into standard Jekyll posts"
+          git push origin HEAD:migrate/notes-to-jekyll-posts
