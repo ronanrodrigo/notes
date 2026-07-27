@@ -1,10 +1,3 @@
----
-layout: page
-title: Instruções para agentes
-description: Instruções de desenvolvimento e manutenção do site Jekyll
-permalink: /agents.md
----
-
 # AGENTS.md
 
 > Repositório de posts em Markdown, renderizado como site Jekyll no GitHub Pages.
@@ -30,8 +23,8 @@ Este repositório mantém conteúdos publicados como posts. O Jekyll lê os arqu
 - `tags.md` — página de índice por tags
 - `_layouts/post.html` — layout aplicado aos posts
 - `_config.yml` — configuração do Jekyll
-- `.github/workflows/` — automações do GitHub Actions, quando aplicável
-- `AGENTS.md` — estas instruções, também publicadas no site
+- `.github/workflows/` — automações do GitHub Actions, incluindo a publicação do site
+- `AGENTS.md` — estas instruções em Markdown puro, publicadas no site como `agents.md`
 
 ## Criar ou editar um post
 
