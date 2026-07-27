@@ -9,7 +9,6 @@ tags:
   - job-boards
 ---
 
-# 27/07/2026 - Sites de empregos remotos
 
 ## Imagem enviada: 30 principais sites de empregos remotos
 Imagem com uma curadoria de 30 plataformas para buscar trabalho remoto, incluindo Remote OK, We Work Remotely, FlexJobs, Remote.co, Remotive, Upwork, Fiverr, LinkedIn e outros.

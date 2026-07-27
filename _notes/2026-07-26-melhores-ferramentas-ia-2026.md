@@ -4,7 +4,6 @@ tags: [ia, ferramentas, saas, produtividade, "2026"]
 date: "2026-07-26"
 ---
 
-# 26/07/2026 - Melhores ferramentas de IA em 2026
 
 ## Assistentes gerais e pesquisa
 

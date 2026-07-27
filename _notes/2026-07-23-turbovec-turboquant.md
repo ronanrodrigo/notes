@@ -4,7 +4,6 @@ tags: [vectordb, rust, compression, rag, google]
 date: "2026-07-23"
 ---
 
-# 23/07/2026 - Turbovec: Índice Vetorial Rust com Compressão TurboQuant
 
 ## Repositório GitHub - RyanCodrai/turbovec
 Um índice vetorial escrito em Rust com bindings Python, baseado no algoritmo TurboQuant do Google Research. Implementação open-source com licença MIT.

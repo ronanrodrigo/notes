@@ -4,7 +4,6 @@ tags: [agents, github, ia, documentation, conventions]
 date: "2026-07-23"
 ---
 
-# 23/07/2026 - AGENTS.md - Instruções Oficiais de Criação
 
 Instruções compiladas de fontes oficiais: GitHub Copilot, OpenAI Codex, Claude Code, Cursor e outros agentes de IA.
 

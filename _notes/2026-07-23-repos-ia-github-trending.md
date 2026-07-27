@@ -4,7 +4,6 @@ tags: [github, trending, opensource, ia, reference]
 date: "2026-07-23"
 ---
 
-# 23/07/2026 - Repos de IA (GitHub Trending) — referência
 
 - Headroom (context compression para agentes) — [Acesse aqui](https://github.com/chopratejas/headroom)
 - Agent-Reach (acesso a internet/social para agentes) — [Acesse aqui](https://github.com/Panniantong/agent-reach)
