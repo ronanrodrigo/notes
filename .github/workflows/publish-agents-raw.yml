@@ -8,10 +8,19 @@ on:
 
 permissions:
   contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
 
 jobs:
   publish:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -23,7 +32,10 @@ jobs:
           destination: ./_site
 
       - name: Copy AGENTS.md as raw Markdown
-        run: cp AGENTS.md _site/agents.md
+        run: |
+          sudo mkdir -p _site
+          sudo cp AGENTS.md _site/agents.md
+          sudo chmod 644 _site/agents.md
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
