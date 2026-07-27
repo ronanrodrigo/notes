@@ -1,7 +1,7 @@
 ---
 title: "Ferramentas de IA Open Source"
 tags: [opensource, ia, tools, javascript, security]
-date: 2026-07-25
+date: "2026-07-25"
 ---
 
 # 25\/07\/2026 - Ferramentas de IA Open Source
