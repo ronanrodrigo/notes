@@ -1,6 +1,10 @@
-# 23\/07\/2026 - Self-host IA: Coolify, agentes e RAG
+---
+title: "Self-host IA: Coolify, agentes e RAG"
+tags: [selfhost, deployment, agents, rag, opensource]
+date: 2026-07-23
+---
 
-**Tags:** `#selfhost` `#deployment` `#agents` `#rag` `#opensource`
+# 23\/07\/2026 - Self-host IA: Coolify, agentes e RAG
 
 ## Coolify
 Self-host de apps (estilo Heroku\/Vercel) com deploy via Git e auto-deploy.
