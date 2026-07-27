@@ -15,12 +15,21 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Replace escaped slashes in Markdown notes
+      - name: Replace escaped slashes in Markdown files
         run: |
-          find _notes -type f -name '*.md' -print0 | xargs -0 sed -i 's#\\\\/#/#g'
-          if [ -f tags.md ]; then
-            sed -i 's#\\\\/#/#g' tags.md
-          fi
+          python - <<'PY'
+          from pathlib import Path
+          import re
+
+          for path in Path('.').rglob('*.md'):
+              if '.git' in path.parts:
+                  continue
+              original = path.read_text(encoding='utf-8')
+              normalized = re.sub(r'\\\\+/', '/', original)
+              if normalized != original:
+                  path.write_text(normalized, encoding='utf-8')
+                  print(path)
+          PY
 
       - name: Commit normalized files
         run: |
@@ -30,6 +39,6 @@ jobs:
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add _notes tags.md
-          git commit -m "fix: remove escaped slashes from rendered notes"
+          git add -- '*.md'
+          git commit -m "fix: remove escaped slashes from Markdown files"
           git push
