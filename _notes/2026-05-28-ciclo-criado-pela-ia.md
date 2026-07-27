@@ -1,6 +1,10 @@
-# 28\/05\/2026 - Ciclo criado pela IA
+---
+title: "Ciclo criado pela IA"
+tags: [ia, productivity, paradox, workplace, society]
+date: 2026-05-28
+---
 
-**Tags:** `#ia` `#productivity` `#paradox` `#workplace` `#society`
+# 28\/05\/2026 - Ciclo criado pela IA
 
 ## O Ciclo da IA
 
