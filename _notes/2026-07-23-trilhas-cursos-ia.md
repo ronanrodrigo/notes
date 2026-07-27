@@ -1,7 +1,7 @@
 ---
 title: "Trilhas e cursos de IA"
 tags: [learning, courses, ia, education, certifications]
-date: 2026-07-23
+date: "2026-07-23"
 ---
 
 # 23\/07\/2026 - Trilhas e cursos de IA (OpenAI, DeepLearning.AI, Anthropic, Google, Make, n8n)
