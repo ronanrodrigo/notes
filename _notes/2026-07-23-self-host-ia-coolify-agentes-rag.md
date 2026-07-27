@@ -1,7 +1,7 @@
 ---
 title: "Self-host IA: Coolify, agentes e RAG"
 tags: [selfhost, deployment, agents, rag, opensource]
-date: 2026-07-23
+date: "2026-07-23"
 ---
 
 # 23\/07\/2026 - Self-host IA: Coolify, agentes e RAG
