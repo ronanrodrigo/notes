@@ -1,7 +1,7 @@
 ---
 title: "Assistento - Skill Pessoal"
 tags: [assistento, skill, personal, workflow, automation]
-date: 2026-07-04
+date: "2026-07-04"
 ---
 
 # 04\/07\/2026 - Assistento - Skill Pessoal
