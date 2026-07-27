@@ -1,6 +1,10 @@
-# 26\/07\/2026 - Hermes Agent IA open source
+---
+title: "Hermes Agent IA open source"
+tags: [opensource, agents, ia, nous-research, tools]
+date: 2026-07-26
+---
 
-**Tags:** `#opensource` `#agents` `#ia` `#nous-research` `#tools`
+# 26\/07\/2026 - Hermes Agent IA open source
 
 ## Hermes Agent - Documentação Oficial
 Agente IA autônomo open source desenvolvido pela Nous Research com foco em execução real de tarefas, memória persistente e integração com múltiplos canais.
