@@ -6,6 +6,8 @@ on:
       - main
     paths:
       - '_posts/**'
+      - 'scripts/generate-index.py'
+      - 'index.json'
   workflow_dispatch:
 
 permissions:
