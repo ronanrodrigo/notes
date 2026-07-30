@@ -2,186 +2,504 @@
   {
     "date": "2026-07-30",
     "slug": "unsloth-treinamento-local-modelos",
-    "path": "_posts/2026-07-30-unsloth-treinamento-local-modelos.md"
+    "path": "_posts/2026-07-30-unsloth-treinamento-local-modelos.md",
+    "tags": [
+      "unsloth",
+      "ia",
+      "open-source",
+      "treinamento-local",
+      "modelos-llm",
+      "descentralizacao",
+      "fine-tuning"
+    ],
+    "description": "Como usar Unsloth para treinar e executar modelos de IA localmente com menos memória."
   },
   {
     "date": "2026-07-30",
     "slug": "swe-skills-bench-utilidade-real-skills-agentes",
-    "path": "_posts/2026-07-30-swe-skills-bench-utilidade-real-skills-agentes.md"
+    "path": "_posts/2026-07-30-swe-skills-bench-utilidade-real-skills-agentes.md",
+    "tags": [
+      "agent-skills",
+      "software-engineering",
+      "benchmark",
+      "llm-agents",
+      "skills-evaluation",
+      "procedural-knowledge"
+    ],
+    "description": "Resultados de benchmarks que medem quando skills realmente ajudam agentes em tarefas de software."
   },
   {
     "date": "2026-07-30",
     "slug": "pxpipe-corte-tokens-imagens",
-    "path": "_posts/2026-07-30-pxpipe-corte-tokens-imagens.md"
+    "path": "_posts/2026-07-30-pxpipe-corte-tokens-imagens.md",
+    "tags": [
+      "pxpipe",
+      "token-optimization",
+      "claude-code",
+      "context-compression",
+      "vision-ocr"
+    ],
+    "description": "Como renderizar contexto como imagem pode reduzir tokens de entrada e custos em fluxos multimodais."
   },
   {
     "date": "2026-07-30",
     "slug": "llmfit-otimizar-hardware",
-    "path": "_posts/2026-07-30-llmfit-otimizar-hardware.md"
+    "path": "_posts/2026-07-30-llmfit-otimizar-hardware.md",
+    "tags": [
+      "llmfit",
+      "modelos-llm",
+      "otimizacao-hardware",
+      "ia-local",
+      "open-source",
+      "ferramentas-ia",
+      "quantizacao"
+    ],
+    "description": "Ferramenta que identifica quais modelos locais melhor combinam com o hardware disponível."
   },
   {
     "date": "2026-07-30",
     "slug": "langgraph-10-motivos",
-    "path": "_posts/2026-07-30-langgraph-10-motivos.md"
+    "path": "_posts/2026-07-30-langgraph-10-motivos.md",
+    "tags": [
+      "langgraph",
+      "agentes-ia",
+      "orchestração",
+      "python",
+      "frameworks"
+    ],
+    "description": "Dez motivos técnicos para usar LangGraph na construção de agentes com estado e execução durável."
   },
   {
     "date": "2026-07-30",
     "slug": "arvore-modelos-claude",
-    "path": "_posts/2026-07-30-arvore-modelos-claude.md"
+    "path": "_posts/2026-07-30-arvore-modelos-claude.md",
+    "tags": [
+      "claude",
+      "model-routing",
+      "prompting",
+      "custos",
+      "agents"
+    ],
+    "description": "Guia visual para escolher entre modelos Claude conforme velocidade, complexidade e custo."
   },
   {
     "date": "2026-07-30",
     "slug": "agentic-awesome-skills",
-    "path": "_posts/2026-07-30-agentic-awesome-skills.md"
+    "path": "_posts/2026-07-30-agentic-awesome-skills.md",
+    "tags": [
+      "agentic-skills",
+      "ai-coding-assistants",
+      "skill-library",
+      "prompts",
+      "npx"
+    ],
+    "description": "Biblioteca instalável de skills reutilizáveis para Claude Code, Cursor e Gemini CLI."
   },
   {
     "date": "2026-07-29",
     "slug": "openviking-context-database-ai-agents",
-    "path": "_posts/2026-07-29-openviking-context-database-ai-agents.md"
+    "path": "_posts/2026-07-29-openviking-context-database-ai-agents.md",
+    "tags": [
+      "openviking",
+      "ai-agents",
+      "context-database",
+      "memory-management",
+      "vector-search",
+      "bytedance",
+      "rag"
+    ],
+    "description": "Um banco de contexto com hierarquia de sistema de arquivos para memória e recuperação de agentes."
   },
   {
     "date": "2026-07-29",
     "slug": "open-code-review",
-    "path": "_posts/2026-07-29-open-code-review.md"
+    "path": "_posts/2026-07-29-open-code-review.md",
+    "tags": [
+      "code-review",
+      "ia",
+      "llm-agent",
+      "alibaba",
+      "qualidade-codigo",
+      "automacao"
+    ],
+    "description": "Revisão de código com uma arquitetura híbrida que combina regras determinísticas e agentes LLM."
   },
   {
     "date": "2026-07-29",
     "slug": "mantis-security-review",
-    "path": "_posts/2026-07-29-mantis-security-review.md"
+    "path": "_posts/2026-07-29-mantis-security-review.md",
+    "tags": [
+      "mantis",
+      "ia-seguranca",
+      "devsecops",
+      "agentes-ia",
+      "code-review",
+      "vulnerabilidades"
+    ],
+    "description": "Como agentes especializados podem analisar, reproduzir e corrigir vulnerabilidades de software."
   },
   {
     "date": "2026-07-29",
     "slug": "kimi-k3-local",
-    "path": "_posts/2026-07-29-kimi-k3-local.md"
+    "path": "_posts/2026-07-29-kimi-k3-local.md",
+    "tags": [
+      "kimi-k3",
+      "unsloth",
+      "gguf",
+      "quantization",
+      "local-llm",
+      "hardware"
+    ],
+    "description": "Requisitos e quantizações dinâmicas para executar o Kimi K3 localmente com Unsloth."
   },
   {
     "date": "2026-07-29",
     "slug": "kilo-code-agentes-ia",
-    "path": "_posts/2026-07-29-kilo-code-agentes-ia.md"
+    "path": "_posts/2026-07-29-kilo-code-agentes-ia.md",
+    "tags": [
+      "open-source",
+      "agentes-ia",
+      "desenvolvimento",
+      "soberania-tecnica",
+      "typescript",
+      "vs-code",
+      "jetbrains"
+    ],
+    "description": "O Kilo Code combina agentes de codificação open source, múltiplos modelos e soberania técnica."
   },
   {
     "date": "2026-07-29",
     "slug": "hyper-research-deep-research-agent",
-    "path": "_posts/2026-07-29-hyper-research-deep-research-agent.md"
+    "path": "_posts/2026-07-29-hyper-research-deep-research-agent.md",
+    "tags": [
+      "ai-agents",
+      "deep-research",
+      "claude-code",
+      "open-source",
+      "knowledge-vault",
+      "llm-tools"
+    ],
+    "description": "Um pipeline open source para pesquisa profunda com verificação, proveniência e memória persistente."
   },
   {
     "date": "2026-07-29",
     "slug": "design-md-sistemas-design-ia",
-    "path": "_posts/2026-07-29-design-md-sistemas-design-ia.md"
+    "path": "_posts/2026-07-29-design-md-sistemas-design-ia.md",
+    "tags": [
+      "design-md",
+      "design-systems",
+      "ia",
+      "ai-design",
+      "design-referencia",
+      "claude-code",
+      "design-tokens"
+    ],
+    "description": "Como usar DESIGN.md para fornecer referências e tokens de design consistentes a agentes de IA."
   },
   {
     "date": "2026-07-29",
     "slug": "crawlee-web-scraping",
-    "path": "_posts/2026-07-29-crawlee-web-scraping.md"
+    "path": "_posts/2026-07-29-crawlee-web-scraping.md",
+    "tags": [
+      "crawlee",
+      "web-scraping",
+      "browser-automation",
+      "data-collection",
+      "bot-detection",
+      "llm-training"
+    ],
+    "description": "Bibliotecas, técnicas e cuidados para coletar dados da web e preparar datasets para IA."
   },
   {
     "date": "2026-07-27",
     "slug": "sites-de-empregos-remotos",
-    "path": "_posts/2026-07-27-sites-de-empregos-remotos.md"
+    "path": "_posts/2026-07-27-sites-de-empregos-remotos.md",
+    "tags": [
+      "trabalho-remoto",
+      "vagas-remotas",
+      "carreira",
+      "freelancing",
+      "job-boards"
+    ],
+    "description": "Curadoria de plataformas e referências para encontrar oportunidades de trabalho remoto."
   },
   {
     "date": "2026-07-27",
     "slug": "markitdown-documentos-markdown",
-    "path": "_posts/2026-07-27-markitdown-documentos-markdown.md"
+    "path": "_posts/2026-07-27-markitdown-documentos-markdown.md",
+    "tags": [
+      "markitdown",
+      "microsoft",
+      "conversao-documentos",
+      "claude",
+      "ia",
+      "markdown",
+      "python"
+    ],
+    "description": "Como converter documentos em Markdown com MarkItDown para economizar tokens e preparar dados para LLMs."
   },
   {
     "date": "2026-07-27",
     "slug": "ai-skills",
-    "path": "_posts/2026-07-27-ai-skills.md"
+    "path": "_posts/2026-07-27-ai-skills.md",
+    "tags": [
+      "ai-skills",
+      "prompt-engineering",
+      "ai-agents",
+      "automation",
+      "rag",
+      "multimodal-ai",
+      "aeo",
+      "content-generation",
+      "llm-management"
+    ],
+    "description": "Framework com dez competências de IA, de prompt engineering a gestão de LLMs, com guias práticos."
   },
   {
     "date": "2026-07-26",
     "slug": "youtube-prompts-estrategia-canal",
-    "path": "_posts/2026-07-26-youtube-prompts-estrategia-canal.md"
+    "path": "_posts/2026-07-26-youtube-prompts-estrategia-canal.md",
+    "tags": [
+      "youtube",
+      "prompts",
+      "marketing",
+      "content",
+      "growth"
+    ],
+    "description": "Prompts e especialistas de IA para planejar, produzir, otimizar e monetizar canais no YouTube."
   },
   {
     "date": "2026-07-26",
     "slug": "melhores-ferramentas-ia-2026",
-    "path": "_posts/2026-07-26-melhores-ferramentas-ia-2026.md"
+    "path": "_posts/2026-07-26-melhores-ferramentas-ia-2026.md",
+    "tags": [
+      "ia",
+      "ferramentas",
+      "saas",
+      "produtividade",
+      "2026"
+    ],
+    "description": "Panorama de ferramentas de IA para pesquisa, criação, programação, design e automação em 2026."
   },
   {
     "date": "2026-07-26",
     "slug": "hermes-agente-ia-open-source",
-    "path": "_posts/2026-07-26-hermes-agente-ia-open-source.md"
+    "path": "_posts/2026-07-26-hermes-agente-ia-open-source.md",
+    "tags": [
+      "opensource",
+      "agents",
+      "ia",
+      "nous-research",
+      "tools"
+    ],
+    "description": "Recursos e referências do Hermes, agente open source com memória, skills e ferramentas."
   },
   {
     "date": "2026-07-26",
     "slug": "ferramentas-plugins-skills-claude",
-    "path": "_posts/2026-07-26-ferramentas-plugins-skills-claude.md"
+    "path": "_posts/2026-07-26-ferramentas-plugins-skills-claude.md",
+    "tags": [
+      "claude",
+      "mcp",
+      "tools",
+      "integrations",
+      "skills"
+    ],
+    "description": "Visão geral de MCPs, skills, plugins e conectores para estender o Claude."
   },
   {
     "date": "2026-07-26",
     "slug": "agentes-ia-pesquisa-automacao",
-    "path": "_posts/2026-07-26-agentes-ia-pesquisa-automacao.md"
+    "path": "_posts/2026-07-26-agentes-ia-pesquisa-automacao.md",
+    "tags": [
+      "agents",
+      "automation",
+      "web-scraping",
+      "ia",
+      "tools"
+    ],
+    "description": "Agentes para pesquisa profunda na web e automação de fluxos complexos em navegadores."
   },
   {
     "date": "2026-07-25",
     "slug": "omniroute-gateway-ia",
-    "path": "_posts/2026-07-25-omniroute-gateway-ia.md"
+    "path": "_posts/2026-07-25-omniroute-gateway-ia.md",
+    "tags": [
+      "gateway",
+      "ia",
+      "opensource",
+      "llm",
+      "free"
+    ],
+    "description": "Gateway open source que unifica provedores de IA, oferece fallback e ajuda a reduzir custos de tokens."
   },
   {
     "date": "2026-07-25",
     "slug": "ferramentas-ia-open-source",
-    "path": "_posts/2026-07-25-ferramentas-ia-open-source.md"
+    "path": "_posts/2026-07-25-ferramentas-ia-open-source.md",
+    "tags": [
+      "opensource",
+      "ia",
+      "tools",
+      "javascript",
+      "security"
+    ],
+    "description": "Seleção de ferramentas open source para automação, reuniões e segurança com IA."
   },
   {
     "date": "2026-07-24",
     "slug": "ferramentas-claude-avancadas",
-    "path": "_posts/2026-07-24-ferramentas-claude-avancadas.md"
+    "path": "_posts/2026-07-24-ferramentas-claude-avancadas.md",
+    "tags": [
+      "claude",
+      "tools",
+      "notebooklm",
+      "graphify",
+      "rag"
+    ],
+    "description": "Ferramentas para ampliar o Claude com APIs, grafos de conhecimento e skills especializadas."
   },
   {
     "date": "2026-07-24",
     "slug": "colibri-motor-local-ia",
-    "path": "_posts/2026-07-24-colibri-motor-local-ia.md"
+    "path": "_posts/2026-07-24-colibri-motor-local-ia.md",
+    "tags": [
+      "localhost",
+      "rust",
+      "llm",
+      "glm",
+      "opensource"
+    ],
+    "description": "Como o Colibri usa streaming seletivo para executar modelos MoE grandes em hardware comum."
   },
   {
     "date": "2026-07-23",
     "slug": "turbovec-turboquant",
-    "path": "_posts/2026-07-23-turbovec-turboquant.md"
+    "path": "_posts/2026-07-23-turbovec-turboquant.md",
+    "tags": [
+      "vectordb",
+      "rust",
+      "compression",
+      "rag",
+      "google"
+    ],
+    "description": "Referências sobre o índice vetorial Rust Turbovec e a compressão de embeddings com TurboQuant."
   },
   {
     "date": "2026-07-23",
     "slug": "trilhas-cursos-ia",
-    "path": "_posts/2026-07-23-trilhas-cursos-ia.md"
+    "path": "_posts/2026-07-23-trilhas-cursos-ia.md",
+    "tags": [
+      "learning",
+      "courses",
+      "ia",
+      "education",
+      "certifications"
+    ],
+    "description": "Cursos e trilhas para aprender IA, prompt engineering, agentes, automação e APIs."
   },
   {
     "date": "2026-07-23",
     "slug": "self-host-ia-coolify-agentes-rag",
-    "path": "_posts/2026-07-23-self-host-ia-coolify-agentes-rag.md"
+    "path": "_posts/2026-07-23-self-host-ia-coolify-agentes-rag.md",
+    "tags": [
+      "selfhost",
+      "deployment",
+      "agents",
+      "rag",
+      "opensource"
+    ],
+    "description": "Ferramentas open source para hospedar aplicações, agentes, RAG e serviços de IA por conta própria."
   },
   {
     "date": "2026-07-23",
     "slug": "repos-ia-github-trending",
-    "path": "_posts/2026-07-23-repos-ia-github-trending.md"
+    "path": "_posts/2026-07-23-repos-ia-github-trending.md",
+    "tags": [
+      "github",
+      "trending",
+      "opensource",
+      "ia",
+      "reference"
+    ],
+    "description": "Curadoria de projetos de IA em destaque no GitHub, com foco em agentes, contexto e dados."
   },
   {
     "date": "2026-07-23",
     "slug": "como-criar-agents",
-    "path": "_posts/2026-07-23-como-criar-agents.md"
+    "path": "_posts/2026-07-23-como-criar-agents.md",
+    "tags": [
+      "agents",
+      "github",
+      "ia",
+      "documentation",
+      "examples"
+    ],
+    "description": "Estrutura recomendada e exemplos reais para orientar agentes de IA em repositórios."
   },
   {
     "date": "2026-07-23",
     "slug": "agents-oficiais-criacao",
-    "path": "_posts/2026-07-23-agents-oficiais-criacao.md"
+    "path": "_posts/2026-07-23-agents-oficiais-criacao.md",
+    "tags": [
+      "agents",
+      "github",
+      "ia",
+      "documentation",
+      "conventions"
+    ],
+    "description": "Boas práticas oficiais para criar arquivos AGENTS.md úteis para agentes de IA."
   },
   {
     "date": "2026-07-04",
     "slug": "assistento-skill",
-    "path": "_posts/2026-07-04-assistento-skill.md"
+    "path": "_posts/2026-07-04-assistento-skill.md",
+    "tags": [
+      "assistento",
+      "skill",
+      "personal",
+      "workflow",
+      "automation"
+    ],
+    "description": "Uma skill pessoal para padronizar diagramas, tarefas, planos e fluxos de trabalho com agentes."
   },
   {
     "date": "2026-06-29",
     "slug": "pr-visual",
-    "path": "_posts/2026-06-29-pr-visual.md"
+    "path": "_posts/2026-06-29-pr-visual.md",
+    "tags": [
+      "github",
+      "pr",
+      "testing",
+      "maestro",
+      "documentation"
+    ],
+    "description": "Procedimentos para adicionar evidências visuais a pull requests sem versionar arquivos binários."
   },
   {
     "date": "2026-06-26",
     "slug": "wellhub",
-    "path": "_posts/2026-06-26-wellhub.md"
+    "path": "_posts/2026-06-26-wellhub.md",
+    "tags": [
+      "wellhub",
+      "api",
+      "fitness",
+      "graphql",
+      "integration"
+    ],
+    "description": "Exemplos de consultas e endpoints usados para realizar check-ins no Wellhub."
   },
   {
     "date": "2026-05-28",
     "slug": "ciclo-criado-pela-ia",
-    "path": "_posts/2026-05-28-ciclo-criado-pela-ia.md"
+    "path": "_posts/2026-05-28-ciclo-criado-pela-ia.md",
+    "tags": [
+      "ia",
+      "productivity",
+      "paradox",
+      "workplace",
+      "society"
+    ],
+    "description": "Como o ganho de produtividade com IA pode aumentar o ritmo e a densidade do trabalho sem reduzir a carga percebida."
   }
 ]
