@@ -27,6 +27,45 @@ A pesquisa usa um framework determinístico que mapeia critérios de aceitação
 
 [Acesse a fonte original](https://arxiv.org/abs/2603.15401)
 
+## Caracterização das Melhores e Piores Skills
+
+Embora o paper não especifique nominalmente cada uma das 7 melhores ou 3 piores skills nos resumos públicos, a pesquisa revela padrões críticos sobre quais tipos funcionam e quais falham:
+
+### Skills que Funcionam Bem (+30%)
+
+Skills especializadas e **bem focadas** que:
+- Endereçam procedimentos concretos e específicos do domínio
+- Possuem exemplos de código exatos e versioning preciso
+- Resolvem problemas em que o modelo carece de conhecimento pré-treino
+- Ocupam espaço de contexto mínimo (documentação compacta)
+- Usam triggers e descrições claras e não-ambíguas
+
+A pesquisa posterior **"Most Agent Skills Fail. Here's How to Write Ones That Don't"** complementa, recomendando:
+- **Manter descriptions curtas mas específicas** (evitar "helps with documents")
+- **Nomear cenários de disparo concretos** (ex: "log data into Elasticsearch")
+- **Estrutura compacta vs. documentação abrangente** (+18,9pp vs +5,7pp em SkillsBench)
+- **2-3 skills por tarefa** são ótimos (+20pp); 4+ mostram retornos diminutos
+
+### Skills que Degradam Performance (-10%)
+
+Skills que prejudicam performance:
+- **Orientação desatualizada** que conflita com o contexto atual do projeto
+- **Incompatibilidade de versão**: documentação referencia bibliotecas/APIs antigas
+- **Ambiguidade no escopo**: triggers muito amplos causam invocação incorreta
+- **Documentação excessiva**: agentes não conseguem extrair informação relevante
+- **Procedimentos genéricos** em domínios onde o modelo já tem cobertura forte
+
+### Padrão Emergente: Dependência de Domínio
+
+Skills funcionam melhor em domínios que carecem de conhecimento procedural pré-treino:
+- **DevOps, CI/CD, Infrastructure** — alto potencial (skills concretizam procedimentos específicos)
+- **Procedimentos de segurança** — moderado-alto (conhecimento procedural de hardening)
+- **Procedimentos de negócio** — alto (workflows específicos do contexto)
+- **Software Engineering genérico** — baixo (+4,5pp em SkillsBench) — modelo já conhece padrões comuns
+- **Padrões de código bem conhecidos** — prejudicial (skill distrai do contexto real)
+
+[Referências complementares: Most Agent Skills Fail](https://www.youtube.com/watch?v=bvPILiinw2E)
+
 ## SkillsBench: Benchmarking How Well Agent Skills Work Across Diverse Tasks
 
 Benchmark mais amplo que avalia skills em 86 tarefas distribuídas entre 11 domínios profissionais diferentes. Usa avaliação pareada ("vanilla" vs "skills-augmented") com 7 configurações de agent-modelo.
