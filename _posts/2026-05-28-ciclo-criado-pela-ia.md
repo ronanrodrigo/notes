@@ -2,6 +2,7 @@
 title: "Ciclo criado pela IA"
 tags: [ia, productivity, paradox, workplace, society]
 date: "2026-05-28"
+description: 'Como o ganho de produtividade com IA pode aumentar o ritmo e a densidade do trabalho sem reduzir a carga percebida.'
 ---
 
 ## O Ciclo da IA

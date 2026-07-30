@@ -8,6 +8,7 @@ tags:
   - quantization
   - local-llm
   - hardware
+description: 'Requisitos e quantizações dinâmicas para executar o Kimi K3 localmente com Unsloth.'
 ---
 
 ## Run KIMI K3 Locally (Unsloth Dynamic)

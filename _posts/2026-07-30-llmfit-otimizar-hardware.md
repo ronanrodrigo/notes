@@ -10,6 +10,7 @@ tags:
   - ferramentas-ia
   - quantizacao
 layout: post
+description: 'Ferramenta que identifica quais modelos locais melhor combinam com o hardware disponível.'
 ---
 
 ## llmfit: Otimize modelos de IA para seu hardware

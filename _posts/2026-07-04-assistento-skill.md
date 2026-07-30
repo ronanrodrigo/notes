@@ -2,6 +2,7 @@
 title: "Assistento - Skill Pessoal"
 tags: [assistento, skill, personal, workflow, automation]
 date: "2026-07-04"
+description: 'Uma skill pessoal para padronizar diagramas, tarefas, planos e fluxos de trabalho com agentes.'
 ---
 
 

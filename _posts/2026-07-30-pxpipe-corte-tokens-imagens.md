@@ -8,6 +8,7 @@ tags:
   - context-compression
   - vision-ocr
 layout: post
+description: 'Como renderizar contexto como imagem pode reduzir tokens de entrada e custos em fluxos multimodais.'
 ---
 
 ## pxpipe (imagem: texto→imagem para reduzir tokens)

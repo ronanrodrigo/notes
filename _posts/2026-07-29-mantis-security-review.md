@@ -9,6 +9,7 @@ tags:
   - code-review
   - vulnerabilidades
 layout: post
+description: 'Como agentes especializados podem analisar, reproduzir e corrigir vulnerabilidades de software.'
 ---
 
 ## Mantis: Toolkit para Revisão de Segurança

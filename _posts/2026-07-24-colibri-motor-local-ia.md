@@ -2,6 +2,7 @@
 title: "Colibri - Motor Local de IA"
 tags: [localhost, rust, llm, glm, opensource]
 date: "2026-07-24"
+description: 'Como o Colibri usa streaming seletivo para executar modelos MoE grandes em hardware comum.'
 ---
 
 

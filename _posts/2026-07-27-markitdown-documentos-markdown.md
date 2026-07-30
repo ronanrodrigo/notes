@@ -9,6 +9,7 @@ tags:
   - ia
   - markdown
   - python
+description: 'Como converter documentos em Markdown com MarkItDown para economizar tokens e preparar dados para LLMs.'
 ---
 
 ## MarkItDown — Microsoft resolve o problema de processar documentos para Claude

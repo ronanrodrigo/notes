@@ -8,6 +8,7 @@ tags:
   - custos
   - agents
 layout: post
+description: 'Guia visual para escolher entre modelos Claude conforme velocidade, complexidade e custo.'
 ---
 
 ## Árvore de Modelos do Claude
