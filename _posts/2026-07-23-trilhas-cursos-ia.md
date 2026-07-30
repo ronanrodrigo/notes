@@ -2,6 +2,7 @@
 title: "Trilhas e cursos de IA"
 tags: [learning, courses, ia, education, certifications]
 date: "2026-07-23"
+description: 'Cursos e trilhas para aprender IA, prompt engineering, agentes, automação e APIs.'
 ---
 
 

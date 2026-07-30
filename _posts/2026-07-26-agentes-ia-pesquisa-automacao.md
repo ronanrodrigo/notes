@@ -2,6 +2,7 @@
 title: "Agentes IA de Pesquisa e Automação Web"
 tags: [agents, automation, web-scraping, ia, tools]
 date: "2026-07-26"
+description: 'Agentes para pesquisa profunda na web e automação de fluxos complexos em navegadores.'
 ---
 
 

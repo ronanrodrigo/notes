@@ -7,6 +7,7 @@ tags:
   - carreira
   - freelancing
   - job-boards
+description: 'Curadoria de plataformas e referências para encontrar oportunidades de trabalho remoto.'
 ---
 
 

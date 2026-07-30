@@ -2,6 +2,7 @@
 title: "Ferramentas Claude Avançadas"
 tags: [claude, tools, notebooklm, graphify, rag]
 date: "2026-07-24"
+description: 'Ferramentas para ampliar o Claude com APIs, grafos de conhecimento e skills especializadas.'
 ---
 
 

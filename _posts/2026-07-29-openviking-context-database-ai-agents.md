@@ -9,6 +9,7 @@ tags:
   - vector-search
   - bytedance
   - rag
+description: 'Um banco de contexto com hierarquia de sistema de arquivos para memória e recuperação de agentes.'
 ---
 
 ## OpenViking: The Context Database for AI Agents

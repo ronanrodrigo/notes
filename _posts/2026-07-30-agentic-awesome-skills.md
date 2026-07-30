@@ -7,6 +7,7 @@ tags:
   - skill-library
   - prompts
   - npx
+description: 'Biblioteca instalável de skills reutilizáveis para Claude Code, Cursor e Gemini CLI.'
 ---
 
 ## Agentic Awesome Skills

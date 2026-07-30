@@ -10,6 +10,7 @@ tags:
   - vs-code
   - jetbrains
 layout: post
+description: 'O Kilo Code combina agentes de codificação open source, múltiplos modelos e soberania técnica.'
 ---
 
 ## Postagem no LinkedIn sobre Kilo Code

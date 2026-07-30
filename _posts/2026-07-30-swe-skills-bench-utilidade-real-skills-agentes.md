@@ -8,6 +8,7 @@ tags:
   - llm-agents
   - skills-evaluation
   - procedural-knowledge
+description: 'Resultados de benchmarks que medem quando skills realmente ajudam agentes em tarefas de software.'
 ---
 
 ## SWE-Skills-Bench: Do Agent Skills Actually Help in Real-World Software Engineering?

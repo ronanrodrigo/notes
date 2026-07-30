@@ -8,6 +8,7 @@ tags:
   - open-source
   - knowledge-vault
   - llm-tools
+description: 'Um pipeline open source para pesquisa profunda com verificação, proveniência e memória persistente.'
 ---
 
 ## Hyper Research

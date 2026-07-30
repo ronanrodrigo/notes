@@ -7,6 +7,7 @@ tags:
   - orchestração
   - python
   - frameworks
+description: 'Dez motivos técnicos para usar LangGraph na construção de agentes com estado e execução durável.'
 ---
 
 ## Stack de agentes de IA: 10 motivos para usar LangGraph

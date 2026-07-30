@@ -9,6 +9,7 @@ tags:
   - design-referencia
   - claude-code
   - design-tokens
+description: 'Como usar DESIGN.md para fornecer referências e tokens de design consistentes a agentes de IA.'
 ---
 
 ## Design de IA e o Padrão DESIGN.md

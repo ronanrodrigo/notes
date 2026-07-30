@@ -9,6 +9,7 @@ tags:
   - modelos-llm
   - descentralizacao
   - fine-tuning
+description: 'Como usar Unsloth para treinar e executar modelos de IA localmente com menos memória.'
 ---
 
 ## Unsloth: ferramenta open-source para treinar modelos localmente
