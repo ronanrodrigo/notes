@@ -10,6 +10,8 @@ tags:
   - mobile
 ---
 
+# Stallion OTA: Alternativa ao CodePush Encerrado
+
 ## Imagens do input
 
 Screenshots de uma interface mobile mostrando a comparação entre Stallion e CodePush. A primeira imagem destaca que o CodePush foi encerrado e apresenta uma tabela com vantagens de Stallion: Status Ativo, Update Patch diff, Tamanho até –98%, Rollback Automático, Analytics Completo, Free tier Grátis até 10k usuários/mês, e API compatível com CodePush. A segunda imagem explica que Stallion é uma plataforma de OTA para React Native, com features como Patch diff (até 98% menor), Auto rollback, Rollout faseado e Analytics em tempo real.
