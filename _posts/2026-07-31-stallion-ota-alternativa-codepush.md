@@ -1,5 +1,5 @@
 ---
-title: Stallion OTA: Alternativa ao CodePush Encerrado
+title: "Stallion OTA: Alternativa ao CodePush Encerrado"
 date: 2026-07-31
 tags:
   - react-native
@@ -15,7 +15,7 @@ Screenshots de uma interface mobile mostrando a comparação entre Stallion e Co
 
 ## Site oficial do Stallion
 
-Stallion é uma plataforma de OTA para React Native, alternativa ao CodePush após o encerramento do serviço da Microsoft.
+Stallion é uma plataforma de OTA para React Native, alternativa ao CodePush após o encerramento do serviço da Microsoft em março de 2025.
 
 [Acesse a fonte original](https://stalliontech.io/)
 
@@ -35,4 +35,4 @@ Passo a passo para migrar de CodePush para Stallion, incluindo instalação do S
 
 Tabela comparativa entre Stallion, CodePush e Expo Updates, destacando patch updates, rollback automático e analytics.
 
-[Acesse a fonte original](https://stalliontech.io/)
+[Acesse a fonte original](https://stalliontech.io/react-native-codepush-alternative)
