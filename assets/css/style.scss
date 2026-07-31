@@ -39,16 +39,17 @@ a:hover { color: var(--orange); }
 .section-heading { margin-bottom: 34px; }
 .section-heading h1 { margin-bottom: 0; }
 .eyebrow { margin: 0 0 12px; color: var(--muted); font: 500 0.68rem/1.4 'DM Mono', monospace; letter-spacing: .12em; text-transform: uppercase; }
-.post-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
-.post-card { position: relative; display: flex; min-height: 290px; flex-direction: column; padding: 24px; overflow: hidden; border: 1px solid var(--line); border-radius: 16px; background: var(--card); box-shadow: 0 0 0 transparent; transition: transform .2s ease, border-color .2s ease, box-shadow .2s ease; }
+.post-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; }
+.post-card { position: relative; display: flex; min-height: 320px; flex-direction: column; padding: 24px; overflow: hidden; border: 1px solid var(--line); border-radius: 16px; background: var(--card); box-shadow: 0 0 0 transparent; transition: transform .2s ease, border-color .2s ease, box-shadow .2s ease; }
 .post-card::after { content: ''; position: absolute; right: -36px; bottom: -55px; width: 150px; height: 150px; border-radius: 50%; background: var(--accent); opacity: .2; pointer-events: none; }
 .post-card:hover { border-color: #bec9ad; box-shadow: var(--shadow); transform: translateY(-4px); }
-.post-card-header, .frontmatter-item, .post-card-link { position: relative; z-index: 1; }
+.post-card-header, .post-card h2, .post-card-description, .frontmatter-list, .post-card-link { position: relative; z-index: 1; }
 .post-card-header { display: flex; justify-content: space-between; gap: 12px; color: var(--muted); font: .68rem 'DM Mono', monospace; }
 .post-card-index { color: var(--accent-dark); }
-.post-card h2 { margin: 28px 0 22px; font-size: clamp(1.45rem, 3vw, 2rem); }
+.post-card h2 { margin: 28px 0 14px; font-size: clamp(1.45rem, 3vw, 2rem); }
 .post-card h2 a { color: var(--ink); text-decoration: none; }
 .post-card h2 a:hover { color: var(--accent-dark); }
+.post-card-description { margin: 0 0 22px; color: var(--muted); font-size: .88rem; line-height: 1.55; }
 .frontmatter-list { display: grid; gap: 9px; margin: 0; padding: 0; }
 .frontmatter-item { display: grid; grid-template-columns: minmax(62px, 25%) 1fr; gap: 12px; margin: 0; padding-top: 9px; border-top: 1px solid var(--line); font-size: .76rem; line-height: 1.45; }
 .frontmatter-item dt { color: var(--muted); font: .64rem 'DM Mono', monospace; }
