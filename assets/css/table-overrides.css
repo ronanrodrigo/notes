@@ -1,0 +1,42 @@
+/* Explicit table overrides for GitHub Pages/Jekyll output. */
+article.note table,
+main article table {
+  width: 100% !important;
+  margin: 28px 0 !important;
+  border: 2px solid var(--line) !important;
+  border-collapse: separate !important;
+  border-spacing: 0 !important;
+  border-radius: 12px !important;
+  overflow: hidden !important;
+  background: var(--card) !important;
+}
+
+article.note th,
+article.note td,
+main article th,
+main article td {
+  padding: 12px 14px !important;
+  border-right: 1px solid var(--line) !important;
+  border-bottom: 1px solid var(--line) !important;
+  text-align: left !important;
+  vertical-align: top !important;
+}
+
+article.note th:last-child,
+article.note td:last-child,
+main article th:last-child,
+main article td:last-child {
+  border-right: 0 !important;
+}
+
+article.note tr:last-child td,
+main article tr:last-child td {
+  border-bottom: 0 !important;
+}
+
+article.note th,
+main article th {
+  background: var(--accent) !important;
+  color: var(--ink) !important;
+  font-weight: 700 !important;
+}
