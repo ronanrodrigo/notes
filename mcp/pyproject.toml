@@ -1,0 +1,9 @@
+[project]
+name = "notes-mcp"
+version = "0.1.0"
+description = "MCP server with fuzzy search for ronanrodrigo/notes"
+requires-python = ">=3.10"
+dependencies = ["mcp>=1.2.0"]
+
+[project.scripts]
+notes-mcp = "notes_server:mcp.run"
