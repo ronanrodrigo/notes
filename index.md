@@ -18,20 +18,20 @@ layout: page
 
       <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
 
+      {% if post.description %}
+      <p class="post-card-description">{{ post.description }}</p>
+      {% endif %}
+
       <dl class="frontmatter-list">
         {% for field in post.data %}
           {% assign field_name = field[0] %}
           {% assign field_value = field[1] %}
-          {% unless field_name == 'layout' or field_name == 'title' or field_name == 'date' %}
+          {% unless field_name == 'layout' or field_name == 'title' or field_name == 'date' or field_name == 'description' %}
           <div class="frontmatter-item">
             <dt>{{ field_name }}</dt>
             <dd>
-              {% if field_value contains ' ' or field_value.first %}
-                {% if field_value.first %}
-                  {% for value in field_value %}<span class="tag">{{ value }}</span>{% unless forloop.last %} {% endunless %}{% endfor %}
-                {% else %}
-                  {{ field_value }}
-                {% endif %}
+              {% if field_value.first %}
+                {% for value in field_value %}<span class="tag">{{ value }}</span>{% unless forloop.last %} {% endunless %}{% endfor %}
               {% else %}
                 {{ field_value }}
               {% endif %}
