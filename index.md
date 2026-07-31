@@ -22,20 +22,22 @@ layout: page
       <p class="post-card-description">{{ post.description }}</p>
       {% endif %}
 
+      {% if post.tags and post.tags.size > 0 %}
+      <div class="post-card-tags" aria-label="Tags desta nota">
+        {% for tag in post.tags %}
+          <a class="tag" href="{{ '/tags/' | relative_url }}#{{ tag | slugify }}">#{{ tag }}</a>
+        {% endfor %}
+      </div>
+      {% endif %}
+
       <dl class="frontmatter-list">
         {% for field in post.data %}
           {% assign field_name = field[0] %}
           {% assign field_value = field[1] %}
-          {% unless field_name == 'layout' or field_name == 'title' or field_name == 'date' or field_name == 'description' %}
+          {% unless field_name == 'layout' or field_name == 'title' or field_name == 'date' or field_name == 'description' or field_name == 'tags' %}
           <div class="frontmatter-item">
             <dt>{{ field_name }}</dt>
-            <dd>
-              {% if field_value.first %}
-                {% for value in field_value %}<span class="tag">{{ value }}</span>{% unless forloop.last %} {% endunless %}{% endfor %}
-              {% else %}
-                {{ field_value }}
-              {% endif %}
-            </dd>
+            <dd>{{ field_value }}</dd>
           </div>
           {% endunless %}
         {% endfor %}
