@@ -1,6 +1,6 @@
 ---
-title: AutoResearchClaw: Pesquisa autônoma em minutos
-description: Sistema autônomo da UNC-Chapel Hill que transforma uma ideia em artigo científico completo em minutos usando IA, colaboração humana e orquestração multimodal.
+title: "AutoResearchClaw: Pesquisa autônoma em minutos"
+description: "Sistema autônomo da UNC-Chapel Hill que transforma uma ideia em artigo científico completo em minutos usando IA, colaboração humana e orquestração multimodal."
 date: 2026-07-31
 tags:
   - autoresearchclaw
