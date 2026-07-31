@@ -13,6 +13,21 @@
     "description": "Stallion é uma plataforma gerenciada de OTA para React Native que surgiu como alternativa ao CodePush, encerrado pela Microsoft em março de 2025. Oferece patch updates até 98% menores, rollback automático, analytics completo e free tier até 10k usuários por mês."
   },
   {
+    "date": "2026-07-31",
+    "slug": "autoresearchclaw-research-autonomo",
+    "path": "_posts/2026-07-31-autoresearchclaw-research-autonomo.md",
+    "tags": [
+      "autoresearchclaw",
+      "pesquisa-autonoma",
+      "agentes-ia",
+      "scientific-discovery",
+      "python",
+      "github",
+      "openclaw"
+    ],
+    "description": "Sistema autônomo da UNC-Chapel Hill que transforma uma ideia em artigo científico completo em minutos usando IA, colaboração humana e orquestração multimodal."
+  },
+  {
     "date": "2026-07-30",
     "slug": "unsloth-treinamento-local-modelos",
     "path": "_posts/2026-07-30-unsloth-treinamento-local-modelos.md",
