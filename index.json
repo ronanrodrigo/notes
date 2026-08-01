@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-08-01",
+    "slug": "17-things-to-know-about-ai",
+    "path": "_posts/2026-08-01-17-things-to-know-about-ai.md",
+    "tags": [
+      "ai",
+      "ai-agents",
+      "llms",
+      "rag",
+      "vector-databases",
+      "reinforcement-learning"
+    ],
+    "description": "Curated collection of 17 essential AI engineering concepts covering agents, LLMs, RAG, vector databases, and modern AI system design."
+  },
+  {
     "date": "2026-07-31",
     "slug": "stallion-ota-alternativa-codepush",
     "path": "_posts/2026-07-31-stallion-ota-alternativa-codepush.md",
