@@ -1,118 +1,118 @@
 ---
-title: "17 Things to Know About AI"
-description: "Curated collection of 17 essential AI engineering concepts covering agents, LLMs, RAG, vector databases, and modern AI system design."
+title: "17 Coisas Para Conhecer Sobre IA"
+description: "Coleção selecionada de 17 conceitos essenciais de engenharia de IA cobrindo agentes, LLMs, RAG, bancos de dados vetoriais e design moderno de sistemas de IA."
 date: 2026-08-01
 tags:
-  - ai
-  - ai-agents
+  - ia
+  - agentes-ia
   - llms
   - rag
-  - vector-databases
-  - reinforcement-learning
+  - bancos-dados-vetoriais
+  - aprendizado-reforçado
 ---
 
-## 17 Things to Know About AI
+## 17 Coisas Para Conhecer Sobre IA
 
-Screenshot from a LinkedIn post by Neo Kim listing 17 AI engineering concepts with brief descriptions and LNKD short URLs covering essential topics for AI practitioners.
+Print de um post do LinkedIn de Neo Kim listando 17 conceitos de engenharia de IA com breves descrições e URLs encurtadas LNKD cobrindo tópicos essenciais para profissionais de IA.
 
-### 1. How AI Agents Work
+### 1. Como Funcionam os Agentes de IA
 
-Explains the architecture behind autonomous agents
+Explica a arquitetura por trás dos agentes autônomos
 
-[Access](https://lnkd.in/dU8CK7-b)
+[Acessar](https://lnkd.in/dU8CK7-b)
 
-### 2. How to Design an AI Agent
+### 2. Como Projetar um Agente de IA
 
-Guides you step by step through building your first agent
+Guia você passo a passo na construção do seu primeiro agente
 
-[Access](https://lnkd.in/dGuknFw3)
+[Acessar](https://lnkd.in/dGuknFw3)
 
-### 3. How MCP Works
+### 3. Como o MCP Funciona
 
-Explains how MCP connects agents to tools & data
+Explica como MCP conecta agentes a ferramentas e dados
 
-[Access](https://lnkd.in/jeT-z8Ekk)
+[Acessar](https://lnkd.in/jeT-z8Ekk)
 
 ### 4. Context Engineering 101
 
-Teaches you to control what enters the context window
+Ensina a controlar o que entra na janela de contexto
 
-[Access](https://lnkd.in/d4WNwfqY)
+[Acessar](https://lnkd.in/d4WNwfqY)
 
-### 5. How RAG Works
+### 5. Como RAG Funciona
 
-Explains retrieval-augmented generation from query to answer
+Explica geração aumentada por recuperação da consulta à resposta
 
-[Access](https://lnkd.in/dbAUacYW)
+[Acessar](https://lnkd.in/dbAUacYW)
 
-### 6. Agentic Patterns Explained
+### 6. Padrões Agentic Explicados
 
-Covers reflection, tool use & steps to define constraints
+Cobre reflexão, uso de ferramentas e passos para definir restrições
 
-[Access](https://lnkd.in/dfsAsc7c)
+[Acessar](https://lnkd.in/dfsAsc7c)
 
-### 7. Multi-Agent Architecture Explained
+### 7. Arquitetura Multi-Agente Explicada
 
-Shows you when & how to split work across many agents
+Mostra quando e como dividir trabalho entre múltiplos agentes
 
-[Access](https://lnkd.in/dAM4u9Si)
+[Acessar](https://lnkd.in/dAM4u9Si)
 
-### 8. AI Agents: Memory, State & Consistency
+### 8. Agentes de IA: Memória, Estado e Consistência
 
-Teaches you how agents store memory & keep state consistent
+Ensina como agentes armazenam memória e mantêm estado consistente
 
-[Access](https://lnkd.in/du_8AKYM)
+[Acessar](https://lnkd.in/du_8AKYM)
 
-### 9. Graph-Shaped Memory for AI Agents
+### 9. Memória em Forma de Grafo para Agentes de IA
 
-Teaches you graph memory with atomic commits & safe concurrent writes
+Ensina memória em grafo com commits atômicos e escritas concorrentes seguras
 
-[Access](https://lnkd.in/ezEq8iYG)
+[Acessar](https://lnkd.in/ezEq8iYG)
 
-### 10. LLM Evals Explained
+### 10. Evals de LLM Explicados
 
-Shows you how to measure whether your LLM actually works
+Mostra como medir se seu LLM realmente funciona
 
-[Access](https://lnkd.in/diU4hic8)
+[Acessar](https://lnkd.in/diU4hic8)
 
-### 11. AI Coding Workflow 101
+### 11. Fluxo de Trabalho de Codificação com IA 101
 
-Gives you a practical workflow for coding with AI
+Oferece um fluxo de trabalho prático para codificar com IA
 
-[Access](https://lnkd.in/ds5r8TxT)
+[Acessar](https://lnkd.in/ds5r8TxT)
 
-### 12. Machine Learning System Design 101
+### 12. Design de Sistema de Machine Learning 101
 
-Preps you for ML system design interviews step by step
+Prepara você para entrevistas de design de sistema de ML passo a passo
 
-[Access](https://lnkd.in/dFGuMknJ)
+[Acessar](https://lnkd.in/dFGuMknJ)
 
-### 13. LLM Concepts: A Deep Dive
+### 13. Conceitos de LLM: Uma Análise Profunda
 
-Breaks down the core LLM concepts
+Desmembra os conceitos centrais de LLM
 
-[Access](https://lnkd.in/eSd6fS7n)
+[Acessar](https://lnkd.in/eSd6fS7n)
 
-### 14. How Vector Databases Work
+### 14. Como Funcionam Bancos de Dados Vetoriais
 
-Shows you how vector search finds meaning
+Mostra como a busca vetorial encontra significado
 
-[Access](https://lnkd.in/dbeBn5Un)
+[Acessar](https://lnkd.in/dbeBn5Un)
 
-### 15. Design a Personal AI Chat Assistant
+### 15. Projete um Assistente de Chat de IA Pessoal
 
-Walks you through architecting your own AI chat assistant
+Guia você na arquitetura do seu próprio assistente de chat de IA
 
-[Access](https://lnkd.in/d9KG99zV)
+[Acessar](https://lnkd.in/d9KG99zV)
 
-### 16. How Fine-Tuning Works
+### 16. Como o Fine-Tuning Funciona
 
-Explains how extra training changes a model's behavior
+Explica como treinamento adicional muda o comportamento de um modelo
 
-[Access](https://lnkd.in/dhZT53sT)
+[Acessar](https://lnkd.in/dhZT53sT)
 
-### 17. What is Reinforcement Learning
+### 17. O que é Aprendizado Reforçado
 
-Explains how models learn by trial, reward & repeat
+Explica como modelos aprendem através de tentativa, recompensa e repetição
 
-[Access](https://lnkd.in/dzSXrgNW)
+[Acessar](https://lnkd.in/dzSXrgNW)
