@@ -4,14 +4,14 @@
     "slug": "17-things-to-know-about-ai",
     "path": "_posts/2026-08-01-17-things-to-know-about-ai.md",
     "tags": [
-      "ai",
-      "ai-agents",
+      "ia",
+      "agentes-ia",
       "llms",
       "rag",
-      "vector-databases",
-      "reinforcement-learning"
+      "bancos-dados-vetoriais",
+      "aprendizado-reforçado"
     ],
-    "description": "Curated collection of 17 essential AI engineering concepts covering agents, LLMs, RAG, vector databases, and modern AI system design."
+    "description": "Coleção selecionada de 17 conceitos essenciais de engenharia de IA cobrindo agentes, LLMs, RAG, bancos de dados vetoriais e design moderno de sistemas de IA."
   },
   {
     "date": "2026-07-31",
