@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-08-02",
+    "slug": "dembrandt-extracao-design-systems",
+    "path": "_posts/2026-08-02-dembrandt-extracao-design-systems.md",
+    "tags": [
+      "design-systems",
+      "design-tokens",
+      "ferramentas",
+      "design-md",
+      "extracao-web"
+    ],
+    "description": "Ferramentas e recursos para extrair design systems, tokens e componentes de websites de forma automatizada."
+  },
+  {
     "date": "2026-08-01",
     "slug": "17-things-to-know-about-ai",
     "path": "_posts/2026-08-01-17-things-to-know-about-ai.md",
