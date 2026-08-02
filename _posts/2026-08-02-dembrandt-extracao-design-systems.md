@@ -12,30 +12,30 @@ tags:
 
 ## Dembrandt
 
-Dembrandt is a tool designed to extract design systems from any URL efficiently, allowing users to generate a structured design document (DESIGN.md) in seconds. It supports various features, such as color and typography extraction, motion tokens, and responsive breakpoints, providing a comprehensive design token set. Dembrandt enhances the design workflow by bridging the gap between visual design and development, enabling quick audits, competitor analysis, and documentation. The tool integrates with CI/CD pipelines and generates reports to track design drift over time. Users can leverage it to maintain consistency and automate brand systems in their projects.
+Dembrandt é uma ferramenta projetada para extrair design systems de qualquer URL de forma eficiente, permitindo que os usuários gerem um documento de design estruturado (DESIGN.md) em segundos. Suporta vários recursos, como extração de cores e tipografia, motion tokens e breakpoints responsivos, fornecendo um conjunto abrangente de design tokens. Dembrandt aprimora o fluxo de trabalho de design ao preencher a lacuna entre design visual e desenvolvimento, permitindo auditorias rápidas, análise de concorrentes e documentação. A ferramenta se integra com pipelines CI/CD e gera relatórios para rastrear desvios de design ao longo do tempo. Os usuários podem aproveitá-la para manter consistência e automatizar sistemas de marca em seus projetos.
 
 [Acesse a fonte original](https://www.dembrandt.com)
 
 ## Blackpaper do Dembrandt
 
-This paper presents Dembrandt, an open-source command-line interface tool designed to automate the extraction of design systems from live websites.
+Este artigo apresenta o Dembrandt, uma ferramenta open-source de interface de linha de comando projetada para automatizar a extração de design systems de websites ao vivo.
 
 [Acesse a fonte original](https://www.dembrandt.com/blackpaper)
 
 ## Design Extractor
 
-Paste a URL to extract a design system. Get a DESIGN.md plus Tailwind v4, and design tokens for your AI agent.
+Cole uma URL para extrair um design system. Obtenha um DESIGN.md mais Tailwind v4 e design tokens para seu agente de IA.
 
 [Acesse a fonte original](https://www.design-extractor.com/)
 
 ## MYDESIGN.MD
 
-Extract design tokens from any website in one click — colors, typography, spacing, shadows, radii.
+Extraia design tokens de qualquer website com um clique — cores, tipografia, espaçamento, sombras e raios.
 
 [Acesse a fonte original](https://www.mydesignmd.com/design-token-extractor)
 
-## Yoink - Design Token & Style Extractor
+## Yoink - Extrator de Design Tokens e Estilos
 
-Extract design tokens, colors, fonts, spacing, and styles from any website and export clean YAML for design systems and AI tools.
+Extraia design tokens, cores, fontes, espaçamento e estilos de qualquer website e exporte YAML limpo para design systems e ferramentas de IA.
 
 [Acesse a fonte original](https://chromewebstore.google.com/detail/yoink-design-token-style/bgdlplmmdmekinbhmmbmmfgpiapmommc)
