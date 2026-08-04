@@ -1,6 +1,19 @@
 [
   {
     "date": "2026-08-04",
+    "slug": "omnigent-meta-harness-agentes-ia",
+    "path": "_posts/2026-08-04-omnigent-meta-harness-agentes-ia.md",
+    "tags": [
+      "ai-agents",
+      "meta-harness",
+      "orquestracao",
+      "sandbox",
+      "open-source"
+    ],
+    "description": "Camada open-source para unificar, governar e sandboxizar agentes de coding (Claude Code, Codex, Cursor etc), com sessão compartilhada e colaboração em tempo real."
+  },
+  {
+    "date": "2026-08-04",
     "slug": "cosmo-travel-mcp",
     "path": "_posts/2026-08-04-cosmo-travel-mcp.md",
     "tags": [
