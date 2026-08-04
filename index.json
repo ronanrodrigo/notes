@@ -14,6 +14,19 @@
   },
   {
     "date": "2026-08-04",
+    "slug": "haystack-context-engineering-rag-agents",
+    "path": "_posts/2026-08-04-haystack-context-engineering-rag-agents.md",
+    "tags": [
+      "ai-agents",
+      "rag",
+      "context-engineering",
+      "llm-architecture",
+      "pipelines"
+    ],
+    "description": "Curadoria sobre o Haystack como framework de orquestração para agentes e RAG, enfatizando pipelines modulares e controle explícito de recuperação, roteamento, memória e geração."
+  },
+  {
+    "date": "2026-08-04",
     "slug": "cosmo-travel-mcp",
     "path": "_posts/2026-08-04-cosmo-travel-mcp.md",
     "tags": [
