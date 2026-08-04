@@ -21,8 +21,7 @@ permalink: /tags/
 
 {% for post in site.posts %}
   {% if post.tags and post.tags contains tag %}
-- [{{ post.date | date: "%d/%m/%Y" }} - {{ post.title }}]({{ post.url | relative_url }})
-  {% if post.description %}  — {{ post.description }}{% endif %}
+- [{{ post.date | date: "%d/%m/%Y" }} - {{ post.title }}]({{ post.url | relative_url }}){% if post.description %} — {{ post.description }}{% endif %}
   {% endif %}
 {% endfor %}
 
