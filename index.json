@@ -1,6 +1,20 @@
 [
   {
     "date": "2026-08-04",
+    "slug": "cosmo-travel-mcp",
+    "path": "_posts/2026-08-04-cosmo-travel-mcp.md",
+    "tags": [
+      "mcp",
+      "travel-planning",
+      "ai-agents",
+      "serpapi",
+      "google-maps",
+      "itinerary"
+    ],
+    "description": "Servidor MCP com ferramentas de viagem para busca de voos, acomodações e planejamento de itinerários."
+  },
+  {
+    "date": "2026-08-04",
     "slug": "candidatar-em-vagas-prompts-ats-linkedin",
     "path": "_posts/2026-08-04-candidatar-em-vagas-prompts-ats-linkedin.md",
     "tags": [
