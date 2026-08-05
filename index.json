@@ -39,6 +39,20 @@
     "description": "Curadoria do paper Memento, um framework memory-based para melhorar agentes LLM sem atualizar pesos do modelo, com links para arXiv e código."
   },
   {
+    "date": "2026-08-05",
+    "slug": "lark-cli-introduction",
+    "path": "_posts/2026-08-05-lark-cli-introduction.md",
+    "tags": [
+      "lark-cli",
+      "ai-agents",
+      "automation",
+      "feishu",
+      "cli",
+      "integration"
+    ],
+    "description": "Exploração da lark-cli, ferramenta de linha de comando oficial para operacionalizar Lark/Feishu com 200+ comandos e 26 AI Agent Skills para integração com agentes de IA."
+  },
+  {
     "date": "2026-08-04",
     "slug": "omnigent-meta-harness-agentes-ia",
     "path": "_posts/2026-08-04-omnigent-meta-harness-agentes-ia.md",
