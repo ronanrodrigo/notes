@@ -13,6 +13,19 @@
     "description": "Curadoria sobre ntfy, serviço gratuito e open-source para enviar notificações push para telefone ou desktop via HTTP simples, com casos de uso, integrações e alternativas"
   },
   {
+    "date": "2026-08-05",
+    "slug": "memento-fine-tuning-llm-agents-without-fine-tuning-llms",
+    "path": "_posts/2026-08-05-memento-fine-tuning-llm-agents-without-fine-tuning-llms.md",
+    "tags": [
+      "llm-agents",
+      "continual-learning",
+      "memory-based",
+      "reinforcement-learning",
+      "case-based-reasoning"
+    ],
+    "description": "Curadoria do paper Memento, um framework memory-based para melhorar agentes LLM sem atualizar pesos do modelo, com links para arXiv e código."
+  },
+  {
     "date": "2026-08-04",
     "slug": "omnigent-meta-harness-agentes-ia",
     "path": "_posts/2026-08-04-omnigent-meta-harness-agentes-ia.md",
