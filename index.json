@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-08-05",
+    "slug": "ntfy-notificacoes-http",
+    "path": "_posts/2026-08-05-ntfy-notificacoes-http.md",
+    "tags": [
+      "notificacoes",
+      "http",
+      "automacao",
+      "open-source",
+      "monitoramento"
+    ],
+    "description": "Curadoria sobre ntfy, serviço gratuito e open-source para enviar notificações push para telefone ou desktop via HTTP simples, com casos de uso, integrações e alternativas"
+  },
+  {
     "date": "2026-08-04",
     "slug": "omnigent-meta-harness-agentes-ia",
     "path": "_posts/2026-08-04-omnigent-meta-harness-agentes-ia.md",
