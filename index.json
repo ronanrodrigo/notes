@@ -14,6 +14,19 @@
   },
   {
     "date": "2026-08-05",
+    "slug": "midscene-ui-testing-por-visao",
+    "path": "_posts/2026-08-05-midscene-ui-testing-por-visao.md",
+    "tags": [
+      "ui-testing",
+      "automation",
+      "vision-models",
+      "playwright",
+      "open-source"
+    ],
+    "description": "Curadoria sobre o Midscene.js, SDK open-source para automação visual de interfaces com linguagem natural, Playwright, mobile e desktop."
+  },
+  {
+    "date": "2026-08-05",
     "slug": "memento-fine-tuning-llm-agents-without-fine-tuning-llms",
     "path": "_posts/2026-08-05-memento-fine-tuning-llm-agents-without-fine-tuning-llms.md",
     "tags": [
