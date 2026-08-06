@@ -11,7 +11,7 @@ tags:
 ---
 
 ## Archon (motor de execução de agentes de IA com workflows YAML)
-O Archon é apresentado como um motor de execução para agentes de coding com o objetivo de tornar o processo “determinístico e repetível”. A curadoria destaca a ideia de modelar o fluxo de desenvolvimento (planejamento, implementação, validação, code review e criação de PR) em etapas rígidas via arquivos YAML.
+O Archon é apresentado como um motor de execução para agentes de coding com o objetivo de tornar o processo "determinístico e repetível". A curadoria destaca a ideia de modelar o fluxo de desenvolvimento (planejamento, implementação, validação, code review e criação de PR) em etapas rígidas via arquivos YAML.
 
 [Acesse a fonte original](https://archon.diy/)
 
