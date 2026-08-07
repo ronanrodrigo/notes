@@ -1,5 +1,85 @@
 [
   {
+    "date": "2026-08-07",
+    "slug": "livecontainer-ios-sideloading",
+    "path": "_posts/2026-08-07-livecontainer-ios-sideloading.md",
+    "tags": [
+      "ios",
+      "sideloading",
+      "virtualizacao",
+      "altstore",
+      "sidestore",
+      "desenvolvimento-ios"
+    ],
+    "description": "Explorar LiveContainer, um launcher de apps iOS que permite executar aplicativos virtualizados em um container único, contornando o limite de 3 apps."
+  },
+  {
+    "date": "2026-08-06",
+    "slug": "uso-respeitoso-ia",
+    "path": "_posts/2026-08-06-uso-respeitoso-ia.md",
+    "tags": [
+      "ia",
+      "colaboracao",
+      "etica",
+      "melhores-praticas",
+      "produtividade"
+    ],
+    "description": "Práticas para colaboração responsável com IA no trabalho, priorizando integridade colaborativa, saídas concisas e revisão humana ativa."
+  },
+  {
+    "date": "2026-08-06",
+    "slug": "swift-sendable",
+    "path": "_posts/2026-08-06-swift-sendable.md",
+    "tags": [
+      "swift",
+      "concurrency",
+      "sendable",
+      "thread-safety"
+    ],
+    "description": "Guia sobre o protocolo Sendable em Swift, como garantir segurança em transferência de dados entre domínios de concorrência e prevenir data races."
+  },
+  {
+    "date": "2026-08-06",
+    "slug": "gitbutler",
+    "path": "_posts/2026-08-06-gitbutler.md",
+    "tags": [
+      "git",
+      "version-control",
+      "developer-tools",
+      "workflow-automation",
+      "rust",
+      "ai-powered"
+    ],
+    "description": "Cliente Git reconstruído com branches virtuais, automação com IA e interface intuitiva para fluxos de desenvolvimento modernos."
+  },
+  {
+    "date": "2026-08-06",
+    "slug": "codex-security",
+    "path": "_posts/2026-08-06-codex-security.md",
+    "tags": [
+      "segurança-aplicação",
+      "detecção-vulnerabilidades",
+      "ia",
+      "open-source",
+      "cli",
+      "sdk"
+    ],
+    "description": "Ferramenta da OpenAI para identificar, validar e corrigir vulnerabilidades de segurança no código usando IA, disponível como CLI e SDK para TypeScript."
+  },
+  {
+    "date": "2026-08-06",
+    "slug": "archon-yaml-workflows-coding-deterministico",
+    "path": "_posts/2026-08-06-archon-yaml-workflows-coding-deterministico.md",
+    "tags": [
+      "ai-coding",
+      "yaml",
+      "workflow-engines",
+      "coding-agents",
+      "automation"
+    ],
+    "description": "Curadoria sobre o Archon, um motor de execução para agentes de IA codarem e validarem com mais previsibilidade, modelando o processo em workflows YAML."
+  },
+  {
     "date": "2026-08-05",
     "slug": "ntfy-notificacoes-http",
     "path": "_posts/2026-08-05-ntfy-notificacoes-http.md",
