@@ -760,19 +760,6 @@
     "description": "Procedimentos para adicionar evidências visuais a pull requests sem versionar arquivos binários."
   },
   {
-    "date": "2026-06-26",
-    "slug": "wellhub",
-    "path": "_posts/2026-06-26-wellhub.md",
-    "tags": [
-      "wellhub",
-      "api",
-      "fitness",
-      "graphql",
-      "integration"
-    ],
-    "description": "Exemplos de consultas e endpoints usados para realizar check-ins no Wellhub."
-  },
-  {
     "date": "2026-05-28",
     "slug": "ciclo-criado-pela-ia",
     "path": "_posts/2026-05-28-ciclo-criado-pela-ia.md",
