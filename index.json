@@ -13,6 +13,20 @@
     "description": "Lançamento do ScreensDesign MCP permite que agentes de IA pesquisem padrões de UI em mais de 2.600 apps iOS de topo."
   },
   {
+    "date": "2026-08-08",
+    "slug": "reverse-skill",
+    "path": "_posts/2026-08-08-reverse-skill.md",
+    "tags": [
+      "reverse-engineering",
+      "ai-agents",
+      "cybersecurity",
+      "pentesting",
+      "malware-analysis",
+      "ctf"
+    ],
+    "description": "Framework open-source que integra agentes de IA para engenharia reversa com matriz de roteamento estruturada e fluxos de segurança automatizados"
+  },
+  {
     "date": "2026-08-07",
     "slug": "livecontainer-ios-sideloading",
     "path": "_posts/2026-08-07-livecontainer-ios-sideloading.md",
