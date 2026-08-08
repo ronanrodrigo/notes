@@ -734,19 +734,6 @@
     "description": "Boas práticas oficiais para criar arquivos AGENTS.md úteis para agentes de IA."
   },
   {
-    "date": "2026-06-29",
-    "slug": "pr-visual",
-    "path": "_posts/2026-06-29-pr-visual.md",
-    "tags": [
-      "github",
-      "pr",
-      "testing",
-      "maestro",
-      "documentation"
-    ],
-    "description": "Procedimentos para adicionar evidências visuais a pull requests sem versionar arquivos binários."
-  },
-  {
     "date": "2026-05-28",
     "slug": "ciclo-criado-pela-ia",
     "path": "_posts/2026-05-28-ciclo-criado-pela-ia.md",
