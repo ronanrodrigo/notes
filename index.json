@@ -734,19 +734,6 @@
     "description": "Boas práticas oficiais para criar arquivos AGENTS.md úteis para agentes de IA."
   },
   {
-    "date": "2026-07-04",
-    "slug": "assistento-skill",
-    "path": "_posts/2026-07-04-assistento-skill.md",
-    "tags": [
-      "assistento",
-      "skill",
-      "personal",
-      "workflow",
-      "automation"
-    ],
-    "description": "Uma skill pessoal para padronizar diagramas, tarefas, planos e fluxos de trabalho com agentes."
-  },
-  {
     "date": "2026-06-29",
     "slug": "pr-visual",
     "path": "_posts/2026-06-29-pr-visual.md",
