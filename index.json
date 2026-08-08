@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-08-08",
+    "slug": "screensdesign-mcp",
+    "path": "_posts/2026-08-08-screensdesign-mcp.md",
+    "tags": [
+      "design",
+      "iux",
+      "ia",
+      "desenvolvimento",
+      "mobile"
+    ],
+    "description": "Lançamento do ScreensDesign MCP permite que agentes de IA pesquisem padrões de UI em mais de 2.600 apps iOS de topo."
+  },
+  {
     "date": "2026-08-07",
     "slug": "livecontainer-ios-sideloading",
     "path": "_posts/2026-08-07-livecontainer-ios-sideloading.md",
