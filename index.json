@@ -27,6 +27,21 @@
     "description": "Framework open-source que integra agentes de IA para engenharia reversa com matriz de roteamento estruturada e fluxos de segurança automatizados"
   },
   {
+    "date": "2026-08-08",
+    "slug": "deerflow-super-agent-harness",
+    "path": "_posts/2026-08-08-deerflow-super-agent-harness.md",
+    "tags": [
+      "deerflow",
+      "agentes-ia",
+      "orchestração",
+      "langgraph",
+      "bytedance",
+      "open-source",
+      "python"
+    ],
+    "description": "Curadoria sobre DeerFlow 2.0 de ByteDance — framework open-source que orquestra sub-agentes, memória e sandboxes para automação de pesquisa e execução de tarefas complexas."
+  },
+  {
     "date": "2026-08-07",
     "slug": "livecontainer-ios-sideloading",
     "path": "_posts/2026-08-07-livecontainer-ios-sideloading.md",
