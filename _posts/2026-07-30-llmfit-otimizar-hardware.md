@@ -10,7 +10,9 @@ tags:
   - design-systems
   - testing
   - mobile
-  - githublayout: post
+  - githublayout:-post
+  - github
+  - git
 description: 'Ferramenta que identifica quais modelos locais melhor combinam com o hardware disponível.'
 ---
 

@@ -11,7 +11,10 @@ tags:
   - testing
   - mobile
   - prompt-engineering
-  - githubdescription: 'Um pipeline open source para pesquisa profunda com verificação, proveniência e memória persistente.'
+  - github
+  - python
+  - rust
+  - git
 ---
 
 ## Hyper Research

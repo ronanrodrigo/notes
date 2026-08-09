@@ -13,6 +13,7 @@ tags:
   - security
   - testing
   - prompt-engineering
+  - mcp
 ---
 
 ## 17 Coisas Para Conhecer Sobre IA

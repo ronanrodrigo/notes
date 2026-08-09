@@ -11,6 +11,10 @@ tags:
   - local-llm
   - testing
   - github
+  - python
+  - rust
+  - git
+  - mcp
 date: "2026-07-24"
 description: 'Ferramentas para ampliar o Claude com APIs, grafos de conhecimento e skills especializadas.'
 ---

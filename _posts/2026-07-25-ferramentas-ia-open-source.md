@@ -11,6 +11,7 @@ tags:
   - local-llm
   - testing
   - github
+  - git
 date: "2026-07-25"
 description: 'Seleção de ferramentas open source para automação, reuniões e segurança com IA.'
 ---

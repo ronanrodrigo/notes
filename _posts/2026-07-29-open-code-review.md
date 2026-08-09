@@ -12,7 +12,9 @@ tags:
   - local-llm
   - testing
   - mobile
-  - githublayout: post
+  - githublayout:-post
+  - github
+  - git
 description: 'Revisão de código com uma arquitetura híbrida que combina regras determinísticas e agentes LLM.'
 ---
 

@@ -3,7 +3,7 @@ title: Kimi K3 local com Unsloth Dynamic
 date: 2026-07-29
 tags:
   - local-llm
-  - design-systemsdescription: 'Requisitos e quantizações dinâmicas para executar o Kimi K3 localmente com Unsloth.'
+  - design-systems
 ---
 
 ## Run KIMI K3 Locally (Unsloth Dynamic)

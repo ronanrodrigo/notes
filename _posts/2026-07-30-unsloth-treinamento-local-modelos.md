@@ -9,7 +9,9 @@ tags:
   - automation
   - design-systems
   - local-llm
-  - githubdescription: 'Como usar Unsloth para treinar e executar modelos de IA localmente com menos memória.'
+  - github
+  - python
+  - git
 ---
 
 ## Unsloth: ferramenta open-source para treinar modelos localmente

@@ -11,6 +11,7 @@ tags:
   - local-llm
   - mobile
   - github
+  - git
 ---
 
 ## GitButler: o cliente Git reconstruído para workflows modernos

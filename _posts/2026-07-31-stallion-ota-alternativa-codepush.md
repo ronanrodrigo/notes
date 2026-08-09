@@ -12,6 +12,8 @@ tags:
   - local-llm
   - testing
   - github
+  - javascript
+  - git
 ---
 
 # Stallion OTA: Alternativa ao CodePush Encerrado

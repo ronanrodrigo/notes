@@ -7,7 +7,8 @@ tags:
   - ai-agents
   - tools
   - design-systems
-  - mobilelayout: post
+  - mobilelayout:-post
+  - mobile
 description: 'Guia visual para escolher entre modelos Claude conforme velocidade, complexidade e custo.'
 ---
 

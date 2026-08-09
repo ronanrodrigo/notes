@@ -6,6 +6,7 @@ tags:
   - design-systems
   - prompt-engineering
   - github
+  - git
 ---
 
 ## Prompt de referência

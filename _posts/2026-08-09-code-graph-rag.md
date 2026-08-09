@@ -10,6 +10,11 @@ tags:
   - local-llm
   - mobile
   - github
+  - python
+  - typescript
+  - rust
+  - git
+  - mcp
 ---
 
 ## Code-Graph-RAG: Sistema RAG Baseado em Grafos para Análise de Codebases

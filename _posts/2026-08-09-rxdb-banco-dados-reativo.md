@@ -10,6 +10,7 @@ tags:
   - security
   - local-llm
   - mobile
+  - typescript
 ---
 
 ## RxDB: Banco de dados local-first reativo

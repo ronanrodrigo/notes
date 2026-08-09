@@ -12,6 +12,9 @@ tags:
   - security
   - testing
   - github
+  - python
+  - typescript
+  - git
 ---
 
 ## Codex Security da OpenAI

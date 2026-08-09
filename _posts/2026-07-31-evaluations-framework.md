@@ -11,7 +11,10 @@ tags:
   - design-systems
   - mobile
   - prompt-engineering
-  - githublayout: post
+  - githublayout:-post
+  - github
+  - swift
+  - git
 ---
 
 ## Apple Evaluations Framework (WWDC26)

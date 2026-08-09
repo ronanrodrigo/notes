@@ -11,7 +11,10 @@ tags:
   - design-systems
   - local-llm
   - mobile
-  - githublayout: post
+  - githublayout:-post
+  - github
+  - git
+  - mcp
 ---
 
 ## Print compartilhado pelo usuário

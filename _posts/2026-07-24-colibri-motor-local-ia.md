@@ -7,6 +7,7 @@ tags:
   - open-source
   - design-systems
   - github
+  - git
 date: "2026-07-24"
 description: 'Como o Colibri usa streaming seletivo para executar modelos MoE grandes em hardware comum.'
 ---

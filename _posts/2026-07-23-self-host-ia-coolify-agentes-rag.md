@@ -9,6 +9,7 @@ tags:
   - design-systems
   - local-llm
   - github
+  - git
 date: "2026-07-23"
 description: 'Ferramentas open source para hospedar aplicações, agentes, RAG e serviços de IA por conta própria.'
 ---

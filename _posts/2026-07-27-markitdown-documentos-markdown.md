@@ -11,7 +11,9 @@ tags:
   - design-systems
   - testing
   - mobile
-  - githubdescription: 'Como converter documentos em Markdown com MarkItDown para economizar tokens e preparar dados para LLMs.'
+  - github
+  - git
+  - mcp
 ---
 
 ## MarkItDown — Microsoft resolve o problema de processar documentos para Claude

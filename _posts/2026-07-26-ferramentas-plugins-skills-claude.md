@@ -10,6 +10,7 @@ tags:
   - design-systems
   - mobile
   - github
+  - git
 date: "2026-07-26"
 description: 'Visão geral de MCPs, skills, plugins e conectores para estender o Claude.'
 ---

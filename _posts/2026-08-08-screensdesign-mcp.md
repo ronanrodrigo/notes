@@ -7,7 +7,8 @@ tags:
   - mobile
   - ai-agents
   - tools
-  - design-systemslayout: post
+  - design-systems
+  - mcp
 ---
 
 ## ScreensDesign MCP: Pesquisa e Geração de UI com IA

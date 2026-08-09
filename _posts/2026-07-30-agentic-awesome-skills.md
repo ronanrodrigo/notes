@@ -6,7 +6,8 @@ tags:
   - prompt-engineering
   - ai-agents
   - tools
-  - githubdescription: 'Biblioteca instalável de skills reutilizáveis para Claude Code, Cursor e Gemini CLI.'
+  - github
+  - git
 ---
 
 ## Agentic Awesome Skills

@@ -8,7 +8,9 @@ tags:
   - ai-agents
   - tools
   - prompt-engineering
-  - githubdescription: 'Como usar DESIGN.md para fornecer referências e tokens de design consistentes a agentes de IA.'
+  - github
+  - git
+  - mcp
 ---
 
 ## Design de IA e o Padrão DESIGN.md

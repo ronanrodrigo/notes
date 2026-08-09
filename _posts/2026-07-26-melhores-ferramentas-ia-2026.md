@@ -11,6 +11,7 @@ tags:
   - mobile
   - prompt-engineering
   - github
+  - git
 date: "2026-07-26"
 description: 'Panorama de ferramentas de IA para pesquisa, criação, programação, design e automação em 2026.'
 ---

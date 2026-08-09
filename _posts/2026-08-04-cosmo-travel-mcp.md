@@ -9,7 +9,9 @@ tags:
   - design-systems
   - local-llm
   - mobile
-  - githublayout: post
+  - githublayout:-post
+  - github
+  - git
 ---
 
 ## Cosmo Travel MCP Server

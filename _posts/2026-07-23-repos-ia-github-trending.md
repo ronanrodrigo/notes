@@ -7,6 +7,9 @@ tags:
   - ai-agents
   - design-systems
   - security
+  - typescript
+  - git
+  - mcp
 date: "2026-07-23"
 description: 'Curadoria de projetos de IA em destaque no GitHub, com foco em agentes, contexto e dados.'
 ---

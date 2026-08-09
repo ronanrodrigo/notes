@@ -9,6 +9,8 @@ tags:
   - design-systems
   - mobile
   - github
+  - git
+  - mcp
 ---
 
 ## Lark CLI: Ferramenta Oficial para Automação com IA

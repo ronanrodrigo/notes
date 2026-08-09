@@ -8,6 +8,7 @@ tags:
   - design-systems
   - testing
   - mobile
+  - git
 date: "2026-07-23"
 description: 'Estrutura recomendada e exemplos reais para orientar agentes de IA em repositórios.'
 ---

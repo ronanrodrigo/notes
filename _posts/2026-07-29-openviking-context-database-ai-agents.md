@@ -12,7 +12,10 @@ tags:
   - local-llm
   - testing
   - mobile
-  - githubdescription: 'Um banco de contexto com hierarquia de sistema de arquivos para memória e recuperação de agentes.'
+  - github
+  - python
+  - rust
+  - git
 ---
 
 ## OpenViking: The Context Database for AI Agents

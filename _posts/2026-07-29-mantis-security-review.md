@@ -10,7 +10,10 @@ tags:
   - design-systems
   - mobile
   - prompt-engineering
-  - githublayout: post
+  - githublayout:-post
+  - github
+  - git
+  - mcp
 description: 'Como agentes especializados podem analisar, reproduzir e corrigir vulnerabilidades de software.'
 ---
 

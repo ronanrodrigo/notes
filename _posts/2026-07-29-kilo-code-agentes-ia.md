@@ -9,7 +9,10 @@ tags:
   - local-llm
   - testing
   - mobile
-  - githublayout: post
+  - githublayout:-post
+  - github
+  - typescript
+  - git
 description: 'O Kilo Code combina agentes de codificação open source, múltiplos modelos e soberania técnica.'
 ---
 

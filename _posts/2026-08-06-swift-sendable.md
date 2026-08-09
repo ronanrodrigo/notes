@@ -7,7 +7,9 @@ tags:
   - design-systems
   - security
   - testing
-  - mobilelayout: post
+  - mobilelayout:-post
+  - mobile
+  - swift
 ---
 
 ## Swift Interview Question: What is `Sendable` in Swift?

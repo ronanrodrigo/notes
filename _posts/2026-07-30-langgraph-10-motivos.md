@@ -8,7 +8,7 @@ tags:
   - tools
   - automation
   - design-systems
-  - prompt-engineeringdescription: 'Dez motivos técnicos para usar LangGraph na construção de agentes com estado e execução durável.'
+  - prompt-engineering
 ---
 
 ## Stack de agentes de IA: 10 motivos para usar LangGraph

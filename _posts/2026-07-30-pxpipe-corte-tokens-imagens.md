@@ -10,7 +10,10 @@ tags:
   - testing
   - mobile
   - prompt-engineering
-  - githublayout: post
+  - githublayout:-post
+  - github
+  - typescript
+  - git
 description: 'Como renderizar contexto como imagem pode reduzir tokens de entrada e custos em fluxos multimodais.'
 ---
 

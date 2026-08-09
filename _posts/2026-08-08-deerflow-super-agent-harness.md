@@ -12,6 +12,7 @@ tags:
   - local-llm
   - mobile
   - github
+  - git
 ---
 
 ## DeerFlow 2.0 - Super Agent Harness

@@ -2,7 +2,8 @@
 title: Sites de empregos remotos
 date: 2026-07-27
 tags:
-  - design-systemsdescription: 'Curadoria de plataformas e referências para encontrar oportunidades de trabalho remoto.'
+  - design-systems
+  - git
 ---
 
 

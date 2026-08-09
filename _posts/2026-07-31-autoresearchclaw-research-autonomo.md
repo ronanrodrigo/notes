@@ -11,6 +11,7 @@ tags:
   - design-systems
   - testing
   - mobile
+  - git
 ---
 
 ## AutoResearchClaw: Chat uma ideia, obtenha um paper científico

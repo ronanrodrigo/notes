@@ -10,6 +10,7 @@ tags:
   - design-systems
   - mobile
   - github
+  - git
 ---
 
 ## ntfy: Enviar notificações push para telefone ou desktop via HTTP

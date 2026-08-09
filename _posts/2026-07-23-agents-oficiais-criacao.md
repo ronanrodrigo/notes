@@ -10,6 +10,7 @@ tags:
   - local-llm
   - testing
   - mobile
+  - git
 date: "2026-07-23"
 description: 'Boas práticas oficiais para criar arquivos AGENTS.md úteis para agentes de IA.'
 ---

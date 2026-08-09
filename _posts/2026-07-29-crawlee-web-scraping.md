@@ -10,7 +10,11 @@ tags:
   - testing
   - mobile
   - prompt-engineering
-  - githubdescription: 'Bibliotecas, técnicas e cuidados para coletar dados da web e preparar datasets para IA.'
+  - github
+  - python
+  - javascript
+  - typescript
+  - git
 ---
 
 ## Crawlee – Biblioteca de Web Scraping e Automação de Navegador

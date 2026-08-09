@@ -11,6 +11,7 @@ tags:
   - design-systems
   - testing
   - prompt-engineering
+  - python
 ---
 
 ## Haystack (curadoria a partir do print)

@@ -7,6 +7,8 @@ tags:
   - tools
   - design-systems
   - github
+  - rust
+  - git
 date: "2026-07-26"
 description: 'Recursos e referências do Hermes, agente open source com memória, skills e ferramentas.'
 ---

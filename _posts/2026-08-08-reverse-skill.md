@@ -12,6 +12,10 @@ tags:
   - testing
   - mobile
   - github
+  - python
+  - javascript
+  - git
+  - mcp
 ---
 
 ## Reverse-Skill: Framework de Engenharia Reversa com IA

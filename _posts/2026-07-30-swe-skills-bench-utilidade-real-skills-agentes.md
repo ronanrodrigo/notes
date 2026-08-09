@@ -10,7 +10,9 @@ tags:
   - security
   - testing
   - mobile
-  - githubdescription: 'Resultados de benchmarks que medem quando skills realmente ajudam agentes em tarefas de software.'
+  - github
+  - python
+  - git
 ---
 
 ## SWE-Skills-Bench: Do Agent Skills Actually Help in Real-World Software Engineering?
