@@ -4,10 +4,8 @@ date: 2026-07-29
 tags:
   - ai-agents
   - deep-research
-  - claude-code
   - open-source
-  - knowledge-vault
-  - llm-tools
+  - agent-memory
 description: 'Um pipeline open source para pesquisa profunda com verificação, proveniência e memória persistente.'
 ---
 

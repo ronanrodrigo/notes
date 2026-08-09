@@ -1,6 +1,10 @@
 ---
 title: "Ferramentas, Plugins e Skills do Claude"
-tags: [claude, mcp, tools, integrations, skills]
+tags:
+  - claude
+  - mcp
+  - tools
+  - agent-skills
 date: "2026-07-26"
 description: 'Visão geral de MCPs, skills, plugins e conectores para estender o Claude.'
 ---

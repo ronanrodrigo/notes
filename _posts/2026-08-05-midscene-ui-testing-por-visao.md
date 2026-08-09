@@ -3,10 +3,8 @@ title: "Midscene: UI testing por visão"
 description: "Curadoria sobre o Midscene.js, SDK open-source para automação visual de interfaces com linguagem natural, Playwright, mobile e desktop."
 date: 2026-08-05
 tags:
-  - ui-testing
-  - automation
-  - vision-models
-  - playwright
+  - testing
+  - browser-automation
   - open-source
 layout: post
 ---

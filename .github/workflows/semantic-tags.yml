@@ -1,0 +1,22 @@
+name: Apply semantic post tags
+
+on:
+  push:
+    branches:
+      - refactor/semantic-tags
+
+permissions:
+  contents: write
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 scripts/semantic-tags.py
+      - name: Commit semantic tags
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add _posts
+          if git diff --cached --quiet; then echo "No changes"; else git commit -m "refactor: apply semantic post tags"; git push; fi

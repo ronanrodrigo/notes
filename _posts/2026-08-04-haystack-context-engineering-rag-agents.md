@@ -6,8 +6,7 @@ tags:
   - ai-agents
   - rag
   - context-engineering
-  - llm-architecture
-  - pipelines
+  - python
 ---
 
 ## Haystack (curadoria a partir do print)

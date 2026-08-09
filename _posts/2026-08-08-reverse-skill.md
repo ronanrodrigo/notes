@@ -3,12 +3,9 @@ title: "Reverse-Skill: Roteador de Skills para Engenharia Reversa com IA"
 description: "Framework open-source que integra agentes de IA para engenharia reversa com matriz de roteamento estruturada e fluxos de segurança automatizados"
 date: 2026-08-08
 tags:
-  - reverse-engineering
+  - agent-skills
+  - security
   - ai-agents
-  - cybersecurity
-  - pentesting
-  - malware-analysis
-  - ctf
 ---
 
 ## Reverse-Skill: Framework de Engenharia Reversa com IA

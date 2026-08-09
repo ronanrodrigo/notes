@@ -2,11 +2,8 @@
 title: "pxpipe: corte de tokens renderizando contexto como imagens"
 date: 2026-07-30
 tags:
-  - pxpipe
-  - token-optimization
-  - claude-code
-  - context-compression
-  - vision-ocr
+  - claude
+  - context-engineering
 layout: post
 description: 'Como renderizar contexto como imagem pode reduzir tokens de entrada e custos em fluxos multimodais.'
 ---

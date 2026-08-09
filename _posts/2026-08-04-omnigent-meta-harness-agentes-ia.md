@@ -4,9 +4,7 @@ description: "Camada open-source para unificar, governar e sandboxizar agentes d
 date: 2026-08-04
 tags:
   - ai-agents
-  - meta-harness
-  - orquestracao
-  - sandbox
+  - orchestration
   - open-source
 ---
 

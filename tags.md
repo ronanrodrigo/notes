@@ -6,21 +6,25 @@ permalink: /tags/
 
 {% assign all_tags = '' | split: '' %}
 {% for post in site.posts %}
-  {% if post.tags %}
-    {% for tag in post.tags %}
-      {% assign all_tags = all_tags | push: tag | uniq %}
-    {% endfor %}
-  {% endif %}
+  {% for tag in post.tags %}
+    {% assign all_tags = all_tags | push: tag %}
+  {% endfor %}
 {% endfor %}
 
 {% assign all_tags = all_tags | uniq | sort %}
 
 {% for tag in all_tags %}
-  {% if tag != '' %}
+  {% assign tag_count = 0 %}
+  {% for post in site.posts %}
+    {% if post.tags contains tag %}
+      {% assign tag_count = tag_count | plus: 1 %}
+    {% endif %}
+  {% endfor %}
+  {% if tag_count >= 2 %}
 ## {{ tag }}
 
 {% for post in site.posts %}
-  {% if post.tags and post.tags contains tag %}
+  {% if post.tags contains tag %}
 - [{{ post.date | date: "%d/%m/%Y" }} - {{ post.title }}]({{ post.url | relative_url }}){% if post.description %} — {{ post.description }}{% endif %}
   {% endif %}
 {% endfor %}

@@ -2,13 +2,8 @@
 title: MarkItDown — convertendo documentos para Markdown
 date: 2026-07-27
 tags:
-  - markitdown
-  - microsoft
-  - conversao-documentos
-  - claude
-  - ia
-  - markdown
   - python
+  - llm
 description: 'Como converter documentos em Markdown com MarkItDown para economizar tokens e preparar dados para LLMs.'
 ---
 
