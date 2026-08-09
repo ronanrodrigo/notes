@@ -3,11 +3,7 @@ title: "Diretrizes para o uso respeitoso de IA"
 description: "Práticas para colaboração responsável com IA no trabalho, priorizando integridade colaborativa, saídas concisas e revisão humana ativa."
 date: 2026-08-06
 tags:
-  - ia
-  - colaboracao
-  - etica
-  - melhores-praticas
-  - produtividade
+  - productivity
 ---
 
 ## Diretrizes para o uso respeitoso de IA

@@ -2,13 +2,11 @@
 title: llmfit - Otimize modelos de IA para seu hardware
 date: 2026-07-30
 tags:
-  - llmfit
-  - modelos-llm
-  - otimizacao-hardware
-  - ia-local
+  - llm
+  - local-llm
+  - hardware
+  - quantization
   - open-source
-  - ferramentas-ia
-  - quantizacao
 layout: post
 description: 'Ferramenta que identifica quais modelos locais melhor combinam com o hardware disponível.'
 ---

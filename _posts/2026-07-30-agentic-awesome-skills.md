@@ -2,11 +2,10 @@
 title: Agentic Awesome Skills
 date: 2026-07-30
 tags:
-  - agentic-skills
-  - ai-coding-assistants
-  - skill-library
-  - prompts
-  - npx
+  - agent-skills
+  - ai-agents
+  - prompt-engineering
+  - coding-assistants
 description: 'Biblioteca instalável de skills reutilizáveis para Claude Code, Cursor e Gemini CLI.'
 ---
 

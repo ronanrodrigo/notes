@@ -1,6 +1,9 @@
 ---
 title: "Como criar um arquivo Agents.md"
-tags: [agents, github, ia, documentation, examples]
+tags:
+  - ai-agents
+  - documentation
+  - github
 date: "2026-07-23"
 description: 'Estrutura recomendada e exemplos reais para orientar agentes de IA em repositórios.'
 ---

@@ -3,12 +3,11 @@ title: "17 Coisas Para Conhecer Sobre IA"
 description: "Coleção selecionada de 17 conceitos essenciais de engenharia de IA cobrindo agentes, LLMs, RAG, bancos de dados vetoriais e design moderno de sistemas de IA."
 date: 2026-08-01
 tags:
-  - ia
-  - agentes-ia
-  - llms
+  - ai
+  - ai-agents
+  - llm
   - rag
-  - bancos-dados-vetoriais
-  - aprendizado-reforçado
+  - vector-database
 ---
 
 ## 17 Coisas Para Conhecer Sobre IA

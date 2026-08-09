@@ -3,12 +3,9 @@ title: "Evaluations Framework — Avaliação sistemática de recursos com IA"
 description: "Framework da Apple para medir qualidade de features com IA/LLM em Swift, integrando com testes de CI usando datasets, métricas e model-as-judge."
 date: 2026-07-31
 tags:
-  - swift-testing
-  - evaluations-framework
-  - ai-quality
   - testing
   - llm
-  - wwdc26
+  - swift
 layout: post
 ---
 

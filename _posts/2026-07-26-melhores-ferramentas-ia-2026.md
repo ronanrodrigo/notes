@@ -1,6 +1,10 @@
 ---
 title: "Melhores ferramentas de IA em 2026"
-tags: [ia, ferramentas, saas, produtividade, "2026"]
+tags:
+  - ai
+  - tools
+  - automation
+  - productivity
 date: "2026-07-26"
 description: 'Panorama de ferramentas de IA para pesquisa, criação, programação, design e automação em 2026.'
 ---

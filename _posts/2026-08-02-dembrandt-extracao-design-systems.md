@@ -5,9 +5,8 @@ date: 2026-08-02
 tags:
   - design-systems
   - design-tokens
-  - ferramentas
-  - design-md
-  - extracao-web
+  - web-scraping
+  - tools
 ---
 
 ## Dembrandt

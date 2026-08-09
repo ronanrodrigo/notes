@@ -2,11 +2,7 @@
 title: Sites de empregos remotos
 date: 2026-07-27
 tags:
-  - trabalho-remoto
-  - vagas-remotas
-  - carreira
-  - freelancing
-  - job-boards
+  - career
 description: 'Curadoria de plataformas e referências para encontrar oportunidades de trabalho remoto.'
 ---
 
