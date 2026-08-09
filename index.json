@@ -1,6 +1,21 @@
 [
   {
     "date": "2026-08-09",
+    "slug": "rxdb-banco-dados-reativo",
+    "path": "_posts/2026-08-09-rxdb-banco-dados-reativo.md",
+    "tags": [
+      "rxdb",
+      "banco-dados",
+      "javascript",
+      "local-first",
+      "offline-first",
+      "replication",
+      "reactive"
+    ],
+    "description": "Curadoria sobre RxDB, um banco de dados NoSQL reativo para JavaScript com suporte a offline-first, sincronização em realtime e replicação flexível com backend."
+  },
+  {
+    "date": "2026-08-09",
     "slug": "code-graph-rag",
     "path": "_posts/2026-08-09-code-graph-rag.md",
     "tags": [
