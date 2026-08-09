@@ -27,6 +27,20 @@
     "description": "Sistema RAG baseado em grafos que transforma repositórios em grafos de conhecimento usando Tree-sitter, Memgraph e LLMs para análise e compreensão de codebases."
   },
   {
+    "date": "2026-08-09",
+    "slug": "50ml-projects-llms",
+    "path": "_posts/2026-08-09-50ml-projects-llms.md",
+    "tags": [
+      "llm",
+      "interpretabilidade",
+      "machine-learning",
+      "transformer",
+      "neural-networks",
+      "python"
+    ],
+    "description": "Curadoria de recursos sobre interpretabilidade e análise interna de modelos de linguagem através de projetos práticos"
+  },
+  {
     "date": "2026-08-08",
     "slug": "screensdesign-mcp",
     "path": "_posts/2026-08-08-screensdesign-mcp.md",
