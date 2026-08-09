@@ -4,13 +4,7 @@
     "slug": "rxdb-banco-dados-reativo",
     "path": "_posts/2026-08-09-rxdb-banco-dados-reativo.md",
     "tags": [
-      "rxdb",
-      "banco-dados",
-      "javascript",
-      "local-first",
-      "offline-first",
-      "replication",
-      "reactive"
+      "javascript"
     ],
     "description": "Curadoria sobre RxDB, um banco de dados NoSQL reativo para JavaScript com suporte a offline-first, sincronização em realtime e replicação flexível com backend."
   },
@@ -18,13 +12,7 @@
     "date": "2026-08-09",
     "slug": "motion-design-principles-skeletons-lazyloading",
     "path": "_posts/2026-08-09-motion-design-principles-skeletons-lazyloading.md",
-    "tags": [
-      "motion-design",
-      "skeleton-screens",
-      "loading-states",
-      "ui-ux",
-      "animation-principles"
-    ],
+    "tags": [],
     "description": "Prompt referencing Design Motion Principles and requirements for skeleton screens, lazy loading, and smooth animations across all interface elements."
   },
   {
@@ -33,10 +21,8 @@
     "path": "_posts/2026-08-09-code-graph-rag.md",
     "tags": [
       "rag",
-      "codebase-analysis",
-      "code-graph",
-      "llm-agents",
-      "knowledge-graphs"
+      "code-analysis",
+      "ai-agents"
     ],
     "description": "Sistema RAG baseado em grafos que transforma repositórios em grafos de conhecimento usando Tree-sitter, Memgraph e LLMs para análise e compreensão de codebases."
   },
@@ -45,11 +31,10 @@
     "slug": "screensdesign-mcp",
     "path": "_posts/2026-08-08-screensdesign-mcp.md",
     "tags": [
-      "design",
-      "iux",
-      "ia",
-      "desenvolvimento",
-      "mobile"
+      "mcp",
+      "design-systems",
+      "mobile",
+      "ai-agents"
     ],
     "description": "Lançamento do ScreensDesign MCP permite que agentes de IA pesquisem padrões de UI em mais de 2.600 apps iOS de topo."
   },
@@ -58,12 +43,9 @@
     "slug": "reverse-skill",
     "path": "_posts/2026-08-08-reverse-skill.md",
     "tags": [
-      "reverse-engineering",
-      "ai-agents",
-      "cybersecurity",
-      "pentesting",
-      "malware-analysis",
-      "ctf"
+      "agent-skills",
+      "security",
+      "ai-agents"
     ],
     "description": "Framework open-source que integra agentes de IA para engenharia reversa com matriz de roteamento estruturada e fluxos de segurança automatizados"
   },
@@ -72,11 +54,9 @@
     "slug": "deerflow-super-agent-harness",
     "path": "_posts/2026-08-08-deerflow-super-agent-harness.md",
     "tags": [
-      "deerflow",
-      "agentes-ia",
-      "orchestração",
-      "langgraph",
-      "bytedance",
+      "ai-agents",
+      "orchestration",
+      "agent-memory",
       "open-source",
       "python"
     ],
@@ -87,12 +67,8 @@
     "slug": "livecontainer-ios-sideloading",
     "path": "_posts/2026-08-07-livecontainer-ios-sideloading.md",
     "tags": [
-      "ios",
-      "sideloading",
-      "virtualizacao",
-      "altstore",
-      "sidestore",
-      "desenvolvimento-ios"
+      "mobile",
+      "open-source"
     ],
     "description": "Explorar LiveContainer, um launcher de apps iOS que permite executar aplicativos virtualizados em um container único, contornando o limite de 3 apps."
   },
@@ -101,11 +77,7 @@
     "slug": "uso-respeitoso-ia",
     "path": "_posts/2026-08-06-uso-respeitoso-ia.md",
     "tags": [
-      "ia",
-      "colaboracao",
-      "etica",
-      "melhores-praticas",
-      "produtividade"
+      "productivity"
     ],
     "description": "Práticas para colaboração responsável com IA no trabalho, priorizando integridade colaborativa, saídas concisas e revisão humana ativa."
   },
@@ -114,10 +86,7 @@
     "slug": "swift-sendable",
     "path": "_posts/2026-08-06-swift-sendable.md",
     "tags": [
-      "swift",
-      "concurrency",
-      "sendable",
-      "thread-safety"
+      "swift"
     ],
     "description": "Guia sobre o protocolo Sendable em Swift, como garantir segurança em transferência de dados entre domínios de concorrência e prevenir data races."
   },
@@ -126,12 +95,7 @@
     "slug": "gitbutler",
     "path": "_posts/2026-08-06-gitbutler.md",
     "tags": [
-      "git",
-      "version-control",
-      "developer-tools",
-      "workflow-automation",
-      "rust",
-      "ai-powered"
+      "rust"
     ],
     "description": "Cliente Git reconstruído com branches virtuais, automação com IA e interface intuitiva para fluxos de desenvolvimento modernos."
   },
@@ -140,12 +104,10 @@
     "slug": "codex-security",
     "path": "_posts/2026-08-06-codex-security.md",
     "tags": [
-      "segurança-aplicação",
-      "detecção-vulnerabilidades",
-      "ia",
-      "open-source",
-      "cli",
-      "sdk"
+      "security",
+      "ai",
+      "code-analysis",
+      "typescript"
     ],
     "description": "Ferramenta da OpenAI para identificar, validar e corrigir vulnerabilidades de segurança no código usando IA, disponível como CLI e SDK para TypeScript."
   },
@@ -154,11 +116,9 @@
     "slug": "archon-yaml-workflows-coding-deterministico",
     "path": "_posts/2026-08-06-archon-yaml-workflows-coding-deterministico.md",
     "tags": [
-      "ai-coding",
-      "yaml",
-      "workflow-engines",
-      "coding-agents",
-      "automation"
+      "ai-agents",
+      "automation",
+      "workflow-engines"
     ],
     "description": "Curadoria sobre o Archon, um motor de execução para agentes de IA codarem e validarem com mais previsibilidade, modelando o processo em workflows YAML."
   },
@@ -167,11 +127,8 @@
     "slug": "ntfy-notificacoes-http",
     "path": "_posts/2026-08-05-ntfy-notificacoes-http.md",
     "tags": [
-      "notificacoes",
-      "http",
-      "automacao",
-      "open-source",
-      "monitoramento"
+      "automation",
+      "open-source"
     ],
     "description": "Curadoria sobre ntfy, serviço gratuito e open-source para enviar notificações push para telefone ou desktop via HTTP simples, com casos de uso, integrações e alternativas"
   },
@@ -180,10 +137,8 @@
     "slug": "midscene-ui-testing-por-visao",
     "path": "_posts/2026-08-05-midscene-ui-testing-por-visao.md",
     "tags": [
-      "ui-testing",
-      "automation",
-      "vision-models",
-      "playwright",
+      "testing",
+      "browser-automation",
       "open-source"
     ],
     "description": "Curadoria sobre o Midscene.js, SDK open-source para automação visual de interfaces com linguagem natural, Playwright, mobile e desktop."
@@ -193,11 +148,9 @@
     "slug": "memento-fine-tuning-llm-agents-without-fine-tuning-llms",
     "path": "_posts/2026-08-05-memento-fine-tuning-llm-agents-without-fine-tuning-llms.md",
     "tags": [
-      "llm-agents",
-      "continual-learning",
-      "memory-based",
-      "reinforcement-learning",
-      "case-based-reasoning"
+      "ai-agents",
+      "agent-memory",
+      "llm"
     ],
     "description": "Curadoria do paper Memento, um framework memory-based para melhorar agentes LLM sem atualizar pesos do modelo, com links para arXiv e código."
   },
@@ -206,12 +159,9 @@
     "slug": "lark-cli-introduction",
     "path": "_posts/2026-08-05-lark-cli-introduction.md",
     "tags": [
-      "lark-cli",
       "ai-agents",
       "automation",
-      "feishu",
-      "cli",
-      "integration"
+      "agent-skills"
     ],
     "description": "Exploração da lark-cli, ferramenta de linha de comando oficial para operacionalizar Lark/Feishu com 200+ comandos e 26 AI Agent Skills para integração com agentes de IA."
   },
@@ -221,9 +171,7 @@
     "path": "_posts/2026-08-04-omnigent-meta-harness-agentes-ia.md",
     "tags": [
       "ai-agents",
-      "meta-harness",
-      "orquestracao",
-      "sandbox",
+      "orchestration",
       "open-source"
     ],
     "description": "Camada open-source para unificar, governar e sandboxizar agentes de coding (Claude Code, Codex, Cursor etc), com sessão compartilhada e colaboração em tempo real."
@@ -236,8 +184,7 @@
       "ai-agents",
       "rag",
       "context-engineering",
-      "llm-architecture",
-      "pipelines"
+      "python"
     ],
     "description": "Curadoria sobre o Haystack como framework de orquestração para agentes e RAG, enfatizando pipelines modulares e controle explícito de recuperação, roteamento, memória e geração."
   },
@@ -247,11 +194,7 @@
     "path": "_posts/2026-08-04-cosmo-travel-mcp.md",
     "tags": [
       "mcp",
-      "travel-planning",
-      "ai-agents",
-      "serpapi",
-      "google-maps",
-      "itinerary"
+      "ai-agents"
     ],
     "description": "Servidor MCP com ferramentas de viagem para busca de voos, acomodações e planejamento de itinerários."
   },
@@ -260,12 +203,8 @@
     "slug": "candidatar-em-vagas-prompts-ats-linkedin",
     "path": "_posts/2026-08-04-candidatar-em-vagas-prompts-ats-linkedin.md",
     "tags": [
-      "candidaturas",
-      "ats",
-      "linkedin",
-      "curriculo",
-      "prompts",
-      "ia"
+      "prompt-engineering",
+      "career"
     ],
     "description": "Passo a passo em etapas com prompts para mapeamento ATS, modelo mestre do currículo, planilha de compatibilidade e candidatura personalizada no LinkedIn."
   },
@@ -276,9 +215,8 @@
     "tags": [
       "design-systems",
       "design-tokens",
-      "ferramentas",
-      "design-md",
-      "extracao-web"
+      "web-scraping",
+      "tools"
     ],
     "description": "Ferramentas e recursos para extrair design systems, tokens e componentes de websites de forma automatizada."
   },
@@ -287,12 +225,11 @@
     "slug": "17-things-to-know-about-ai",
     "path": "_posts/2026-08-01-17-things-to-know-about-ai.md",
     "tags": [
-      "ia",
-      "agentes-ia",
-      "llms",
+      "ai",
+      "ai-agents",
+      "llm",
       "rag",
-      "bancos-dados-vetoriais",
-      "aprendizado-reforçado"
+      "vector-database"
     ],
     "description": "Coleção selecionada de 17 conceitos essenciais de engenharia de IA cobrindo agentes, LLMs, RAG, bancos de dados vetoriais e design moderno de sistemas de IA."
   },
@@ -301,10 +238,6 @@
     "slug": "stallion-ota-alternativa-codepush",
     "path": "_posts/2026-07-31-stallion-ota-alternativa-codepush.md",
     "tags": [
-      "react-native",
-      "ota-updates",
-      "stallion",
-      "codepush",
       "mobile"
     ],
     "description": "Stallion é uma plataforma gerenciada de OTA para React Native que surgiu como alternativa ao CodePush, encerrado pela Microsoft em março de 2025. Oferece patch updates até 98% menores, rollback automático, analytics completo e free tier até 10k usuários por mês."
@@ -314,12 +247,9 @@
     "slug": "evaluations-framework",
     "path": "_posts/2026-07-31-evaluations-framework.md",
     "tags": [
-      "swift-testing",
-      "evaluations-framework",
-      "ai-quality",
       "testing",
       "llm",
-      "wwdc26"
+      "swift"
     ],
     "description": "Framework da Apple para medir qualidade de features com IA/LLM em Swift, integrando com testes de CI usando datasets, métricas e model-as-judge."
   },
@@ -328,13 +258,9 @@
     "slug": "autoresearchclaw-research-autonomo",
     "path": "_posts/2026-07-31-autoresearchclaw-research-autonomo.md",
     "tags": [
-      "autoresearchclaw",
-      "pesquisa-autonoma",
-      "agentes-ia",
-      "scientific-discovery",
-      "python",
-      "github",
-      "openclaw"
+      "ai-agents",
+      "deep-research",
+      "python"
     ],
     "description": "Sistema autônomo da UNC-Chapel Hill que transforma uma ideia em artigo científico completo em minutos usando IA, colaboração humana e orquestração multimodal."
   },
@@ -343,13 +269,10 @@
     "slug": "unsloth-treinamento-local-modelos",
     "path": "_posts/2026-07-30-unsloth-treinamento-local-modelos.md",
     "tags": [
-      "unsloth",
-      "ia",
+      "local-llm",
+      "llm",
       "open-source",
-      "treinamento-local",
-      "modelos-llm",
-      "descentralizacao",
-      "fine-tuning"
+      "python"
     ],
     "description": "Como usar Unsloth para treinar e executar modelos de IA localmente com menos memória."
   },
@@ -359,11 +282,7 @@
     "path": "_posts/2026-07-30-swe-skills-bench-utilidade-real-skills-agentes.md",
     "tags": [
       "agent-skills",
-      "software-engineering",
-      "benchmark",
-      "llm-agents",
-      "skills-evaluation",
-      "procedural-knowledge"
+      "ai-agents"
     ],
     "description": "Resultados de benchmarks que medem quando skills realmente ajudam agentes em tarefas de software."
   },
@@ -372,11 +291,8 @@
     "slug": "pxpipe-corte-tokens-imagens",
     "path": "_posts/2026-07-30-pxpipe-corte-tokens-imagens.md",
     "tags": [
-      "pxpipe",
-      "token-optimization",
-      "claude-code",
-      "context-compression",
-      "vision-ocr"
+      "claude",
+      "context-engineering"
     ],
     "description": "Como renderizar contexto como imagem pode reduzir tokens de entrada e custos em fluxos multimodais."
   },
@@ -385,13 +301,11 @@
     "slug": "llmfit-otimizar-hardware",
     "path": "_posts/2026-07-30-llmfit-otimizar-hardware.md",
     "tags": [
-      "llmfit",
-      "modelos-llm",
-      "otimizacao-hardware",
-      "ia-local",
-      "open-source",
-      "ferramentas-ia",
-      "quantizacao"
+      "llm",
+      "local-llm",
+      "hardware",
+      "quantization",
+      "open-source"
     ],
     "description": "Ferramenta que identifica quais modelos locais melhor combinam com o hardware disponível."
   },
@@ -400,11 +314,10 @@
     "slug": "langgraph-10-motivos",
     "path": "_posts/2026-07-30-langgraph-10-motivos.md",
     "tags": [
-      "langgraph",
-      "agentes-ia",
-      "orchestração",
+      "ai-agents",
+      "orchestration",
       "python",
-      "frameworks"
+      "workflow-engines"
     ],
     "description": "Dez motivos técnicos para usar LangGraph na construção de agentes com estado e execução durável."
   },
@@ -414,10 +327,9 @@
     "path": "_posts/2026-07-30-arvore-modelos-claude.md",
     "tags": [
       "claude",
+      "llm",
       "model-routing",
-      "prompting",
-      "custos",
-      "agents"
+      "prompt-engineering"
     ],
     "description": "Guia visual para escolher entre modelos Claude conforme velocidade, complexidade e custo."
   },
@@ -426,11 +338,10 @@
     "slug": "agentic-awesome-skills",
     "path": "_posts/2026-07-30-agentic-awesome-skills.md",
     "tags": [
-      "agentic-skills",
-      "ai-coding-assistants",
-      "skill-library",
-      "prompts",
-      "npx"
+      "agent-skills",
+      "ai-agents",
+      "prompt-engineering",
+      "coding-assistants"
     ],
     "description": "Biblioteca instalável de skills reutilizáveis para Claude Code, Cursor e Gemini CLI."
   },
@@ -439,13 +350,10 @@
     "slug": "openviking-context-database-ai-agents",
     "path": "_posts/2026-07-29-openviking-context-database-ai-agents.md",
     "tags": [
-      "openviking",
       "ai-agents",
-      "context-database",
-      "memory-management",
-      "vector-search",
-      "bytedance",
-      "rag"
+      "vector-database",
+      "rag",
+      "agent-memory"
     ],
     "description": "Um banco de contexto com hierarquia de sistema de arquivos para memória e recuperação de agentes."
   },
@@ -455,11 +363,9 @@
     "path": "_posts/2026-07-29-open-code-review.md",
     "tags": [
       "code-review",
-      "ia",
-      "llm-agent",
-      "alibaba",
-      "qualidade-codigo",
-      "automacao"
+      "ai-agents",
+      "automation",
+      "open-source"
     ],
     "description": "Revisão de código com uma arquitetura híbrida que combina regras determinísticas e agentes LLM."
   },
@@ -468,12 +374,9 @@
     "slug": "mantis-security-review",
     "path": "_posts/2026-07-29-mantis-security-review.md",
     "tags": [
-      "mantis",
-      "ia-seguranca",
-      "devsecops",
-      "agentes-ia",
-      "code-review",
-      "vulnerabilidades"
+      "security",
+      "ai-agents",
+      "code-review"
     ],
     "description": "Como agentes especializados podem analisar, reproduzir e corrigir vulnerabilidades de software."
   },
@@ -482,11 +385,9 @@
     "slug": "kimi-k3-local",
     "path": "_posts/2026-07-29-kimi-k3-local.md",
     "tags": [
-      "kimi-k3",
-      "unsloth",
-      "gguf",
-      "quantization",
       "local-llm",
+      "llm",
+      "quantization",
       "hardware"
     ],
     "description": "Requisitos e quantizações dinâmicas para executar o Kimi K3 localmente com Unsloth."
@@ -496,13 +397,10 @@
     "slug": "kilo-code-agentes-ia",
     "path": "_posts/2026-07-29-kilo-code-agentes-ia.md",
     "tags": [
+      "ai-agents",
       "open-source",
-      "agentes-ia",
-      "desenvolvimento",
-      "soberania-tecnica",
       "typescript",
-      "vs-code",
-      "jetbrains"
+      "coding-assistants"
     ],
     "description": "O Kilo Code combina agentes de codificação open source, múltiplos modelos e soberania técnica."
   },
@@ -513,10 +411,8 @@
     "tags": [
       "ai-agents",
       "deep-research",
-      "claude-code",
       "open-source",
-      "knowledge-vault",
-      "llm-tools"
+      "agent-memory"
     ],
     "description": "Um pipeline open source para pesquisa profunda com verificação, proveniência e memória persistente."
   },
@@ -525,12 +421,9 @@
     "slug": "design-md-sistemas-design-ia",
     "path": "_posts/2026-07-29-design-md-sistemas-design-ia.md",
     "tags": [
-      "design-md",
       "design-systems",
-      "ia",
-      "ai-design",
-      "design-referencia",
-      "claude-code",
+      "ai-agents",
+      "claude",
       "design-tokens"
     ],
     "description": "Como usar DESIGN.md para fornecer referências e tokens de design consistentes a agentes de IA."
@@ -540,12 +433,10 @@
     "slug": "crawlee-web-scraping",
     "path": "_posts/2026-07-29-crawlee-web-scraping.md",
     "tags": [
-      "crawlee",
       "web-scraping",
       "browser-automation",
-      "data-collection",
-      "bot-detection",
-      "llm-training"
+      "python",
+      "javascript"
     ],
     "description": "Bibliotecas, técnicas e cuidados para coletar dados da web e preparar datasets para IA."
   },
@@ -554,11 +445,7 @@
     "slug": "sites-de-empregos-remotos",
     "path": "_posts/2026-07-27-sites-de-empregos-remotos.md",
     "tags": [
-      "trabalho-remoto",
-      "vagas-remotas",
-      "carreira",
-      "freelancing",
-      "job-boards"
+      "career"
     ],
     "description": "Curadoria de plataformas e referências para encontrar oportunidades de trabalho remoto."
   },
@@ -567,13 +454,8 @@
     "slug": "markitdown-documentos-markdown",
     "path": "_posts/2026-07-27-markitdown-documentos-markdown.md",
     "tags": [
-      "markitdown",
-      "microsoft",
-      "conversao-documentos",
-      "claude",
-      "ia",
-      "markdown",
-      "python"
+      "python",
+      "llm"
     ],
     "description": "Como converter documentos em Markdown com MarkItDown para economizar tokens e preparar dados para LLMs."
   },
@@ -582,15 +464,11 @@
     "slug": "ai-skills",
     "path": "_posts/2026-07-27-ai-skills.md",
     "tags": [
-      "ai-skills",
       "prompt-engineering",
       "ai-agents",
       "automation",
       "rag",
-      "multimodal-ai",
-      "aeo",
-      "content-generation",
-      "llm-management"
+      "llm"
     ],
     "description": "Framework com dez competências de IA, de prompt engineering a gestão de LLMs, com guias práticos."
   },
@@ -599,11 +477,7 @@
     "slug": "youtube-prompts-estrategia-canal",
     "path": "_posts/2026-07-26-youtube-prompts-estrategia-canal.md",
     "tags": [
-      "youtube",
-      "prompts",
-      "marketing",
-      "content",
-      "growth"
+      "prompt-engineering"
     ],
     "description": "Prompts e especialistas de IA para planejar, produzir, otimizar e monetizar canais no YouTube."
   },
@@ -612,11 +486,10 @@
     "slug": "melhores-ferramentas-ia-2026",
     "path": "_posts/2026-07-26-melhores-ferramentas-ia-2026.md",
     "tags": [
-      "ia",
-      "ferramentas",
-      "saas",
-      "produtividade",
-      "2026"
+      "ai",
+      "tools",
+      "automation",
+      "productivity"
     ],
     "description": "Panorama de ferramentas de IA para pesquisa, criação, programação, design e automação em 2026."
   },
@@ -625,11 +498,10 @@
     "slug": "hermes-agente-ia-open-source",
     "path": "_posts/2026-07-26-hermes-agente-ia-open-source.md",
     "tags": [
-      "opensource",
-      "agents",
-      "ia",
-      "nous-research",
-      "tools"
+      "ai-agents",
+      "tools",
+      "open-source",
+      "agent-memory"
     ],
     "description": "Recursos e referências do Hermes, agente open source com memória, skills e ferramentas."
   },
@@ -641,8 +513,7 @@
       "claude",
       "mcp",
       "tools",
-      "integrations",
-      "skills"
+      "agent-skills"
     ],
     "description": "Visão geral de MCPs, skills, plugins e conectores para estender o Claude."
   },
@@ -651,10 +522,9 @@
     "slug": "agentes-ia-pesquisa-automacao",
     "path": "_posts/2026-07-26-agentes-ia-pesquisa-automacao.md",
     "tags": [
-      "agents",
+      "ai-agents",
       "automation",
       "web-scraping",
-      "ia",
       "tools"
     ],
     "description": "Agentes para pesquisa profunda na web e automação de fluxos complexos em navegadores."
@@ -664,11 +534,10 @@
     "slug": "omniroute-gateway-ia",
     "path": "_posts/2026-07-25-omniroute-gateway-ia.md",
     "tags": [
-      "gateway",
-      "ia",
-      "opensource",
+      "ai",
       "llm",
-      "free"
+      "open-source",
+      "model-routing"
     ],
     "description": "Gateway open source que unifica provedores de IA, oferece fallback e ajuda a reduzir custos de tokens."
   },
@@ -677,9 +546,9 @@
     "slug": "ferramentas-ia-open-source",
     "path": "_posts/2026-07-25-ferramentas-ia-open-source.md",
     "tags": [
-      "opensource",
-      "ia",
+      "ai",
       "tools",
+      "open-source",
       "javascript",
       "security"
     ],
@@ -692,8 +561,6 @@
     "tags": [
       "claude",
       "tools",
-      "notebooklm",
-      "graphify",
       "rag"
     ],
     "description": "Ferramentas para ampliar o Claude com APIs, grafos de conhecimento e skills especializadas."
@@ -703,11 +570,10 @@
     "slug": "colibri-motor-local-ia",
     "path": "_posts/2026-07-24-colibri-motor-local-ia.md",
     "tags": [
-      "localhost",
+      "local-llm",
       "rust",
       "llm",
-      "glm",
-      "opensource"
+      "open-source"
     ],
     "description": "Como o Colibri usa streaming seletivo para executar modelos MoE grandes em hardware comum."
   },
@@ -716,11 +582,10 @@
     "slug": "turbovec-turboquant",
     "path": "_posts/2026-07-23-turbovec-turboquant.md",
     "tags": [
-      "vectordb",
+      "vector-database",
       "rust",
-      "compression",
       "rag",
-      "google"
+      "quantization"
     ],
     "description": "Referências sobre o índice vetorial Rust Turbovec e a compressão de embeddings com TurboQuant."
   },
@@ -729,11 +594,9 @@
     "slug": "trilhas-cursos-ia",
     "path": "_posts/2026-07-23-trilhas-cursos-ia.md",
     "tags": [
-      "learning",
-      "courses",
-      "ia",
-      "education",
-      "certifications"
+      "ai",
+      "prompt-engineering",
+      "ai-agents"
     ],
     "description": "Cursos e trilhas para aprender IA, prompt engineering, agentes, automação e APIs."
   },
@@ -742,11 +605,9 @@
     "slug": "self-host-ia-coolify-agentes-rag",
     "path": "_posts/2026-07-23-self-host-ia-coolify-agentes-rag.md",
     "tags": [
-      "selfhost",
-      "deployment",
-      "agents",
+      "ai-agents",
       "rag",
-      "opensource"
+      "open-source"
     ],
     "description": "Ferramentas open source para hospedar aplicações, agentes, RAG e serviços de IA por conta própria."
   },
@@ -755,11 +616,9 @@
     "slug": "repos-ia-github-trending",
     "path": "_posts/2026-07-23-repos-ia-github-trending.md",
     "tags": [
+      "ai",
       "github",
-      "trending",
-      "opensource",
-      "ia",
-      "reference"
+      "open-source"
     ],
     "description": "Curadoria de projetos de IA em destaque no GitHub, com foco em agentes, contexto e dados."
   },
@@ -768,11 +627,9 @@
     "slug": "como-criar-agents",
     "path": "_posts/2026-07-23-como-criar-agents.md",
     "tags": [
-      "agents",
-      "github",
-      "ia",
+      "ai-agents",
       "documentation",
-      "examples"
+      "github"
     ],
     "description": "Estrutura recomendada e exemplos reais para orientar agentes de IA em repositórios."
   },
@@ -781,11 +638,9 @@
     "slug": "agents-oficiais-criacao",
     "path": "_posts/2026-07-23-agents-oficiais-criacao.md",
     "tags": [
-      "agents",
-      "github",
-      "ia",
+      "ai-agents",
       "documentation",
-      "conventions"
+      "github"
     ],
     "description": "Boas práticas oficiais para criar arquivos AGENTS.md úteis para agentes de IA."
   },
@@ -794,11 +649,7 @@
     "slug": "ciclo-criado-pela-ia",
     "path": "_posts/2026-05-28-ciclo-criado-pela-ia.md",
     "tags": [
-      "ia",
-      "productivity",
-      "paradox",
-      "workplace",
-      "society"
+      "productivity"
     ],
     "description": "Como o ganho de produtividade com IA pode aumentar o ritmo e a densidade do trabalho sem reduzir a carga percebida."
   }
