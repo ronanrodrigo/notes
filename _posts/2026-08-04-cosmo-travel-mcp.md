@@ -4,12 +4,12 @@ description: "Servidor MCP com ferramentas de viagem para busca de voos, acomoda
 date: 2026-08-04
 tags:
   - mcp
-  - travel-planning
   - ai-agents
-  - serpapi
-  - google-maps
-  - itinerary
-layout: post
+  - tools
+  - design-systems
+  - local-llm
+  - mobile
+  - githublayout: post
 ---
 
 ## Cosmo Travel MCP Server

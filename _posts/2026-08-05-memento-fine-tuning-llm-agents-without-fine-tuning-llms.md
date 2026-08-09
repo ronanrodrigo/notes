@@ -3,11 +3,9 @@ title: "Memento: agentes LLM sem fine-tuning via memória"
 description: "Curadoria do paper Memento, um framework memory-based para melhorar agentes LLM sem atualizar pesos do modelo, com links para arXiv e código."
 date: 2026-08-05
 tags:
-  - llm-agents
-  - continual-learning
-  - memory-based
-  - reinforcement-learning
-  - case-based-reasoning
+  - ai-agents
+  - tools
+  - github
 ---
 
 ## Memento: Fine-tuning LLM Agents without Fine-tuning LLMs

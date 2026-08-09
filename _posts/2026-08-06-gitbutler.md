@@ -3,12 +3,14 @@ title: "GitButler: controle de versão moderno com branches virtuais"
 description: "Cliente Git reconstruído com branches virtuais, automação com IA e interface intuitiva para fluxos de desenvolvimento modernos."
 date: 2026-08-06
 tags:
-  - git
-  - version-control
-  - developer-tools
-  - workflow-automation
+  - automation
   - rust
-  - ai-powered
+  - ai-agents
+  - tools
+  - design-systems
+  - local-llm
+  - mobile
+  - github
 ---
 
 ## GitButler: o cliente Git reconstruído para workflows modernos

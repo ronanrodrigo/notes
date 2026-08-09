@@ -3,13 +3,13 @@ title: "RxDB: Banco de dados reativo local-first para JavaScript"
 description: "Curadoria sobre RxDB, um banco de dados NoSQL reativo para JavaScript com suporte a offline-first, sincronização em realtime e replicação flexível com backend."
 date: 2026-08-09
 tags:
-  - rxdb
-  - banco-dados
   - javascript
-  - local-first
-  - offline-first
-  - replication
-  - reactive
+  - tools
+  - automation
+  - design-systems
+  - security
+  - local-llm
+  - mobile
 ---
 
 ## RxDB: Banco de dados local-first reativo

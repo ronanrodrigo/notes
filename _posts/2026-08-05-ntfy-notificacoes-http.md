@@ -3,11 +3,13 @@ title: "ntfy: Notificações push por HTTP simples"
 description: "Curadoria sobre ntfy, serviço gratuito e open-source para enviar notificações push para telefone ou desktop via HTTP simples, com casos de uso, integrações e alternativas"
 date: 2026-08-05
 tags:
-  - notificacoes
-  - http
-  - automacao
+  - automation
   - open-source
-  - monitoramento
+  - ai-agents
+  - tools
+  - design-systems
+  - mobile
+  - github
 ---
 
 ## ntfy: Enviar notificações push para telefone ou desktop via HTTP

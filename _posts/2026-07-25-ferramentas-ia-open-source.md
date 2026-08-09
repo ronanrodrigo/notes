@@ -1,6 +1,16 @@
 ---
 title: "Ferramentas de IA Open Source"
-tags: [opensource, ia, tools, javascript, security]
+tags:
+  - open-source
+  - ai
+  - tools
+  - javascript
+  - security
+  - ai-agents
+  - design-systems
+  - local-llm
+  - testing
+  - github
 date: "2026-07-25"
 description: 'Seleção de ferramentas open source para automação, reuniões e segurança com IA.'
 ---

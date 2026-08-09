@@ -3,11 +3,12 @@ title: "Archon: workflows YAML para coding determinístico"
 description: "Curadoria sobre o Archon, um motor de execução para agentes de IA codarem e validarem com mais previsibilidade, modelando o processo em workflows YAML."
 date: 2026-08-06
 tags:
-  - ai-coding
-  - yaml
-  - workflow-engines
-  - coding-agents
+  - ai-agents
   - automation
+  - tools
+  - design-systems
+  - prompt-engineering
+  - github
 ---
 
 ## Archon (motor de execução de agentes de IA com workflows YAML)

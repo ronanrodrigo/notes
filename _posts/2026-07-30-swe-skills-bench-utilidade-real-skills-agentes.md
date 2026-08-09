@@ -3,12 +3,14 @@ title: SWE-Skills-Bench - Utilidade real de skills em agentes de IA
 date: 2026-07-30
 tags:
   - agent-skills
-  - software-engineering
-  - benchmark
-  - llm-agents
-  - skills-evaluation
-  - procedural-knowledge
-description: 'Resultados de benchmarks que medem quando skills realmente ajudam agentes em tarefas de software.'
+  - ai-agents
+  - tools
+  - automation
+  - design-systems
+  - security
+  - testing
+  - mobile
+  - githubdescription: 'Resultados de benchmarks que medem quando skills realmente ajudam agentes em tarefas de software.'
 ---
 
 ## SWE-Skills-Bench: Do Agent Skills Actually Help in Real-World Software Engineering?

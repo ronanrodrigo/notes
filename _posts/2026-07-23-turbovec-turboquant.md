@@ -1,6 +1,15 @@
 ---
 title: "Turbovec: Índice Vetorial Rust com Compressão TurboQuant"
-tags: [vectordb, rust, compression, rag, google]
+tags:
+  - vector-database
+  - rust
+  - rag
+  - open-source
+  - tools
+  - design-systems
+  - local-llm
+  - testing
+  - github
 date: "2026-07-23"
 description: 'Referências sobre o índice vetorial Rust Turbovec e a compressão de embeddings com TurboQuant.'
 ---

@@ -3,12 +3,11 @@ title: "ScreensDesign MCP: Pesquisa e Geração de UI com IA"
 description: "Lançamento do ScreensDesign MCP permite que agentes de IA pesquisem padrões de UI em mais de 2.600 apps iOS de topo."
 date: 2026-08-08
 tags:
-  - design
-  - iux
-  - ia
-  - desenvolvimento
+  - ai
   - mobile
-layout: post
+  - ai-agents
+  - tools
+  - design-systemslayout: post
 ---
 
 ## ScreensDesign MCP: Pesquisa e Geração de UI com IA

@@ -1,6 +1,16 @@
 ---
 title: "Ferramentas Claude Avançadas"
-tags: [claude, tools, notebooklm, graphify, rag]
+tags:
+  - claude
+  - tools
+  - rag
+  - ai-agents
+  - open-source
+  - automation
+  - design-systems
+  - local-llm
+  - testing
+  - github
 date: "2026-07-24"
 description: 'Ferramentas para ampliar o Claude com APIs, grafos de conhecimento e skills especializadas.'
 ---

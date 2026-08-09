@@ -1,6 +1,15 @@
 ---
 title: "AGENTS.md - Instruções Oficiais de Criação"
-tags: [agents, github, ia, documentation, conventions]
+tags:
+  - ai-agents
+  - github
+  - ai
+  - tools
+  - automation
+  - design-systems
+  - local-llm
+  - testing
+  - mobile
 date: "2026-07-23"
 description: 'Boas práticas oficiais para criar arquivos AGENTS.md úteis para agentes de IA.'
 ---

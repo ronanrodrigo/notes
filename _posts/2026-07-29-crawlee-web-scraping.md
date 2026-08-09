@@ -2,13 +2,15 @@
 title: Crawlee – Web Scraping e Automação de Navegador
 date: 2026-07-29
 tags:
-  - crawlee
   - web-scraping
-  - browser-automation
-  - data-collection
-  - bot-detection
-  - llm-training
-description: 'Bibliotecas, técnicas e cuidados para coletar dados da web e preparar datasets para IA.'
+  - open-source
+  - tools
+  - automation
+  - design-systems
+  - testing
+  - mobile
+  - prompt-engineering
+  - githubdescription: 'Bibliotecas, técnicas e cuidados para coletar dados da web e preparar datasets para IA.'
 ---
 
 ## Crawlee – Biblioteca de Web Scraping e Automação de Navegador

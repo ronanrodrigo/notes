@@ -2,12 +2,13 @@
 title: LangGraph - 10 motivos para usar
 date: 2026-07-30
 tags:
-  - langgraph
-  - agentes-ia
-  - orchestração
+  - ai-agents
   - python
-  - frameworks
-description: 'Dez motivos técnicos para usar LangGraph na construção de agentes com estado e execução durável.'
+  - open-source
+  - tools
+  - automation
+  - design-systems
+  - prompt-engineeringdescription: 'Dez motivos técnicos para usar LangGraph na construção de agentes com estado e execução durável.'
 ---
 
 ## Stack de agentes de IA: 10 motivos para usar LangGraph

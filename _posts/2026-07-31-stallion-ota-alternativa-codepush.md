@@ -3,11 +3,15 @@ title: "Stallion OTA: Alternativa ao CodePush Encerrado"
 description: "Stallion é uma plataforma gerenciada de OTA para React Native que surgiu como alternativa ao CodePush, encerrado pela Microsoft em março de 2025. Oferece patch updates até 98% menores, rollback automático, analytics completo e free tier até 10k usuários por mês."
 date: 2026-07-31
 tags:
-  - react-native
-  - ota-updates
-  - stallion
-  - codepush
   - mobile
+  - open-source
+  - tools
+  - automation
+  - design-systems
+  - security
+  - local-llm
+  - testing
+  - github
 ---
 
 # Stallion OTA: Alternativa ao CodePush Encerrado

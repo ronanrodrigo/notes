@@ -4,10 +4,11 @@ description: "Ferramentas e recursos para extrair design systems, tokens e compo
 date: 2026-08-02
 tags:
   - design-systems
-  - design-tokens
-  - ferramentas
-  - design-md
-  - extracao-web
+  - tools
+  - ai-agents
+  - open-source
+  - automation
+  - mobile
 ---
 
 ## Dembrandt

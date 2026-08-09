@@ -1,6 +1,12 @@
 ---
 title: "YouTube: Prompts e Estratégia para Crescimento de Canal"
-tags: [youtube, prompts, marketing, content, growth]
+tags:
+  - prompt-engineering
+  - tools
+  - design-systems
+  - security
+  - testing
+  - mobile
 date: "2026-07-26"
 description: 'Prompts e especialistas de IA para planejar, produzir, otimizar e monetizar canais no YouTube.'
 ---

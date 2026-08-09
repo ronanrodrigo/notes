@@ -1,6 +1,12 @@
 ---
 title: "Repos de IA (GitHub Trending)"
-tags: [github, trending, opensource, ia, reference]
+tags:
+  - github
+  - open-source
+  - ai
+  - ai-agents
+  - design-systems
+  - security
 date: "2026-07-23"
 description: 'Curadoria de projetos de IA em destaque no GitHub, com foco em agentes, contexto e dados.'
 ---

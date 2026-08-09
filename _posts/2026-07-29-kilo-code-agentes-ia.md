@@ -3,13 +3,13 @@ title: Kilo Code - Agentes de IA open source desafiando ecossistemas proprietár
 date: 2026-07-29
 tags:
   - open-source
-  - agentes-ia
-  - desenvolvimento
-  - soberania-tecnica
-  - typescript
-  - vs-code
-  - jetbrains
-layout: post
+  - ai-agents
+  - tools
+  - design-systems
+  - local-llm
+  - testing
+  - mobile
+  - githublayout: post
 description: 'O Kilo Code combina agentes de codificação open source, múltiplos modelos e soberania técnica.'
 ---
 

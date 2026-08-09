@@ -3,12 +3,12 @@ title: "LiveContainer: Executar Apps iOS sem Instalação"
 description: "Explorar LiveContainer, um launcher de apps iOS que permite executar aplicativos virtualizados em um container único, contornando o limite de 3 apps."
 date: 2026-08-07
 tags:
-  - ios
-  - sideloading
-  - virtualizacao
-  - altstore
-  - sidestore
-  - desenvolvimento-ios
+  - open-source
+  - tools
+  - design-systems
+  - local-llm
+  - mobile
+  - github
 ---
 
 ## LiveContainer: Aplicativo Launcher iOS

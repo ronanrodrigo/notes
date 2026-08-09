@@ -2,14 +2,14 @@
 title: Unsloth - treinamento local de modelos de IA
 date: 2026-07-30
 tags:
-  - unsloth
-  - ia
+  - ai
   - open-source
-  - treinamento-local
-  - modelos-llm
-  - descentralizacao
-  - fine-tuning
-description: 'Como usar Unsloth para treinar e executar modelos de IA localmente com menos memória.'
+  - llm
+  - tools
+  - automation
+  - design-systems
+  - local-llm
+  - githubdescription: 'Como usar Unsloth para treinar e executar modelos de IA localmente com menos memória.'
 ---
 
 ## Unsloth: ferramenta open-source para treinar modelos localmente

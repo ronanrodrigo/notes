@@ -3,12 +3,12 @@ title: "Lark CLI: Ferramenta Oficial para Automação de Lark com IA"
 description: "Exploração da lark-cli, ferramenta de linha de comando oficial para operacionalizar Lark/Feishu com 200+ comandos e 26 AI Agent Skills para integração com agentes de IA."
 date: 2026-08-05
 tags:
-  - lark-cli
   - ai-agents
   - automation
-  - feishu
-  - cli
-  - integration
+  - tools
+  - design-systems
+  - mobile
+  - github
 ---
 
 ## Lark CLI: Ferramenta Oficial para Automação com IA
