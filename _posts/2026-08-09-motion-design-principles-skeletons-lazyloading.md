@@ -1,6 +1,6 @@
 ---
 title: "Motion Design Principles for Interfaces"
-description: "Prompt referencing Skill Motion Principles and requirements for skeleton screens, lazy loading, and smooth animations across all interface elements."
+description: "Prompt referencing Design Motion Principles and requirements for skeleton screens, lazy loading, and smooth animations across all interface elements."
 date: 2026-08-09
 tags:
   - motion-design
@@ -12,9 +12,9 @@ tags:
 
 ## Prompt de referência
 
-Utilize a Skill Motion Principles GitHub.com/kylezantos/design-principles e garanta que toda interface do sistema tem skeleton, lazyloading, smooth animation de entrada, saída, carregamento, progresso em todos os elementos.
+Utilize a Skill Motion Principles GitHub.com/kylezantos/design-motion-principles e garanta que toda interface do sistema tem skeleton, lazyloading, smooth animation de entrada, saída, carregamento, progresso em todos os elementos.
 
-[Acesse a fonte original](https://github.com/kylezantos/design-principles)
+[Acesse a fonte original](https://github.com/kylezantos/design-motion-principles)
 
 ## Skeleton screens e estados de carregamento
 
