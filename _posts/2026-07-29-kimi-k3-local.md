@@ -2,13 +2,7 @@
 title: Kimi K3 local com Unsloth Dynamic
 date: 2026-07-29
 tags:
-  - kimi-k3
-  - unsloth
-  - gguf
-  - quantization
-  - local-llm
-  - hardware
-description: 'Requisitos e quantizações dinâmicas para executar o Kimi K3 localmente com Unsloth.'
+  - local-llmdescription: 'Requisitos e quantizações dinâmicas para executar o Kimi K3 localmente com Unsloth.'
 ---
 
 ## Run KIMI K3 Locally (Unsloth Dynamic)

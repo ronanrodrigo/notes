@@ -3,11 +3,6 @@ title: "Motion Design Principles for Interfaces"
 description: "Prompt referencing Design Motion Principles and requirements for skeleton screens, lazy loading, and smooth animations across all interface elements."
 date: 2026-08-09
 tags:
-  - motion-design
-  - skeleton-screens
-  - loading-states
-  - ui-ux
-  - animation-principles
 ---
 
 ## Prompt de referência

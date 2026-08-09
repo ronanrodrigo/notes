@@ -5,9 +5,6 @@ date: 2026-08-04
 tags:
   - ai-agents
   - rag
-  - context-engineering
-  - llm-architecture
-  - pipelines
 ---
 
 ## Haystack (curadoria a partir do print)

@@ -2,14 +2,9 @@
 title: OpenViking - Context Database para AI Agents
 date: 2026-07-29
 tags:
-  - openviking
   - ai-agents
-  - context-database
-  - memory-management
-  - vector-search
-  - bytedance
-  - rag
-description: 'Um banco de contexto com hierarquia de sistema de arquivos para memória e recuperação de agentes.'
+  - vector-database
+  - ragdescription: 'Um banco de contexto com hierarquia de sistema de arquivos para memória e recuperação de agentes.'
 ---
 
 ## OpenViking: The Context Database for AI Agents

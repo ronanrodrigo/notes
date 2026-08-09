@@ -3,11 +3,7 @@ title: "DeerFlow: Super Agent Harness para Pesquisa Autônoma"
 description: "Curadoria sobre DeerFlow 2.0 de ByteDance — framework open-source que orquestra sub-agentes, memória e sandboxes para automação de pesquisa e execução de tarefas complexas."
 date: 2026-08-08
 tags:
-  - deerflow
-  - agentes-ia
-  - orchestração
-  - langgraph
-  - bytedance
+  - orchestration
   - open-source
   - python
 ---

@@ -4,10 +4,7 @@ description: "Sistema RAG baseado em grafos que transforma repositórios em graf
 date: 2026-08-09
 tags:
   - rag
-  - codebase-analysis
-  - code-graph
-  - llm-agents
-  - knowledge-graphs
+  - ai-agents
 ---
 
 ## Code-Graph-RAG: Sistema RAG Baseado em Grafos para Análise de Codebases

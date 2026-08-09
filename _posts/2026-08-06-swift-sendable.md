@@ -2,12 +2,7 @@
 title: "Swift Sendable: Segurança em Concorrência"
 description: "Guia sobre o protocolo Sendable em Swift, como garantir segurança em transferência de dados entre domínios de concorrência e prevenir data races."
 date: 2026-08-06
-tags:
-  - swift
-  - concurrency
-  - sendable
-  - thread-safety
-layout: post
+tags:layout: post
 ---
 
 ## Swift Interview Question: What is `Sendable` in Swift?

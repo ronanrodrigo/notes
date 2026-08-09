@@ -3,11 +3,8 @@ title: Árvore de Modelos do Claude
 date: 2026-07-30
 tags:
   - claude
-  - model-routing
-  - prompting
-  - custos
-  - agents
-layout: post
+  - prompt-engineering
+  - ai-agentslayout: post
 description: 'Guia visual para escolher entre modelos Claude conforme velocidade, complexidade e custo.'
 ---
 

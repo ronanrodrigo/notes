@@ -3,12 +3,8 @@ title: Hyper Research - agente de pesquisa profunda com pipeline adaptativo
 date: 2026-07-29
 tags:
   - ai-agents
-  - deep-research
-  - claude-code
-  - open-source
-  - knowledge-vault
-  - llm-tools
-description: 'Um pipeline open source para pesquisa profunda com verificação, proveniência e memória persistente.'
+  - claude
+  - open-sourcedescription: 'Um pipeline open source para pesquisa profunda com verificação, proveniência e memória persistente.'
 ---
 
 ## Hyper Research

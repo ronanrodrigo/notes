@@ -3,12 +3,8 @@ title: "Candidatar em vagas com prompts (ATS e LinkedIn)"
 description: "Passo a passo em etapas com prompts para mapeamento ATS, modelo mestre do currículo, planilha de compatibilidade e candidatura personalizada no LinkedIn."
 date: 2026-08-04
 tags:
-  - candidaturas
-  - ats
-  - linkedin
-  - curriculo
-  - prompts
-  - ia
+  - prompt-engineering
+  - ai
 ---
 
 ## Candidatar em vagas (prompts para ATS e LinkedIn)

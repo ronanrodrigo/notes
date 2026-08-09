@@ -2,14 +2,9 @@
 title: DESIGN.md — Padrão Aberto para Sistemas de Design com IA
 date: 2026-07-29
 tags:
-  - design-md
   - design-systems
-  - ia
-  - ai-design
-  - design-referencia
-  - claude-code
-  - design-tokens
-description: 'Como usar DESIGN.md para fornecer referências e tokens de design consistentes a agentes de IA.'
+  - ai
+  - claudedescription: 'Como usar DESIGN.md para fornecer referências e tokens de design consistentes a agentes de IA.'
 ---
 
 ## Design de IA e o Padrão DESIGN.md

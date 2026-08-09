@@ -2,13 +2,8 @@
 title: Mantis — Agentes de IA para Revisão de Segurança em Software
 date: 2026-07-29
 tags:
-  - mantis
-  - ia-seguranca
-  - devsecops
-  - agentes-ia
-  - code-review
-  - vulnerabilidades
-layout: post
+  - security
+  - code-reviewlayout: post
 description: 'Como agentes especializados podem analisar, reproduzir e corrigir vulnerabilidades de software.'
 ---
 

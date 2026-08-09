@@ -1,6 +1,9 @@
 ---
 title: "Self-host IA: Coolify, agentes e RAG"
-tags: [selfhost, deployment, agents, rag, opensource]
+tags:
+  - ai-agents
+  - rag
+  - open-source
 date: "2026-07-23"
 description: 'Ferramentas open source para hospedar aplicações, agentes, RAG e serviços de IA por conta própria.'
 ---

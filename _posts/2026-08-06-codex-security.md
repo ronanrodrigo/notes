@@ -3,12 +3,8 @@ title: "Codex Security: IA para Detecção de Vulnerabilidades"
 description: "Ferramenta da OpenAI para identificar, validar e corrigir vulnerabilidades de segurança no código usando IA, disponível como CLI e SDK para TypeScript."
 date: 2026-08-06
 tags:
-  - segurança-aplicação
-  - detecção-vulnerabilidades
-  - ia
+  - ai
   - open-source
-  - cli
-  - sdk
 ---
 
 ## Codex Security da OpenAI

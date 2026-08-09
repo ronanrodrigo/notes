@@ -1,6 +1,9 @@
 ---
 title: "OmniRoute - Gateway IA Gratuito"
-tags: [gateway, ia, opensource, llm, free]
+tags:
+  - ai
+  - open-source
+  - llm
 date: "2026-07-25"
 description: 'Gateway open source que unifica provedores de IA, oferece fallback e ajuda a reduzir custos de tokens.'
 ---

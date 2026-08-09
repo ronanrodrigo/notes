@@ -3,12 +3,9 @@ title: OpenCodeReview - Ferramenta de Revisão de Código com IA
 date: 2026-07-29
 tags:
   - code-review
-  - ia
-  - llm-agent
-  - alibaba
-  - qualidade-codigo
-  - automacao
-layout: post
+  - ai
+  - ai-agents
+  - automationlayout: post
 description: 'Revisão de código com uma arquitetura híbrida que combina regras determinísticas e agentes LLM.'
 ---
 

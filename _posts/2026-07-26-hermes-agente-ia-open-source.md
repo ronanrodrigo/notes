@@ -1,6 +1,10 @@
 ---
 title: "Hermes Agent IA open source"
-tags: [opensource, agents, ia, nous-research, tools]
+tags:
+  - open-source
+  - ai-agents
+  - ai
+  - tools
 date: "2026-07-26"
 description: 'Recursos e referências do Hermes, agente open source com memória, skills e ferramentas.'
 ---
