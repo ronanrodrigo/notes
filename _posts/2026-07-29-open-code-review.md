@@ -7,14 +7,10 @@ tags:
   - automation
   - open-source
   - tools
-  - design-systems
   - security
-  - local-llm
-  - testing
-  - mobile
-  - githublayout:-post
   - github
   - git
+layout: post
 description: 'Revisão de código com uma arquitetura híbrida que combina regras determinísticas e agentes LLM.'
 ---
 

@@ -3,13 +3,8 @@ title: "Swift Sendable: Segurança em Concorrência"
 description: "Guia sobre o protocolo Sendable em Swift, como garantir segurança em transferência de dados entre domínios de concorrência e prevenir data races."
 date: 2026-08-06
 tags:
-  - automation
-  - design-systems
-  - security
-  - testing
-  - mobilelayout:-post
-  - mobile
   - swift
+layout: post
 ---
 
 ## Swift Interview Question: What is `Sendable` in Swift?
@@ -69,12 +64,7 @@ O `Sendable` indica que um valor de um tipo pode ser usado com segurança em có
 
 ## Sendable e @Sendable Closures – Disponível a partir de Swift 5.5
 
-A SE-0302 adiciona suporte para "sendable data", dados que podem ser transferidos com segurança para outra thread através do protocolo `Sendable` e do atributo `@Sendable` para funções.
-
-Muitos tipos são inerentemente seguros para enviar: `Bool`, `Int`, `String`, `Array<String>`, `Dictionary<Int, String>` e outros. Para tipos customizados:
-- Structs/enums: `Sendable` se contêm apenas valores `Sendable`
-- Classes: `Sendable` se herdam apenas de `NSObject` ou nada, todas as propriedades são constantes `Sendable`, e marcadas como `final`
-- Closures: Use `@Sendable` para indicar que funcionam concorrentemente
+A SE-0302 adiciona suporte para "sendable data", dados que podem ser transferidos com segurança para outra thread através do protocolo `Sendable` e do atributo `@Sendable` para funções. Muitos tipos são inerentemente seguros para enviar: `Bool`, `Int`, `String`, `Array<String>`, `Dictionary<Int, String>` e outros. Para tipos customizados, structs/enums conformam se contêm apenas valores `Sendable`; classes conformam se herdam apenas de `NSObject` ou nada, todas as propriedades são constantes `Sendable`, e marcadas como `final`; closures usam `@Sendable` para indicar que funcionam concorrentemente.
 
 [Acesse a fonte original](https://www.hackingwithswift.com/swift/5.5/sendable)
 
@@ -88,9 +78,7 @@ Para objetos que compartilham estado mutável (cache, session handler), use um a
 
 ## Enviando vs. @Sendable em Swift 6
 
-O `@Sendable` em closures ajuda o compilador a garantir que certos closures capturem apenas estado que pode ser usado com segurança de múltiplas tasks ou contextos de isolamento.
-
-Swift 6 introduz a keyword `sending` que pode ser aplicada a closures, permitindo que o compilador garanta que estado capturado não seja acessado após ser transferido para novo contexto.
+O `@Sendable` em closures ajuda o compilador a garantir que certos closures capturem apenas estado que pode ser usado com segurança de múltiplas tasks ou contextos de isolamento. Swift 6 introduz a keyword `sending` que pode ser aplicada a closures, permitindo que o compilador garanta que estado capturado não seja acessado após ser transferido para novo contexto.
 
 [Acesse a fonte original](https://www.youtube.com/watch?v=Ka28hay60VQ)
 

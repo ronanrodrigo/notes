@@ -2,10 +2,9 @@
 title: Sites de empregos remotos
 date: 2026-07-27
 tags:
-  - design-systems
-  - git
+  - tools
+description: 'Curadoria de plataformas e referências para encontrar oportunidades de trabalho remoto.'
 ---
-
 
 ## Imagem enviada: 30 principais sites de empregos remotos
 Imagem com uma curadoria de 30 plataformas para buscar trabalho remoto, incluindo Remote OK, We Work Remotely, FlexJobs, Remote.co, Remotive, Upwork, Fiverr, LinkedIn e outros.
