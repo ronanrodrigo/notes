@@ -4,6 +4,11 @@ description: "Guia sobre o protocolo Sendable em Swift, como garantir segurança
 date: 2026-08-06
 tags:
   - swift
+  - automation
+  - design-systems
+  - security
+  - testing
+  - mobile
 layout: post
 ---
 

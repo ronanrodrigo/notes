@@ -11,6 +11,7 @@ tags:
   - github
   - git
   - mcp
+  - rag
 ---
 
 ## Lark CLI: Ferramenta Oficial para Automação com IA

@@ -10,6 +10,10 @@ tags:
   - security
   - github
   - git
+  - design-systems
+  - local-llm
+  - testing
+  - mobile
 layout: post
 description: 'Revisão de código com uma arquitetura híbrida que combina regras determinísticas e agentes LLM.'
 ---

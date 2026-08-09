@@ -15,6 +15,7 @@ tags:
   - github
   - git
   - mcp
+  - rag
 ---
 
 ## Print compartilhado pelo usuário

@@ -11,6 +11,7 @@ tags:
   - local-llm
   - mobile
   - typescript
+  - rag
 ---
 
 ## RxDB: Banco de dados local-first reativo

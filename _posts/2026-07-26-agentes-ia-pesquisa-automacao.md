@@ -14,6 +14,7 @@ tags:
   - typescript
   - git
   - mcp
+  - rag
 date: "2026-07-26"
 description: 'Agentes para pesquisa profunda na web e automação de fluxos complexos em navegadores.'
 ---

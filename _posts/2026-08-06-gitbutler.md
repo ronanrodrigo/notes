@@ -12,6 +12,7 @@ tags:
   - mobile
   - github
   - git
+  - rag
 ---
 
 ## GitButler: o cliente Git reconstruído para workflows modernos

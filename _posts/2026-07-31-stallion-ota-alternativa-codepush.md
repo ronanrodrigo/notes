@@ -14,6 +14,7 @@ tags:
   - github
   - javascript
   - git
+  - rag
 ---
 
 # Stallion OTA: Alternativa ao CodePush Encerrado

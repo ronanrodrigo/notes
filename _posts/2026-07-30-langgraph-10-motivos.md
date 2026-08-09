@@ -9,6 +9,7 @@ tags:
   - automation
   - design-systems
   - prompt-engineering
+  - rag
 ---
 
 ## Stack de agentes de IA: 10 motivos para usar LangGraph
