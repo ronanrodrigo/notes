@@ -1,6 +1,19 @@
 [
   {
     "date": "2026-08-10",
+    "slug": "stanford-cme-295-llm-curriculum",
+    "path": "_posts/2026-08-10-stanford-cme-295-llm-curriculum.md",
+    "tags": [
+      "inteligencia-artificial",
+      "llm",
+      "stanford",
+      "transformers",
+      "agentes"
+    ],
+    "description": "Estrutura do curso CME 295 (Transformers & Large Language Models) com links para syllabus e materiais das aulas."
+  },
+  {
+    "date": "2026-08-10",
     "slug": "signoz-o11y",
     "path": "_posts/2026-08-10-signoz-o11y.md",
     "tags": [
