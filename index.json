@@ -27,6 +27,20 @@
   },
   {
     "date": "2026-08-10",
+    "slug": "codebuff-freebuff",
+    "path": "_posts/2026-08-10-codebuff-freebuff.md",
+    "tags": [
+      "coding-assistants",
+      "ai-agents",
+      "terminal",
+      "open-source",
+      "benchmark",
+      "typescript"
+    ],
+    "description": "Curadoria sobre Codebuff, assistente de IA open-source com agentes especializados que supera Claude Code em benchmarks próprios, e Freebuff, sua versão gratuita com anúncios, sem subscrição ou configuração."
+  },
+  {
+    "date": "2026-08-10",
     "slug": "anakin-web-scraping-api",
     "path": "_posts/2026-08-10-anakin-web-scraping-api.md",
     "tags": [
