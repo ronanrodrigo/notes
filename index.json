@@ -1,6 +1,19 @@
 [
   {
     "date": "2026-08-10",
+    "slug": "signoz-o11y",
+    "path": "_posts/2026-08-10-signoz-o11y.md",
+    "tags": [
+      "observability",
+      "opentelemetry",
+      "monitoring",
+      "open-source",
+      "signoz"
+    ],
+    "description": "Curadoria sobre SigNoz, plataforma open source de observabilidade com logs, métricas e traces baseada em OpenTelemetry."
+  },
+  {
+    "date": "2026-08-10",
     "slug": "anakin-web-scraping-api",
     "path": "_posts/2026-08-10-anakin-web-scraping-api.md",
     "tags": [
