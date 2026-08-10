@@ -1,6 +1,17 @@
 [
   {
     "date": "2026-08-10",
+    "slug": "sucesso-falso-em-agentes-llm",
+    "path": "_posts/2026-08-10-sucesso-falso-em-agentes-llm.md",
+    "tags": [
+      "ai-agents",
+      "automation",
+      "code-review"
+    ],
+    "description": "Curadoria sobre o paper que mede quando agentes de LLM afirmam concluir tarefas mesmo com estado do ambiente indicando falha, e discute detectores leves como TF-IDF."
+  },
+  {
+    "date": "2026-08-10",
     "slug": "stanford-cme-295-llm-curriculum",
     "path": "_posts/2026-08-10-stanford-cme-295-llm-curriculum.md",
     "tags": [
