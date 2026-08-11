@@ -1,4 +1,4 @@
-name: Generate tags list
+name: Generate tags JSON
 
 on:
   push:
@@ -22,19 +22,19 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 0
 
-      - name: Run generate tags list script
+      - name: Run generate tags script
         run: python3 scripts/generate-list-tags.py
 
       - name: Commit and push if changed
         run: |
-          if git diff --quiet -- list-tags.md; then
-            echo 'list-tags.md is already up to date.'
+          if git diff --quiet -- list-tags.json; then
+            echo 'list-tags.json is already up to date.'
             exit 0
           fi
 
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add list-tags.md
-          git commit -m 'chore: update generated list-tags.md'
+          git add list-tags.json
+          git commit -m 'chore: update generated list-tags.json'
           git pull --rebase
           git push
