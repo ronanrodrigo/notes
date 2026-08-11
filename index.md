@@ -25,7 +25,7 @@ layout: page
       {% if post.tags and post.tags.size > 0 %}
       <div class="post-card-tags" aria-label="Tags desta nota">
         {% for tag in post.tags %}
-          <a class="tag" href="{{ '/tags/' | relative_url }}#{{ tag | slugify }}">#{{ tag }}</a>
+          <a class="tag" href="{{ '/tag/' | relative_url }}?tag={{ tag | slugify }}">#{{ tag }}</a>
         {% endfor %}
       </div>
       {% endif %}
@@ -49,4 +49,4 @@ layout: page
   </div>
 </section>
 
-<p class="tags-index-link"><a href="{{ '/tags/' | relative_url }}">Ver índice completo de tags →</a></p>
+<p class="tags-index-link"><a href="{{ '/list-tags/' | relative_url }}">Ver índice completo de tags →</a></p>

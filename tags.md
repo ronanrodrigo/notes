@@ -13,6 +13,8 @@ permalink: /tags/
 
 {% assign all_tags = all_tags | uniq | sort %}
 
+<p class="section-intro">Índice completo das notas agrupadas por tag.</p>
+
 {% for tag in all_tags %}
   {% assign tag_count = 0 %}
   {% for post in site.posts %}
@@ -21,7 +23,7 @@ permalink: /tags/
     {% endif %}
   {% endfor %}
   {% if tag_count >= 2 %}
-## {{ tag }}
+## [{{ tag }}]({{ '/tag/' | relative_url }}?tag={{ tag | slugify }})
 
 {% for post in site.posts %}
   {% if post.tags contains tag %}

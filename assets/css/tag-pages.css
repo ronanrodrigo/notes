@@ -1,0 +1,120 @@
+.section-intro {
+  max-width: 620px;
+  margin: 0;
+  color: var(--muted);
+  font-size: 1.05rem;
+  line-height: 1.65;
+}
+
+.tag-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  margin: 42px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.tag-index-item {
+  margin: 0;
+}
+
+.tag-index-link {
+  display: flex;
+  min-height: 96px;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  color: var(--ink);
+  background: var(--card);
+  text-decoration: none;
+  transition: border-color .2s ease, box-shadow .2s ease, transform .2s ease;
+}
+
+.tag-index-link:hover {
+  border-color: var(--accent-dark);
+  box-shadow: var(--shadow);
+  color: var(--ink);
+  transform: translateY(-3px);
+}
+
+.tag-index-name {
+  overflow-wrap: anywhere;
+  font: 500 .86rem/1.4 'DM Mono', monospace;
+}
+
+.tag-index-count {
+  flex: 0 0 auto;
+  color: var(--muted);
+  font: .62rem/1.4 'DM Mono', monospace;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.tag-index-count span,
+.tag-index-link:hover .tag-index-count {
+  color: var(--accent-dark);
+}
+
+.tag-index-note {
+  margin: 28px 0 0;
+  color: var(--muted);
+  font: .68rem/1.5 'DM Mono', monospace;
+}
+
+.tag-page .section-heading {
+  margin-bottom: 28px;
+}
+
+.tag-page-meta {
+  min-height: 1.2em;
+  margin: 0 0 18px;
+  color: var(--accent-dark);
+  font: 500 .72rem/1.5 'DM Mono', monospace;
+}
+
+.tag-page-empty {
+  margin: 0 0 28px;
+  padding: 18px 20px;
+  border: 1px dashed var(--line);
+  border-radius: 12px;
+  color: var(--muted);
+  background: color-mix(in srgb, var(--line) 18%, transparent);
+  font-size: .9rem;
+}
+
+.tag-page-empty[hidden] {
+  display: none;
+}
+
+.tag-page-nav {
+  margin: 34px 0 0;
+  font: .72rem 'DM Mono', monospace;
+}
+
+.tag-post-grid {
+  margin-top: 0;
+}
+
+.tag-post-grid .post-card[hidden] {
+  display: none;
+}
+
+@media (max-width: 780px) {
+  .tag-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 520px) {
+  .tag-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .tag-index-link {
+    min-height: 0;
+  }
+}
