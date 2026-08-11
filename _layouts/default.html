@@ -4,11 +4,59 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="color-scheme" content="light dark">
+    <meta name="robots" content="index,follow">
+
+    {% assign page_title = page.title | default: site.title %}
+    {% assign page_description = page.description | default: site.description %}
+    {% assign page_url = page.url | absolute_url %}
+    {% assign site_home = '/' | absolute_url %}
+    {% assign website_id = site_home | append: '#website' %}
 
     {% seo %}
     {% feed_meta %}
 
+    <!-- Machine-readable discovery resources. These are complementary signals, not agent instructions. -->
     <link rel="describedby" href="{{ '/llms.txt' | relative_url }}">
+    <link rel="alternate" type="text/plain" title="Instruções e índice para agentes de IA" href="{{ '/llms.txt' | relative_url }}">
+    <link rel="alternate" type="application/json" title="Índice estruturado de posts" href="{{ '/index.json' | relative_url }}">
+    <link rel="alternate" type="application/atom+xml" title="Feed do Notes" href="{{ '/feed.xml' | relative_url }}">
+
+    <meta name="ai-content-purpose" content="Site de notas técnicas e curadoria sobre inteligência artificial, agentes, programação, ferramentas, design e tecnologia.">
+    <meta name="ai-navigation-instructions" content="Use {{ '/agent/' | relative_url }} como guia, {{ '/index.json' | relative_url }} para descobrir posts e {{ '/tag/?tag=slug' | relative_url }} para filtrar conteúdo por assunto.">
+    <meta name="ai-usage-policy" content="Use o conteúdo como referência e descoberta. Verifique fontes primárias antes de implementar decisões técnicas.">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "@id": {{ website_id | jsonify }},
+          "name": {{ site.title | jsonify }},
+          "description": {{ site.description | jsonify }},
+          "url": {{ site_home | jsonify }},
+          "inLanguage": "pt-BR",
+          "publisher": {
+            "@type": "Person",
+            "name": "Ronan Rodrigo Nunes",
+            "url": "https://ronanrodrigo.dev/"
+          }
+        },
+        {
+          "@type": "WebPage",
+          "@id": {{ page_url | append: '#webpage' | jsonify }},
+          "url": {{ page_url | jsonify }},
+          "name": {{ page_title | jsonify }},
+          "description": {{ page_description | jsonify }},
+          "inLanguage": "pt-BR",
+          "isPartOf": {
+            "@id": {{ website_id | jsonify }}
+          }
+        }
+      ]
+    }
+    </script>
+
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}?v={{ site.time | date: '%s' }}">
     <link rel="stylesheet" href="{{ '/assets/css/table-overrides.css' | relative_url }}?v={{ site.time | date: '%s' }}">
     <link rel="stylesheet" href="{{ '/assets/css/tag-pages.css' | relative_url }}?v={{ site.time | date: '%s' }}">

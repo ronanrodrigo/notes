@@ -9,7 +9,7 @@ O conteúdo é somente leitura. Para respostas e projetos, use as notas como mat
 - [Guia para agentes de IA](https://ronanrodrigo.dev/notes/agent/): explica o escopo do site, a navegação, o uso das tags e o fluxo recomendado para agentes.
 - [Todas as notas](https://ronanrodrigo.dev/notes/): página inicial com posts, descrições, datas e tags.
 - [Índice JSON](https://ronanrodrigo.dev/notes/index.json): metadados estruturados com data, slug, caminho de origem, tags e descrição.
-- [Instruções do repositório](https://ronanrodrigo.dev/notes/agents.md): convenções de conteúdo, front matter, tags e estrutura Jekyll.
+- [Instruções do repositório](https://ronanrodrigo.dev/notes/AGENTS.md): convenções de conteúdo, front matter, tags e estrutura Jekyll.
 
 ## Navegação por assunto
 
@@ -25,6 +25,8 @@ O conteúdo é somente leitura. Para respostas e projetos, use as notas como mat
 ## Recursos de leitura
 
 - [Feed RSS/Atom](https://ronanrodrigo.dev/notes/feed.xml): publicações recentes.
+- [Sitemap](https://ronanrodrigo.dev/notes/sitemap.xml): URLs públicas do site em formato XML.
+- [Robots](https://ronanrodrigo.dev/notes/robots.txt): regras de rastreamento e localização do sitemap.
 
 ## Uso recomendado
 

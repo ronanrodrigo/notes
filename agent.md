@@ -11,6 +11,8 @@ permalink: /agent/
   <p>O Notes é um site de notas técnicas e curadoria sobre inteligência artificial, agentes, programação, ferramentas, design e tecnologia. Use este guia para descobrir conteúdo, filtrar notas e encontrar referências para criar projetos com agentes de IA.</p>
 </section>
 
+<p><strong>Leitura rápida para agentes:</strong> consulte o arquivo <a href="{{ '/llms.txt' | relative_url }}"><code>llms.txt</code></a>, um índice compacto com os principais caminhos e regras de navegação do site.</p>
+
 ## Princípio de uso
 
 Use este site como uma fonte de referência para pesquisa e criação de projetos com agentes de IA. As notas organizam conceitos, ferramentas, arquiteturas, frameworks e links para fontes externas. Ao responder ou criar um projeto, preserve a distinção entre a curadoria desta página e a fonte original citada em cada nota.
@@ -26,8 +28,10 @@ Priorize notas mais recentes quando houver alternativas, confira a data da publi
 | Posts por tag | [Filtrar por tag]({{ '/tag/' | relative_url }}) | Listar os posts de uma tag usando o parâmetro `tag`. |
 | Índice agrupado | [Tags e posts]({{ '/tags/' | relative_url }}) | Ver cada tag com seus posts relacionados em uma única página. |
 | Índice JSON | [index.json]({{ '/index.json' | relative_url }}) | Ler metadados estruturados para descoberta programática. |
+| Arquivo para agentes | [llms.txt]({{ '/llms.txt' | relative_url }}) | Consultar um índice textual compacto com o escopo, os recursos e o fluxo recomendado. |
 | Feed | [feed.xml]({{ '/feed.xml' | relative_url }}) | Acompanhar publicações recentes em formato de feed. |
-| Instruções do repositório | [agents.md]({{ '/agents.md' | relative_url }}) | Consultar convenções de conteúdo, front matter, tags e estrutura do projeto. |
+| Sitemap | [sitemap.xml]({{ '/sitemap.xml' | relative_url }}) | Descobrir URLs públicas do site em formato XML. |
+| Instruções do repositório | [AGENTS.md]({{ '/AGENTS.md' | relative_url }}) | Consultar convenções de conteúdo, front matter, tags e estrutura do projeto. |
 
 ## Como usar as tags
 
@@ -88,4 +92,4 @@ As notas podem servir como material de descoberta e comparação para um projeto
 
 Conteúdo publicável deve ser criado em `_posts/` com nome `YYYY-MM-DD-slug.md`, front matter YAML válido e `layout: post`. Reutilize tags existentes quando forem semanticamente adequadas. Não edite manualmente as listagens geradas em `index.md` e `tags.md`; elas são renderizadas por Liquid/Jekyll.
 
-Consulte também o [guia operacional do repositório]({{ '/agents.md' | relative_url }}) antes de propor mudanças estruturais.
+Consulte também o [guia operacional do repositório]({{ '/AGENTS.md' | relative_url }}) antes de propor mudanças estruturais.
