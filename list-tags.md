@@ -144,6 +144,12 @@ permalink: /list-tags/
         </a>
       </li>
       <li class="tag-index-item">
+        <a class="tag-index-link" href="/notes/tag/?tag=mobile">
+          <span class="tag-index-name">#mobile</span>
+          <span class="tag-index-count">3 notas <span aria-hidden="true">↗</span></span>
+        </a>
+      </li>
+      <li class="tag-index-item">
         <a class="tag-index-link" href="/notes/tag/?tag=model-routing">
           <span class="tag-index-name">#model-routing</span>
           <span class="tag-index-count">2 notas <span aria-hidden="true">↗</span></span>
@@ -162,15 +168,15 @@ permalink: /list-tags/
         </a>
       </li>
       <li class="tag-index-item">
-        <a class="tag-index-link" href="/notes/tag/?tag=prompt-engineering">
-          <span class="tag-index-name">#prompt-engineering</span>
-          <span class="tag-index-count">6 notas <span aria-hidden="true">↗</span></span>
-        </a>
-      </li>
-      <li class="tag-index-item">
         <a class="tag-index-link" href="/notes/tag/?tag=productivity">
           <span class="tag-index-name">#productivity</span>
           <span class="tag-index-count">3 notas <span aria-hidden="true">↗</span></span>
+        </a>
+      </li>
+      <li class="tag-index-item">
+        <a class="tag-index-link" href="/notes/tag/?tag=prompt-engineering">
+          <span class="tag-index-name">#prompt-engineering</span>
+          <span class="tag-index-count">6 notas <span aria-hidden="true">↗</span></span>
         </a>
       </li>
       <li class="tag-index-item">
@@ -201,6 +207,12 @@ permalink: /list-tags/
         <a class="tag-index-link" href="/notes/tag/?tag=security">
           <span class="tag-index-name">#security</span>
           <span class="tag-index-count">4 notas <span aria-hidden="true">↗</span></span>
+        </a>
+      </li>
+      <li class="tag-index-item">
+        <a class="tag-index-link" href="/notes/tag/?tag=swift">
+          <span class="tag-index-name">#swift</span>
+          <span class="tag-index-count">2 notas <span aria-hidden="true">↗</span></span>
         </a>
       </li>
       <li class="tag-index-item">
