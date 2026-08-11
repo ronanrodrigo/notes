@@ -1,202 +1,162 @@
 [
   {
     "tag": "agent-memory",
-    "slug": "agent-memory",
-    "count": 5
+    "url": "https://ronanrodrigo.dev/notes/tag/?tag=agent-memory"
   },
   {
     "tag": "agent-skills",
-    "slug": "agent-skills",
-    "count": 5
+    "url": "https://ronanrodrigo.dev/notes/tag/?tag=agent-skills"
   },
   {
     "tag": "ai",
-    "slug": "ai",
-    "count": 8
+    "url": "https://ronanrodrigo.dev/notes/tag/?tag=ai"
   },
   {
     "tag": "ai-agents",
-    "slug": "ai-agents",
-    "count": 31
+    "url": "https://ronanrodrigo.dev/notes/tag/?tag=ai-agents"
   },
   {
     "tag": "automation",
-    "slug": "automation",
-    "count": 8
+    "url": "https://ronanrodrigo.dev/notes/tag/?tag=automation"
   },
   {
     "tag": "browser-automation",
-    "slug": "browser-automation",
-    "count": 2
+    "url": "https://ronanrodrigo.dev/notes/tag/?tag=browser-automation"
   },
   {
     "tag": "career",
-    "slug": "career",
-    "count": 2
+    "url": "https://ronanrodrigo.dev/notes/tag/?tag=career"
   },
   {
     "tag": "claude",
-    "slug": "claude",
-    "count": 5
+    "url": "https://ronanrodrigo.dev/notes/tag/?tag=claude"
   },
   {
     "tag": "code-analysis",
-    "slug": "code-analysis",
-    "count": 2
+    "url": "https://ronanrodrigo.dev/notes/tag/?tag=code-analysis"
   },
   {
     "tag": "code-review",
-    "slug": "code-review",
-    "count": 3
+    "url": "https://ronanrodrigo.dev/notes/tag/?tag=code-review"
   },
   {
     "tag": "coding-assistants",
-    "slug": "coding-assistants",
-    "count": 3
+    "url": "https://ronanrodrigo.dev/notes/tag/?tag=coding-assistants"
   },
   {
     "tag": "context-engineering",
-    "slug": "context-engineering",
-    "count": 2
+    "url": "https://ronanrodrigo.dev/notes/tag/?tag=context-engineering"
   },
   {
     "tag": "deep-research",
-    "slug": "deep-research",
-    "count": 2
+    "url": "https://ronanrodrigo.dev/notes/tag/?tag=deep-research"
   },
   {
     "tag": "design-systems",
-    "slug": "design-systems",
-    "count": 3
+    "url": "https://ronanrodrigo.dev/notes/tag/?tag=design-systems"
   },
   {
     "tag": "design-tokens",
-    "slug": "design-tokens",
-    "count": 2
+    "url": "https://ronanrodrigo.dev/notes/tag/?tag=design-tokens"
   },
   {
     "tag": "documentation",
-    "slug": "documentation",
-    "count": 2
+    "url": "https://ronanrodrigo.dev/notes/tag/?tag=documentation"
   },
   {
     "tag": "github",
-    "slug": "github",
-    "count": 3
+    "url": "https://ronanrodrigo.dev/notes/tag/?tag=github"
   },
   {
     "tag": "hardware",
-    "slug": "hardware",
-    "count": 2
+    "url": "https://ronanrodrigo.dev/notes/tag/?tag=hardware"
   },
   {
     "tag": "javascript",
-    "slug": "javascript",
-    "count": 3
+    "url": "https://ronanrodrigo.dev/notes/tag/?tag=javascript"
   },
   {
     "tag": "llm",
-    "slug": "llm",
-    "count": 13
+    "url": "https://ronanrodrigo.dev/notes/tag/?tag=llm"
   },
   {
     "tag": "local-llm",
-    "slug": "local-llm",
-    "count": 4
+    "url": "https://ronanrodrigo.dev/notes/tag/?tag=local-llm"
   },
   {
     "tag": "mcp",
-    "slug": "mcp",
-    "count": 4
+    "url": "https://ronanrodrigo.dev/notes/tag/?tag=mcp"
   },
   {
     "tag": "mobile",
-    "slug": "mobile",
-    "count": 3
+    "url": "https://ronanrodrigo.dev/notes/tag/?tag=mobile"
   },
   {
     "tag": "model-routing",
-    "slug": "model-routing",
-    "count": 2
+    "url": "https://ronanrodrigo.dev/notes/tag/?tag=model-routing"
   },
   {
     "tag": "open-source",
-    "slug": "open-source",
-    "count": 18
+    "url": "https://ronanrodrigo.dev/notes/tag/?tag=open-source"
   },
   {
     "tag": "orchestration",
-    "slug": "orchestration",
-    "count": 3
+    "url": "https://ronanrodrigo.dev/notes/tag/?tag=orchestration"
   },
   {
     "tag": "productivity",
-    "slug": "productivity",
-    "count": 3
+    "url": "https://ronanrodrigo.dev/notes/tag/?tag=productivity"
   },
   {
     "tag": "prompt-engineering",
-    "slug": "prompt-engineering",
-    "count": 6
+    "url": "https://ronanrodrigo.dev/notes/tag/?tag=prompt-engineering"
   },
   {
     "tag": "python",
-    "slug": "python",
-    "count": 8
+    "url": "https://ronanrodrigo.dev/notes/tag/?tag=python"
   },
   {
     "tag": "quantization",
-    "slug": "quantization",
-    "count": 3
+    "url": "https://ronanrodrigo.dev/notes/tag/?tag=quantization"
   },
   {
     "tag": "rag",
-    "slug": "rag",
-    "count": 8
+    "url": "https://ronanrodrigo.dev/notes/tag/?tag=rag"
   },
   {
     "tag": "rust",
-    "slug": "rust",
-    "count": 3
+    "url": "https://ronanrodrigo.dev/notes/tag/?tag=rust"
   },
   {
     "tag": "security",
-    "slug": "security",
-    "count": 4
+    "url": "https://ronanrodrigo.dev/notes/tag/?tag=security"
   },
   {
     "tag": "swift",
-    "slug": "swift",
-    "count": 2
+    "url": "https://ronanrodrigo.dev/notes/tag/?tag=swift"
   },
   {
     "tag": "testing",
-    "slug": "testing",
-    "count": 2
+    "url": "https://ronanrodrigo.dev/notes/tag/?tag=testing"
   },
   {
     "tag": "tools",
-    "slug": "tools",
-    "count": 7
+    "url": "https://ronanrodrigo.dev/notes/tag/?tag=tools"
   },
   {
     "tag": "typescript",
-    "slug": "typescript",
-    "count": 3
+    "url": "https://ronanrodrigo.dev/notes/tag/?tag=typescript"
   },
   {
     "tag": "vector-database",
-    "slug": "vector-database",
-    "count": 3
+    "url": "https://ronanrodrigo.dev/notes/tag/?tag=vector-database"
   },
   {
     "tag": "web-scraping",
-    "slug": "web-scraping",
-    "count": 4
+    "url": "https://ronanrodrigo.dev/notes/tag/?tag=web-scraping"
   },
   {
     "tag": "workflow-engines",
-    "slug": "workflow-engines",
-    "count": 2
+    "url": "https://ronanrodrigo.dev/notes/tag/?tag=workflow-engines"
   }
 ]

@@ -10,6 +10,7 @@ from pathlib import Path
 
 POSTS_DIR = Path("_posts")
 OUTPUT = Path("list-tags.json")
+TAG_BASE_URL = "https://ronanrodrigo.dev/notes/tag/"
 MINIMUM_POSTS = 2
 
 
@@ -95,8 +96,7 @@ def build_document(counts: Counter) -> list[dict]:
     tags = [
         {
             "tag": tag,
-            "slug": slugify(tag),
-            "count": count,
+            "url": f"{TAG_BASE_URL}?tag={slugify(tag)}",
         }
         for tag, count in counts.items()
         if count >= MINIMUM_POSTS
