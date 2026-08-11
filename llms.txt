@@ -25,6 +25,8 @@ O conteúdo é somente leitura. Para respostas e projetos, use as notas como mat
 ## Recursos de leitura
 
 - [Feed RSS/Atom](https://ronanrodrigo.dev/notes/feed.xml): publicações recentes.
+- [Sitemap](https://ronanrodrigo.dev/notes/sitemap.xml): URLs públicas do site em formato XML.
+- [Robots](https://ronanrodrigo.dev/notes/robots.txt): regras de rastreamento e localização do sitemap.
 
 ## Uso recomendado
 
