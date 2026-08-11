@@ -1,0 +1,35 @@
+# Notes
+
+> Site de notas técnicas e curadoria sobre inteligência artificial, agentes, programação, ferramentas, design e tecnologia. Use este arquivo como índice inicial para navegar pelo conteúdo publicado em https://ronanrodrigo.dev/notes/.
+
+O conteúdo é somente leitura. Para respostas e projetos, use as notas como material de descoberta, confira a data e valide decisões técnicas nas fontes primárias citadas em cada post.
+
+## Comece aqui
+
+- [Guia para agentes de IA](https://ronanrodrigo.dev/notes/agent/): explica o escopo do site, a navegação, o uso das tags e o fluxo recomendado para agentes.
+- [Todas as notas](https://ronanrodrigo.dev/notes/): página inicial com posts, descrições, datas e tags.
+- [Índice JSON](https://ronanrodrigo.dev/notes/index.json): metadados estruturados com data, slug, caminho de origem, tags e descrição.
+- [Instruções do repositório](https://ronanrodrigo.dev/notes/agents.md): convenções de conteúdo, front matter, tags e estrutura Jekyll.
+
+## Navegação por assunto
+
+- [Lista de tags](https://ronanrodrigo.dev/notes/list-tags/): assuntos reutilizados em pelo menos duas notas.
+- [Índice agrupado de tags](https://ronanrodrigo.dev/notes/tags/): cada assunto com seus posts relacionados.
+- [Posts por tag](https://ronanrodrigo.dev/notes/tag/?tag=ai-agents): use `?tag=<slug>` para filtrar por um assunto; os slugs são minúsculos e usam kebab-case.
+- [Agentes de IA](https://ronanrodrigo.dev/notes/tag/?tag=ai-agents): arquitetura, orquestração, memória, skills e automação.
+- [RAG](https://ronanrodrigo.dev/notes/tag/?tag=rag): recuperação aumentada, contexto e bases de conhecimento.
+- [LLM](https://ronanrodrigo.dev/notes/tag/?tag=llm): modelos de linguagem, treinamento e inferência.
+- [Open source](https://ronanrodrigo.dev/notes/tag/?tag=open-source): projetos e ferramentas de código aberto.
+- [Design systems](https://ronanrodrigo.dev/notes/tag/?tag=design-systems): sistemas de design e produtos com IA.
+
+## Recursos de leitura
+
+- [Feed RSS/Atom](https://ronanrodrigo.dev/notes/feed.xml): publicações recentes.
+
+## Uso recomendado
+
+1. Consulte o guia para agentes.
+2. Use `index.json` para descobrir posts por tags, data ou slug.
+3. Use a página de uma tag para recuperar os posts de um assunto.
+4. Leia as notas relacionadas e siga os links para fontes primárias.
+5. Ao criar um projeto com agentes de IA, use as notas para comparar arquiteturas, ferramentas e práticas, mas valide segurança, licença, custo, compatibilidade e desempenho antes da implementação.
