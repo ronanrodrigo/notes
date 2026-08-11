@@ -21,6 +21,9 @@ layout: null
   <url>
     <loc>{{ '/llms.txt' | absolute_url }}</loc>
   </url>
+  <url>
+    <loc>{{ '/agents.md' | absolute_url }}</loc>
+  </url>
   {% for post in site.posts %}
   <url>
     <loc>{{ post.url | absolute_url }}</loc>

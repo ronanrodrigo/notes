@@ -31,7 +31,7 @@ Priorize notas mais recentes quando houver alternativas, confira a data da publi
 | Arquivo para agentes | [llms.txt]({{ '/llms.txt' | relative_url }}) | Consultar um índice textual compacto com o escopo, os recursos e o fluxo recomendado. |
 | Feed | [feed.xml]({{ '/feed.xml' | relative_url }}) | Acompanhar publicações recentes em formato de feed. |
 | Sitemap | [sitemap.xml]({{ '/sitemap.xml' | relative_url }}) | Descobrir URLs públicas do site em formato XML. |
-| Instruções do repositório | [AGENTS.md]({{ '/AGENTS.md' | relative_url }}) | Consultar convenções de conteúdo, front matter, tags e estrutura do projeto. |
+| Instruções do repositório | [agents.md]({{ '/agents.md' | relative_url }}) | Consultar convenções de conteúdo, front matter, tags e estrutura do projeto. |
 
 ## Como usar as tags
 
@@ -92,4 +92,4 @@ As notas podem servir como material de descoberta e comparação para um projeto
 
 Conteúdo publicável deve ser criado em `_posts/` com nome `YYYY-MM-DD-slug.md`, front matter YAML válido e `layout: post`. Reutilize tags existentes quando forem semanticamente adequadas. Não edite manualmente as listagens geradas em `index.md` e `tags.md`; elas são renderizadas por Liquid/Jekyll.
 
-Consulte também o [guia operacional do repositório]({{ '/AGENTS.md' | relative_url }}) antes de propor mudanças estruturais.
+Consulte também o [guia operacional do repositório]({{ '/agents.md' | relative_url }}) antes de propor mudanças estruturais.
