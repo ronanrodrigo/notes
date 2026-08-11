@@ -13,10 +13,9 @@ permalink: /list-tags/
 
 {% assign all_tags = all_tags | uniq | sort %}
 
-<section class="tag-index" aria-labelledby="tag-index-title">
+<section class="tag-index" aria-label="Índice de tags">
   <div class="section-heading">
     <p class="eyebrow">taxonomia das notas</p>
-    <h1 id="tag-index-title">Tags</h1>
     <p class="section-intro">Explore as notas por assunto. Cada tag abre uma página com os posts relacionados.</p>
   </div>
 
