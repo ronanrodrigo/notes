@@ -8,6 +8,11 @@ from pathlib import Path
 
 POSTS_DIR = Path("_posts")
 OUTPUT = Path("index.json")
+BASE_URL = "https://ronanrodrigo.dev/notes"
+AUTHOR = {
+    "name": "Ronan Rodrigo Nunes",
+    "url": "https://ronanrodrigo.dev/",
+}
 
 
 def parse_scalar(value: str):
@@ -83,12 +88,20 @@ def post_metadata(path: Path) -> dict:
     if not isinstance(tags, list):
         raise ValueError(f"Invalid tags in front matter: {path}")
 
+    date = str(frontmatter.get("date", filename_date))
     return {
-        "date": str(frontmatter.get("date", filename_date)),
+        "title": frontmatter.get("title") or slug.replace("-", " ").title(),
+        "date": date,
+        "published": date,
+        "modified": frontmatter.get("modified", date),
         "slug": slug,
+        "url": f"{BASE_URL}/{slug}/",
+        "markdown_url": f"{BASE_URL}/{slug}.md",
         "path": path.as_posix(),
         "tags": tags,
         "description": frontmatter.get("description"),
+        "author": AUTHOR,
+        "status": "published",
     }
 
 

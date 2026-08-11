@@ -3,5 +3,10 @@ layout: null
 ---
 User-agent: *
 Allow: /
+Allow: /agent/
+Allow: /llms.txt
+Allow: /index.json
+Allow: /sitemap.md
+Allow: /notes/
 
 Sitemap: {{ '/sitemap.xml' | absolute_url }}

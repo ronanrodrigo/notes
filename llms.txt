@@ -2,13 +2,14 @@
 
 > Site de notas técnicas e curadoria sobre inteligência artificial, agentes, programação, ferramentas, design e tecnologia. Use este arquivo como índice inicial para navegar pelo conteúdo publicado em https://ronanrodrigo.dev/notes/.
 
-O conteúdo é somente leitura. Para respostas e projetos, use as notas como material de descoberta, confira a data e valide decisões técnicas nas fontes primárias citadas em cada post.
+O conteúdo é somente leitura. Para respostas e projetos, use as notas como material de descoberta, confira a data e valide decisões técnicas nas fontes primárias citadas em cada post. Cada nota publicada também possui uma versão Markdown limpa com o mesmo slug e a extensão `.md`.
 
 ## Comece aqui
 
 - [Guia para agentes de IA](https://ronanrodrigo.dev/notes/agent/): explica o escopo do site, a navegação, o uso das tags e o fluxo recomendado para agentes.
 - [Todas as notas](https://ronanrodrigo.dev/notes/): página inicial com posts, descrições, datas e tags.
-- [Índice JSON](https://ronanrodrigo.dev/notes/index.json): metadados estruturados com data, slug, caminho de origem, tags e descrição.
+- [Índice JSON](https://ronanrodrigo.dev/notes/index.json): metadados estruturados com título, URL HTML, URL Markdown, data, slug, tags e descrição.
+- [Mapa do site em Markdown](https://ronanrodrigo.dev/notes/sitemap.md): índice textual dos recursos e das notas publicadas.
 - [Instruções do repositório](https://ronanrodrigo.dev/notes/agents.md): convenções de conteúdo, front matter, tags e estrutura Jekyll.
 
 ## Navegação por assunto
@@ -28,10 +29,17 @@ O conteúdo é somente leitura. Para respostas e projetos, use as notas como mat
 - [Sitemap](https://ronanrodrigo.dev/notes/sitemap.xml): URLs públicas do site em formato XML.
 - [Robots](https://ronanrodrigo.dev/notes/robots.txt): regras de rastreamento e localização do sitemap.
 
+## Convenção das versões Markdown
+
+- [Nota em Markdown](https://ronanrodrigo.dev/notes/loop-engineering.md): exemplo de conteúdo limpo para leitura automatizada.
+
+Para cada post HTML em `/notes/<slug>/`, solicite `/notes/<slug>.md`. O espelho contém o título, metadados editoriais, links para a página HTML e o corpo da nota sem o layout do site.
+
 ## Uso recomendado
 
 1. Consulte o guia para agentes.
-2. Use `index.json` para descobrir posts por tags, data ou slug.
-3. Use a página de uma tag para recuperar os posts de um assunto.
-4. Leia as notas relacionadas e siga os links para fontes primárias.
-5. Ao criar um projeto com agentes de IA, use as notas para comparar arquiteturas, ferramentas e práticas, mas valide segurança, licença, custo, compatibilidade e desempenho antes da implementação.
+2. Use `index.json` ou `sitemap.md` para descobrir posts por título, tags, data ou slug.
+3. Prefira a versão `.md` para extração do conteúdo e a página HTML para navegação humana.
+4. Use a página de uma tag para recuperar os posts de um assunto.
+5. Leia as notas relacionadas e siga os links para fontes primárias.
+6. Ao criar um projeto com agentes de IA, use as notas para comparar arquiteturas, ferramentas e práticas, mas valide segurança, licença, custo, compatibilidade e desempenho antes da implementação.

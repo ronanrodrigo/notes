@@ -1,4 +1,4 @@
-name: Publish raw Markdown files
+name: Publish agent-readable resources
 
 on:
   push:
@@ -31,13 +31,14 @@ jobs:
           source: ./
           destination: ./_site-jekyll
 
-      - name: Copy raw Markdown files
+      - name: Add agent-readable resources
         run: |
           mkdir -p _site
           cp -a _site-jekyll/. _site/
           cp AGENTS.md _site/agents.md
           mkdir -p _site/skills
           cp skills/curadoria-de-conteudos.md _site/skills/curadoria-de-conteudos.md
+          python3 scripts/generate-markdown-mirrors.py --output _site
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
@@ -45,5 +46,5 @@ jobs:
           path: ./_site
 
       - name: Deploy to GitHub Pages
-        id: deployment
         uses: actions/deploy-pages@v4
+        id: deployment

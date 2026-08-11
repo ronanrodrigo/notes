@@ -16,10 +16,15 @@
     {% feed_meta %}
 
     <!-- Machine-readable discovery resources. These are complementary signals, not agent instructions. -->
-    <link rel="describedby" href="{{ '/llms.txt' | relative_url }}">
-    <link rel="alternate" type="text/plain" title="Instruções e índice para agentes de IA" href="{{ '/llms.txt' | relative_url }}">
+    <link rel="canonical" href="{{ page_url }}">
+    <link rel="describedby" type="text/markdown" title="Índice e guia para agentes de IA" href="{{ '/llms.txt' | relative_url }}">
+    <link rel="alternate" type="text/plain" title="Índice e guia para agentes de IA" href="{{ '/llms.txt' | relative_url }}">
     <link rel="alternate" type="application/json" title="Índice estruturado de posts" href="{{ '/index.json' | relative_url }}">
     <link rel="alternate" type="application/atom+xml" title="Feed do Notes" href="{{ '/feed.xml' | relative_url }}">
+    <link rel="sitemap" type="application/xml" href="{{ '/sitemap.xml' | relative_url }}">
+    {% if page.layout == 'post' and page.slug %}
+    <link rel="alternate" type="text/markdown" title="Versão Markdown desta nota" href="{{ page.slug | prepend: '/' | append: '.md' | relative_url }}">
+    {% endif %}
 
     <meta name="ai-content-purpose" content="Site de notas técnicas e curadoria sobre inteligência artificial, agentes, programação, ferramentas, design e tecnologia.">
     <meta name="ai-navigation-instructions" content="Use {{ '/agent/' | relative_url }} como guia, {{ '/index.json' | relative_url }} para descobrir posts e {{ '/tag/?tag=slug' | relative_url }} para filtrar conteúdo por assunto.">
