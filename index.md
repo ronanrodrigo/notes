@@ -15,14 +15,17 @@ layout: page
     Também estão disponíveis o
     <a href="{{ '/llms.txt' | relative_url }}">índice em texto para agentes</a>,
     o
-    <a href="{{ '/index.json' | relative_url }}">índice estruturado em JSON</a>
+    <a href="{{ '/index.json' | relative_url }}">índice estruturado em JSON</a>,
+    o
+    <a href="{{ '/sitemap.md' | relative_url }}">mapa do site em Markdown</a>
     e o
     <a href="{{ '/list-tags/' | relative_url }}">índice de tags</a>.
   </p>
 
   <p>
     Esses recursos são somente para leitura e complementam a navegação normal
-    pelas notas publicadas nesta página.
+    pelas notas publicadas nesta página. Cada nota também possui uma versão
+    Markdown limpa em uma URL terminada em <code>.md</code>.
   </p>
 </aside>
 
@@ -68,6 +71,7 @@ layout: page
       </dl>
 
       <a class="post-card-link" href="{{ post.url | relative_url }}">ler nota <span aria-hidden="true">↗</span></a>
+      <a class="post-card-link" href="{{ post.slug | prepend: '/' | append: '.md' | relative_url }}">versão Markdown <span aria-hidden="true">↗</span></a>
     </article>
     {% endfor %}
   </div>
