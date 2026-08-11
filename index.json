@@ -1,7 +1,12 @@
 [
   {
+    "title": "Loop Engineering: Orquestração Automática de Agentes de IA",
     "date": "2026-08-11",
+    "published": "2026-08-11",
+    "modified": "2026-08-11",
     "slug": "loop-engineering",
+    "url": "https://ronanrodrigo.dev/notes/2026/08/11/loop-engineering/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/loop-engineering.md",
     "path": "_posts/2026-08-11-loop-engineering.md",
     "tags": [
       "loop-engineering",
@@ -11,22 +16,42 @@
       "orquestracao-agentes",
       "arquitetura-agentic"
     ],
-    "description": "Metodologia e frameworks para projetar sistemas agentic que orquestram modelos de IA de forma automática, iterativa e autossuficiente."
+    "description": "Metodologia e frameworks para projetar sistemas agentic que orquestram modelos de IA de forma automática, iterativa e autossuficiente.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
   },
   {
+    "title": "Sucesso falso em agentes LLM: do fechamento confiante à falha silenciosa",
     "date": "2026-08-10",
+    "published": "2026-08-10",
+    "modified": "2026-08-10",
     "slug": "sucesso-falso-em-agentes-llm",
+    "url": "https://ronanrodrigo.dev/notes/2026/08/10/sucesso-falso-em-agentes-llm/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/sucesso-falso-em-agentes-llm.md",
     "path": "_posts/2026-08-10-sucesso-falso-em-agentes-llm.md",
     "tags": [
       "ai-agents",
       "automation",
       "code-review"
     ],
-    "description": "Curadoria sobre o paper que mede quando agentes de LLM afirmam concluir tarefas mesmo com estado do ambiente indicando falha, e discute detectores leves como TF-IDF."
+    "description": "Curadoria sobre o paper que mede quando agentes de LLM afirmam concluir tarefas mesmo com estado do ambiente indicando falha, e discute detectores leves como TF-IDF.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
   },
   {
+    "title": "Stanford CME 295: currículo completo de LLM",
     "date": "2026-08-10",
+    "published": "2026-08-10",
+    "modified": "2026-08-10",
     "slug": "stanford-cme-295-llm-curriculum",
+    "url": "https://ronanrodrigo.dev/notes/2026/08/10/stanford-cme-295-llm-curriculum/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/stanford-cme-295-llm-curriculum.md",
     "path": "_posts/2026-08-10-stanford-cme-295-llm-curriculum.md",
     "tags": [
       "inteligencia-artificial",
@@ -35,11 +60,21 @@
       "transformers",
       "agentes"
     ],
-    "description": "Estrutura do curso CME 295 (Transformers & Large Language Models) com links para syllabus e materiais das aulas."
+    "description": "Estrutura do curso CME 295 (Transformers & Large Language Models) com links para syllabus e materiais das aulas.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
   },
   {
+    "title": "SigNoz o11y",
     "date": "2026-08-10",
+    "published": "2026-08-10",
+    "modified": "2026-08-10",
     "slug": "signoz-o11y",
+    "url": "https://ronanrodrigo.dev/notes/2026/08/10/signoz-o11y/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/signoz-o11y.md",
     "path": "_posts/2026-08-10-signoz-o11y.md",
     "tags": [
       "observability",
@@ -48,11 +83,21 @@
       "open-source",
       "signoz"
     ],
-    "description": "Curadoria sobre SigNoz, plataforma open source de observabilidade com logs, métricas e traces baseada em OpenTelemetry."
+    "description": "Curadoria sobre SigNoz, plataforma open source de observabilidade com logs, métricas e traces baseada em OpenTelemetry.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
   },
   {
+    "title": "Codebuff & Freebuff: Assistentes de IA para codificação em terminal",
     "date": "2026-08-10",
+    "published": "2026-08-10",
+    "modified": "2026-08-10",
     "slug": "codebuff-freebuff",
+    "url": "https://ronanrodrigo.dev/notes/2026/08/10/codebuff-freebuff/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/codebuff-freebuff.md",
     "path": "_posts/2026-08-10-codebuff-freebuff.md",
     "tags": [
       "coding-assistants",
@@ -62,11 +107,21 @@
       "benchmark",
       "typescript"
     ],
-    "description": "Curadoria sobre Codebuff, assistente de IA open-source com agentes especializados que supera Claude Code em benchmarks próprios, e Freebuff, sua versão gratuita com anúncios, sem subscrição ou configuração."
+    "description": "Curadoria sobre Codebuff, assistente de IA open-source com agentes especializados que supera Claude Code em benchmarks próprios, e Freebuff, sua versão gratuita com anúncios, sem subscrição ou configuração.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
   },
   {
+    "title": "AnakinScraper (anakin): web scraping API para IA",
     "date": "2026-08-10",
+    "published": "2026-08-10",
+    "modified": "2026-08-10",
     "slug": "anakin-web-scraping-api",
+    "url": "https://ronanrodrigo.dev/notes/2026/08/10/anakin-web-scraping-api/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/anakin-web-scraping-api.md",
     "path": "_posts/2026-08-10-anakin-web-scraping-api.md",
     "tags": [
       "web-scraping",
@@ -75,38 +130,78 @@
       "self-hosted",
       "mcp"
     ],
-    "description": "Curadoria do projeto AnakinScraper (anakin), uma API de web scraping self-hosted para transformar páginas em markdown e dados estruturados."
+    "description": "Curadoria do projeto AnakinScraper (anakin), uma API de web scraping self-hosted para transformar páginas em markdown e dados estruturados.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
   },
   {
+    "title": "RxDB: Banco de dados reativo local-first para JavaScript",
     "date": "2026-08-09",
+    "published": "2026-08-09",
+    "modified": "2026-08-09",
     "slug": "rxdb-banco-dados-reativo",
+    "url": "https://ronanrodrigo.dev/notes/2026/08/09/rxdb-banco-dados-reativo/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/rxdb-banco-dados-reativo.md",
     "path": "_posts/2026-08-09-rxdb-banco-dados-reativo.md",
     "tags": [
       "javascript"
     ],
-    "description": "Curadoria sobre RxDB, um banco de dados NoSQL reativo para JavaScript com suporte a offline-first, sincronização em realtime e replicação flexível com backend."
+    "description": "Curadoria sobre RxDB, um banco de dados NoSQL reativo para JavaScript com suporte a offline-first, sincronização em realtime e replicação flexível com backend.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
   },
   {
+    "title": "Motion Design Principles for Interfaces",
     "date": "2026-08-09",
+    "published": "2026-08-09",
+    "modified": "2026-08-09",
     "slug": "motion-design-principles-skeletons-lazyloading",
+    "url": "https://ronanrodrigo.dev/notes/2026/08/09/motion-design-principles-skeletons-lazyloading/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/motion-design-principles-skeletons-lazyloading.md",
     "path": "_posts/2026-08-09-motion-design-principles-skeletons-lazyloading.md",
     "tags": [],
-    "description": "Prompt referencing Design Motion Principles and requirements for skeleton screens, lazy loading, and smooth animations across all interface elements."
+    "description": "Prompt referencing Design Motion Principles and requirements for skeleton screens, lazy loading, and smooth animations across all interface elements.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
   },
   {
+    "title": "Code-Graph-RAG: Transformando Repositórios em Grafos de Conhecimento",
     "date": "2026-08-09",
+    "published": "2026-08-09",
+    "modified": "2026-08-09",
     "slug": "code-graph-rag",
+    "url": "https://ronanrodrigo.dev/notes/2026/08/09/code-graph-rag/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/code-graph-rag.md",
     "path": "_posts/2026-08-09-code-graph-rag.md",
     "tags": [
       "rag",
       "code-analysis",
       "ai-agents"
     ],
-    "description": "Sistema RAG baseado em grafos que transforma repositórios em grafos de conhecimento usando Tree-sitter, Memgraph e LLMs para análise e compreensão de codebases."
+    "description": "Sistema RAG baseado em grafos que transforma repositórios em grafos de conhecimento usando Tree-sitter, Memgraph e LLMs para análise e compreensão de codebases.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
   },
   {
+    "title": "50 ML Projects To Understand LLMs",
     "date": "2026-08-09",
+    "published": "2026-08-09",
+    "modified": "2026-08-09",
     "slug": "50ml-projects-llms",
+    "url": "https://ronanrodrigo.dev/notes/2026/08/09/50ml-projects-llms/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/50ml-projects-llms.md",
     "path": "_posts/2026-08-09-50ml-projects-llms.md",
     "tags": [
       "llm",
@@ -116,11 +211,21 @@
       "neural-networks",
       "python"
     ],
-    "description": "Curadoria de recursos sobre interpretabilidade e análise interna de modelos de linguagem através de projetos práticos"
+    "description": "Curadoria de recursos sobre interpretabilidade e análise interna de modelos de linguagem através de projetos práticos",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
   },
   {
+    "title": "ScreensDesign MCP: Pesquisa e Geração de UI com IA",
     "date": "2026-08-08",
+    "published": "2026-08-08",
+    "modified": "2026-08-08",
     "slug": "screensdesign-mcp",
+    "url": "https://ronanrodrigo.dev/notes/2026/08/08/screensdesign-mcp/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/screensdesign-mcp.md",
     "path": "_posts/2026-08-08-screensdesign-mcp.md",
     "tags": [
       "mcp",
@@ -128,22 +233,42 @@
       "mobile",
       "ai-agents"
     ],
-    "description": "Lançamento do ScreensDesign MCP permite que agentes de IA pesquisem padrões de UI em mais de 2.600 apps iOS de topo."
+    "description": "Lançamento do ScreensDesign MCP permite que agentes de IA pesquisem padrões de UI em mais de 2.600 apps iOS de topo.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
   },
   {
+    "title": "Reverse-Skill: Roteador de Skills para Engenharia Reversa com IA",
     "date": "2026-08-08",
+    "published": "2026-08-08",
+    "modified": "2026-08-08",
     "slug": "reverse-skill",
+    "url": "https://ronanrodrigo.dev/notes/2026/08/08/reverse-skill/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/reverse-skill.md",
     "path": "_posts/2026-08-08-reverse-skill.md",
     "tags": [
       "agent-skills",
       "security",
       "ai-agents"
     ],
-    "description": "Framework open-source que integra agentes de IA para engenharia reversa com matriz de roteamento estruturada e fluxos de segurança automatizados"
+    "description": "Framework open-source que integra agentes de IA para engenharia reversa com matriz de roteamento estruturada e fluxos de segurança automatizados",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
   },
   {
+    "title": "DeerFlow: Super Agent Harness para Pesquisa Autônoma",
     "date": "2026-08-08",
+    "published": "2026-08-08",
+    "modified": "2026-08-08",
     "slug": "deerflow-super-agent-harness",
+    "url": "https://ronanrodrigo.dev/notes/2026/08/08/deerflow-super-agent-harness/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/deerflow-super-agent-harness.md",
     "path": "_posts/2026-08-08-deerflow-super-agent-harness.md",
     "tags": [
       "ai-agents",
@@ -152,48 +277,98 @@
       "open-source",
       "python"
     ],
-    "description": "Curadoria sobre DeerFlow 2.0 de ByteDance — framework open-source que orquestra sub-agentes, memória e sandboxes para automação de pesquisa e execução de tarefas complexas."
+    "description": "Curadoria sobre DeerFlow 2.0 de ByteDance — framework open-source que orquestra sub-agentes, memória e sandboxes para automação de pesquisa e execução de tarefas complexas.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
   },
   {
+    "title": "LiveContainer: Executar Apps iOS sem Instalação",
     "date": "2026-08-07",
+    "published": "2026-08-07",
+    "modified": "2026-08-07",
     "slug": "livecontainer-ios-sideloading",
+    "url": "https://ronanrodrigo.dev/notes/2026/08/07/livecontainer-ios-sideloading/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/livecontainer-ios-sideloading.md",
     "path": "_posts/2026-08-07-livecontainer-ios-sideloading.md",
     "tags": [
       "mobile",
       "open-source"
     ],
-    "description": "Explorar LiveContainer, um launcher de apps iOS que permite executar aplicativos virtualizados em um container único, contornando o limite de 3 apps."
+    "description": "Explorar LiveContainer, um launcher de apps iOS que permite executar aplicativos virtualizados em um container único, contornando o limite de 3 apps.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
   },
   {
+    "title": "Diretrizes para o uso respeitoso de IA",
     "date": "2026-08-06",
+    "published": "2026-08-06",
+    "modified": "2026-08-06",
     "slug": "uso-respeitoso-ia",
+    "url": "https://ronanrodrigo.dev/notes/2026/08/06/uso-respeitoso-ia/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/uso-respeitoso-ia.md",
     "path": "_posts/2026-08-06-uso-respeitoso-ia.md",
     "tags": [
       "productivity"
     ],
-    "description": "Práticas para colaboração responsável com IA no trabalho, priorizando integridade colaborativa, saídas concisas e revisão humana ativa."
+    "description": "Práticas para colaboração responsável com IA no trabalho, priorizando integridade colaborativa, saídas concisas e revisão humana ativa.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
   },
   {
+    "title": "Swift Sendable: Segurança em Concorrência",
     "date": "2026-08-06",
+    "published": "2026-08-06",
+    "modified": "2026-08-06",
     "slug": "swift-sendable",
+    "url": "https://ronanrodrigo.dev/notes/2026/08/06/swift-sendable/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/swift-sendable.md",
     "path": "_posts/2026-08-06-swift-sendable.md",
     "tags": [
       "swift"
     ],
-    "description": "Guia sobre o protocolo Sendable em Swift, como garantir segurança em transferência de dados entre domínios de concorrência e prevenir data races."
+    "description": "Guia sobre o protocolo Sendable em Swift, como garantir segurança em transferência de dados entre domínios de concorrência e prevenir data races.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
   },
   {
+    "title": "GitButler: controle de versão moderno com branches virtuais",
     "date": "2026-08-06",
+    "published": "2026-08-06",
+    "modified": "2026-08-06",
     "slug": "gitbutler",
+    "url": "https://ronanrodrigo.dev/notes/2026/08/06/gitbutler/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/gitbutler.md",
     "path": "_posts/2026-08-06-gitbutler.md",
     "tags": [
       "rust"
     ],
-    "description": "Cliente Git reconstruído com branches virtuais, automação com IA e interface intuitiva para fluxos de desenvolvimento modernos."
+    "description": "Cliente Git reconstruído com branches virtuais, automação com IA e interface intuitiva para fluxos de desenvolvimento modernos.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
   },
   {
+    "title": "Codex Security: IA para Detecção de Vulnerabilidades",
     "date": "2026-08-06",
+    "published": "2026-08-06",
+    "modified": "2026-08-06",
     "slug": "codex-security",
+    "url": "https://ronanrodrigo.dev/notes/2026/08/06/codex-security/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/codex-security.md",
     "path": "_posts/2026-08-06-codex-security.md",
     "tags": [
       "security",
@@ -201,76 +376,146 @@
       "code-analysis",
       "typescript"
     ],
-    "description": "Ferramenta da OpenAI para identificar, validar e corrigir vulnerabilidades de segurança no código usando IA, disponível como CLI e SDK para TypeScript."
+    "description": "Ferramenta da OpenAI para identificar, validar e corrigir vulnerabilidades de segurança no código usando IA, disponível como CLI e SDK para TypeScript.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
   },
   {
+    "title": "Archon: workflows YAML para coding determinístico",
     "date": "2026-08-06",
+    "published": "2026-08-06",
+    "modified": "2026-08-06",
     "slug": "archon-yaml-workflows-coding-deterministico",
+    "url": "https://ronanrodrigo.dev/notes/2026/08/06/archon-yaml-workflows-coding-deterministico/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/archon-yaml-workflows-coding-deterministico.md",
     "path": "_posts/2026-08-06-archon-yaml-workflows-coding-deterministico.md",
     "tags": [
       "ai-agents",
       "automation",
       "workflow-engines"
     ],
-    "description": "Curadoria sobre o Archon, um motor de execução para agentes de IA codarem e validarem com mais previsibilidade, modelando o processo em workflows YAML."
+    "description": "Curadoria sobre o Archon, um motor de execução para agentes de IA codarem e validarem com mais previsibilidade, modelando o processo em workflows YAML.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
   },
   {
+    "title": "ntfy: Notificações push por HTTP simples",
     "date": "2026-08-05",
+    "published": "2026-08-05",
+    "modified": "2026-08-05",
     "slug": "ntfy-notificacoes-http",
+    "url": "https://ronanrodrigo.dev/notes/2026/08/05/ntfy-notificacoes-http/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/ntfy-notificacoes-http.md",
     "path": "_posts/2026-08-05-ntfy-notificacoes-http.md",
     "tags": [
       "automation",
       "open-source"
     ],
-    "description": "Curadoria sobre ntfy, serviço gratuito e open-source para enviar notificações push para telefone ou desktop via HTTP simples, com casos de uso, integrações e alternativas"
+    "description": "Curadoria sobre ntfy, serviço gratuito e open-source para enviar notificações push para telefone ou desktop via HTTP simples, com casos de uso, integrações e alternativas",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
   },
   {
+    "title": "Midscene: UI testing por visão",
     "date": "2026-08-05",
+    "published": "2026-08-05",
+    "modified": "2026-08-05",
     "slug": "midscene-ui-testing-por-visao",
+    "url": "https://ronanrodrigo.dev/notes/2026/08/05/midscene-ui-testing-por-visao/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/midscene-ui-testing-por-visao.md",
     "path": "_posts/2026-08-05-midscene-ui-testing-por-visao.md",
     "tags": [
       "testing",
       "browser-automation",
       "open-source"
     ],
-    "description": "Curadoria sobre o Midscene.js, SDK open-source para automação visual de interfaces com linguagem natural, Playwright, mobile e desktop."
+    "description": "Curadoria sobre o Midscene.js, SDK open-source para automação visual de interfaces com linguagem natural, Playwright, mobile e desktop.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
   },
   {
+    "title": "Memento: agentes LLM sem fine-tuning via memória",
     "date": "2026-08-05",
+    "published": "2026-08-05",
+    "modified": "2026-08-05",
     "slug": "memento-fine-tuning-llm-agents-without-fine-tuning-llms",
+    "url": "https://ronanrodrigo.dev/notes/2026/08/05/memento-fine-tuning-llm-agents-without-fine-tuning-llms/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/memento-fine-tuning-llm-agents-without-fine-tuning-llms.md",
     "path": "_posts/2026-08-05-memento-fine-tuning-llm-agents-without-fine-tuning-llms.md",
     "tags": [
       "ai-agents",
       "agent-memory",
       "llm"
     ],
-    "description": "Curadoria do paper Memento, um framework memory-based para melhorar agentes LLM sem atualizar pesos do modelo, com links para arXiv e código."
+    "description": "Curadoria do paper Memento, um framework memory-based para melhorar agentes LLM sem atualizar pesos do modelo, com links para arXiv e código.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
   },
   {
+    "title": "Lark CLI: Ferramenta Oficial para Automação de Lark com IA",
     "date": "2026-08-05",
+    "published": "2026-08-05",
+    "modified": "2026-08-05",
     "slug": "lark-cli-introduction",
+    "url": "https://ronanrodrigo.dev/notes/2026/08/05/lark-cli-introduction/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/lark-cli-introduction.md",
     "path": "_posts/2026-08-05-lark-cli-introduction.md",
     "tags": [
       "ai-agents",
       "automation",
       "agent-skills"
     ],
-    "description": "Exploração da lark-cli, ferramenta de linha de comando oficial para operacionalizar Lark/Feishu com 200+ comandos e 26 AI Agent Skills para integração com agentes de IA."
+    "description": "Exploração da lark-cli, ferramenta de linha de comando oficial para operacionalizar Lark/Feishu com 200+ comandos e 26 AI Agent Skills para integração com agentes de IA.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
   },
   {
+    "title": "Omnigent: meta-harness para orquestrar agentes de IA",
     "date": "2026-08-04",
+    "published": "2026-08-04",
+    "modified": "2026-08-04",
     "slug": "omnigent-meta-harness-agentes-ia",
+    "url": "https://ronanrodrigo.dev/notes/2026/08/04/omnigent-meta-harness-agentes-ia/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/omnigent-meta-harness-agentes-ia.md",
     "path": "_posts/2026-08-04-omnigent-meta-harness-agentes-ia.md",
     "tags": [
       "ai-agents",
       "orchestration",
       "open-source"
     ],
-    "description": "Camada open-source para unificar, governar e sandboxizar agentes de coding (Claude Code, Codex, Cursor etc), com sessão compartilhada e colaboração em tempo real."
+    "description": "Camada open-source para unificar, governar e sandboxizar agentes de coding (Claude Code, Codex, Cursor etc), com sessão compartilhada e colaboração em tempo real.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
   },
   {
+    "title": "Haystack e Context Engineering para RAG & Agents",
     "date": "2026-08-04",
+    "published": "2026-08-04",
+    "modified": "2026-08-04",
     "slug": "haystack-context-engineering-rag-agents",
+    "url": "https://ronanrodrigo.dev/notes/2026/08/04/haystack-context-engineering-rag-agents/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/haystack-context-engineering-rag-agents.md",
     "path": "_posts/2026-08-04-haystack-context-engineering-rag-agents.md",
     "tags": [
       "ai-agents",
@@ -278,31 +523,61 @@
       "context-engineering",
       "python"
     ],
-    "description": "Curadoria sobre o Haystack como framework de orquestração para agentes e RAG, enfatizando pipelines modulares e controle explícito de recuperação, roteamento, memória e geração."
+    "description": "Curadoria sobre o Haystack como framework de orquestração para agentes e RAG, enfatizando pipelines modulares e controle explícito de recuperação, roteamento, memória e geração.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
   },
   {
+    "title": "Cosmo Travel MCP Server",
     "date": "2026-08-04",
+    "published": "2026-08-04",
+    "modified": "2026-08-04",
     "slug": "cosmo-travel-mcp",
+    "url": "https://ronanrodrigo.dev/notes/2026/08/04/cosmo-travel-mcp/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/cosmo-travel-mcp.md",
     "path": "_posts/2026-08-04-cosmo-travel-mcp.md",
     "tags": [
       "mcp",
       "ai-agents"
     ],
-    "description": "Servidor MCP com ferramentas de viagem para busca de voos, acomodações e planejamento de itinerários."
+    "description": "Servidor MCP com ferramentas de viagem para busca de voos, acomodações e planejamento de itinerários.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
   },
   {
+    "title": "Candidatar em vagas com prompts (ATS e LinkedIn)",
     "date": "2026-08-04",
+    "published": "2026-08-04",
+    "modified": "2026-08-04",
     "slug": "candidatar-em-vagas-prompts-ats-linkedin",
+    "url": "https://ronanrodrigo.dev/notes/2026/08/04/candidatar-em-vagas-prompts-ats-linkedin/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/candidatar-em-vagas-prompts-ats-linkedin.md",
     "path": "_posts/2026-08-04-candidatar-em-vagas-prompts-ats-linkedin.md",
     "tags": [
       "prompt-engineering",
       "career"
     ],
-    "description": "Passo a passo em etapas com prompts para mapeamento ATS, modelo mestre do currículo, planilha de compatibilidade e candidatura personalizada no LinkedIn."
+    "description": "Passo a passo em etapas com prompts para mapeamento ATS, modelo mestre do currículo, planilha de compatibilidade e candidatura personalizada no LinkedIn.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
   },
   {
+    "title": "Dembrandt: Extração de Design Systems de Qualquer URL",
     "date": "2026-08-02",
+    "published": "2026-08-02",
+    "modified": "2026-08-02",
     "slug": "dembrandt-extracao-design-systems",
+    "url": "https://ronanrodrigo.dev/notes/2026/08/02/dembrandt-extracao-design-systems/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/dembrandt-extracao-design-systems.md",
     "path": "_posts/2026-08-02-dembrandt-extracao-design-systems.md",
     "tags": [
       "design-systems",
@@ -310,11 +585,21 @@
       "web-scraping",
       "tools"
     ],
-    "description": "Ferramentas e recursos para extrair design systems, tokens e componentes de websites de forma automatizada."
+    "description": "Ferramentas e recursos para extrair design systems, tokens e componentes de websites de forma automatizada.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
   },
   {
+    "title": "17 Coisas Para Conhecer Sobre IA",
     "date": "2026-08-01",
+    "published": "2026-08-01",
+    "modified": "2026-08-01",
     "slug": "17-things-to-know-about-ai",
+    "url": "https://ronanrodrigo.dev/notes/2026/08/01/17-things-to-know-about-ai/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/17-things-to-know-about-ai.md",
     "path": "_posts/2026-08-01-17-things-to-know-about-ai.md",
     "tags": [
       "ai",
@@ -323,42 +608,82 @@
       "rag",
       "vector-database"
     ],
-    "description": "Coleção selecionada de 17 conceitos essenciais de engenharia de IA cobrindo agentes, LLMs, RAG, bancos de dados vetoriais e design moderno de sistemas de IA."
+    "description": "Coleção selecionada de 17 conceitos essenciais de engenharia de IA cobrindo agentes, LLMs, RAG, bancos de dados vetoriais e design moderno de sistemas de IA.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
   },
   {
+    "title": "Stallion OTA: Alternativa ao CodePush Encerrado",
     "date": "2026-07-31",
+    "published": "2026-07-31",
+    "modified": "2026-07-31",
     "slug": "stallion-ota-alternativa-codepush",
+    "url": "https://ronanrodrigo.dev/notes/2026/07/31/stallion-ota-alternativa-codepush/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/stallion-ota-alternativa-codepush.md",
     "path": "_posts/2026-07-31-stallion-ota-alternativa-codepush.md",
     "tags": [
       "mobile"
     ],
-    "description": "Stallion é uma plataforma gerenciada de OTA para React Native que surgiu como alternativa ao CodePush, encerrado pela Microsoft em março de 2025. Oferece patch updates até 98% menores, rollback automático, analytics completo e free tier até 10k usuários por mês."
+    "description": "Stallion é uma plataforma gerenciada de OTA para React Native que surgiu como alternativa ao CodePush, encerrado pela Microsoft em março de 2025. Oferece patch updates até 98% menores, rollback automático, analytics completo e free tier até 10k usuários por mês.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
   },
   {
+    "title": "Evaluations Framework — Avaliação sistemática de recursos com IA",
     "date": "2026-07-31",
+    "published": "2026-07-31",
+    "modified": "2026-07-31",
     "slug": "evaluations-framework",
+    "url": "https://ronanrodrigo.dev/notes/2026/07/31/evaluations-framework/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/evaluations-framework.md",
     "path": "_posts/2026-07-31-evaluations-framework.md",
     "tags": [
       "testing",
       "llm",
       "swift"
     ],
-    "description": "Framework da Apple para medir qualidade de features com IA/LLM em Swift, integrando com testes de CI usando datasets, métricas e model-as-judge."
+    "description": "Framework da Apple para medir qualidade de features com IA/LLM em Swift, integrando com testes de CI usando datasets, métricas e model-as-judge.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
   },
   {
+    "title": "AutoResearchClaw: Pesquisa autônoma em minutos",
     "date": "2026-07-31",
+    "published": "2026-07-31",
+    "modified": "2026-07-31",
     "slug": "autoresearchclaw-research-autonomo",
+    "url": "https://ronanrodrigo.dev/notes/2026/07/31/autoresearchclaw-research-autonomo/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/autoresearchclaw-research-autonomo.md",
     "path": "_posts/2026-07-31-autoresearchclaw-research-autonomo.md",
     "tags": [
       "ai-agents",
       "deep-research",
       "python"
     ],
-    "description": "Sistema autônomo da UNC-Chapel Hill que transforma uma ideia em artigo científico completo em minutos usando IA, colaboração humana e orquestração multimodal."
+    "description": "Sistema autônomo da UNC-Chapel Hill que transforma uma ideia em artigo científico completo em minutos usando IA, colaboração humana e orquestração multimodal.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
   },
   {
+    "title": "Unsloth - treinamento local de modelos de IA",
     "date": "2026-07-30",
+    "published": "2026-07-30",
+    "modified": "2026-07-30",
     "slug": "unsloth-treinamento-local-modelos",
+    "url": "https://ronanrodrigo.dev/notes/2026/07/30/unsloth-treinamento-local-modelos/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/unsloth-treinamento-local-modelos.md",
     "path": "_posts/2026-07-30-unsloth-treinamento-local-modelos.md",
     "tags": [
       "local-llm",
@@ -366,31 +691,61 @@
       "open-source",
       "python"
     ],
-    "description": "Como usar Unsloth para treinar e executar modelos de IA localmente com menos memória."
+    "description": "Como usar Unsloth para treinar e executar modelos de IA localmente com menos memória.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
   },
   {
+    "title": "SWE-Skills-Bench - Utilidade real de skills em agentes de IA",
     "date": "2026-07-30",
+    "published": "2026-07-30",
+    "modified": "2026-07-30",
     "slug": "swe-skills-bench-utilidade-real-skills-agentes",
+    "url": "https://ronanrodrigo.dev/notes/2026/07/30/swe-skills-bench-utilidade-real-skills-agentes/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/swe-skills-bench-utilidade-real-skills-agentes.md",
     "path": "_posts/2026-07-30-swe-skills-bench-utilidade-real-skills-agentes.md",
     "tags": [
       "agent-skills",
       "ai-agents"
     ],
-    "description": "Resultados de benchmarks que medem quando skills realmente ajudam agentes em tarefas de software."
+    "description": "Resultados de benchmarks que medem quando skills realmente ajudam agentes em tarefas de software.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
   },
   {
+    "title": "pxpipe: corte de tokens renderizando contexto como imagens",
     "date": "2026-07-30",
+    "published": "2026-07-30",
+    "modified": "2026-07-30",
     "slug": "pxpipe-corte-tokens-imagens",
+    "url": "https://ronanrodrigo.dev/notes/2026/07/30/pxpipe-corte-tokens-imagens/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/pxpipe-corte-tokens-imagens.md",
     "path": "_posts/2026-07-30-pxpipe-corte-tokens-imagens.md",
     "tags": [
       "claude",
       "context-engineering"
     ],
-    "description": "Como renderizar contexto como imagem pode reduzir tokens de entrada e custos em fluxos multimodais."
+    "description": "Como renderizar contexto como imagem pode reduzir tokens de entrada e custos em fluxos multimodais.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
   },
   {
+    "title": "llmfit - Otimize modelos de IA para seu hardware",
     "date": "2026-07-30",
+    "published": "2026-07-30",
+    "modified": "2026-07-30",
     "slug": "llmfit-otimizar-hardware",
+    "url": "https://ronanrodrigo.dev/notes/2026/07/30/llmfit-otimizar-hardware/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/llmfit-otimizar-hardware.md",
     "path": "_posts/2026-07-30-llmfit-otimizar-hardware.md",
     "tags": [
       "llm",
@@ -399,11 +754,21 @@
       "quantization",
       "open-source"
     ],
-    "description": "Ferramenta que identifica quais modelos locais melhor combinam com o hardware disponível."
+    "description": "Ferramenta que identifica quais modelos locais melhor combinam com o hardware disponível.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
   },
   {
+    "title": "LangGraph - 10 motivos para usar",
     "date": "2026-07-30",
+    "published": "2026-07-30",
+    "modified": "2026-07-30",
     "slug": "langgraph-10-motivos",
+    "url": "https://ronanrodrigo.dev/notes/2026/07/30/langgraph-10-motivos/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/langgraph-10-motivos.md",
     "path": "_posts/2026-07-30-langgraph-10-motivos.md",
     "tags": [
       "ai-agents",
@@ -411,11 +776,21 @@
       "python",
       "workflow-engines"
     ],
-    "description": "Dez motivos técnicos para usar LangGraph na construção de agentes com estado e execução durável."
+    "description": "Dez motivos técnicos para usar LangGraph na construção de agentes com estado e execução durável.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
   },
   {
+    "title": "Árvore de Modelos do Claude",
     "date": "2026-07-30",
+    "published": "2026-07-30",
+    "modified": "2026-07-30",
     "slug": "arvore-modelos-claude",
+    "url": "https://ronanrodrigo.dev/notes/2026/07/30/arvore-modelos-claude/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/arvore-modelos-claude.md",
     "path": "_posts/2026-07-30-arvore-modelos-claude.md",
     "tags": [
       "claude",
@@ -423,11 +798,21 @@
       "model-routing",
       "prompt-engineering"
     ],
-    "description": "Guia visual para escolher entre modelos Claude conforme velocidade, complexidade e custo."
+    "description": "Guia visual para escolher entre modelos Claude conforme velocidade, complexidade e custo.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
   },
   {
+    "title": "Agentic Awesome Skills",
     "date": "2026-07-30",
+    "published": "2026-07-30",
+    "modified": "2026-07-30",
     "slug": "agentic-awesome-skills",
+    "url": "https://ronanrodrigo.dev/notes/2026/07/30/agentic-awesome-skills/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/agentic-awesome-skills.md",
     "path": "_posts/2026-07-30-agentic-awesome-skills.md",
     "tags": [
       "agent-skills",
@@ -435,11 +820,21 @@
       "prompt-engineering",
       "coding-assistants"
     ],
-    "description": "Biblioteca instalável de skills reutilizáveis para Claude Code, Cursor e Gemini CLI."
+    "description": "Biblioteca instalável de skills reutilizáveis para Claude Code, Cursor e Gemini CLI.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
   },
   {
+    "title": "OpenViking - Context Database para AI Agents",
     "date": "2026-07-29",
+    "published": "2026-07-29",
+    "modified": "2026-07-29",
     "slug": "openviking-context-database-ai-agents",
+    "url": "https://ronanrodrigo.dev/notes/2026/07/29/openviking-context-database-ai-agents/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/openviking-context-database-ai-agents.md",
     "path": "_posts/2026-07-29-openviking-context-database-ai-agents.md",
     "tags": [
       "ai-agents",
@@ -447,11 +842,21 @@
       "rag",
       "agent-memory"
     ],
-    "description": "Um banco de contexto com hierarquia de sistema de arquivos para memória e recuperação de agentes."
+    "description": "Um banco de contexto com hierarquia de sistema de arquivos para memória e recuperação de agentes.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
   },
   {
+    "title": "OpenCodeReview - Ferramenta de Revisão de Código com IA",
     "date": "2026-07-29",
+    "published": "2026-07-29",
+    "modified": "2026-07-29",
     "slug": "open-code-review",
+    "url": "https://ronanrodrigo.dev/notes/2026/07/29/open-code-review/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/open-code-review.md",
     "path": "_posts/2026-07-29-open-code-review.md",
     "tags": [
       "code-review",
@@ -459,22 +864,42 @@
       "automation",
       "open-source"
     ],
-    "description": "Revisão de código com uma arquitetura híbrida que combina regras determinísticas e agentes LLM."
+    "description": "Revisão de código com uma arquitetura híbrida que combina regras determinísticas e agentes LLM.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
   },
   {
+    "title": "Mantis — Agentes de IA para Revisão de Segurança em Software",
     "date": "2026-07-29",
+    "published": "2026-07-29",
+    "modified": "2026-07-29",
     "slug": "mantis-security-review",
+    "url": "https://ronanrodrigo.dev/notes/2026/07/29/mantis-security-review/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/mantis-security-review.md",
     "path": "_posts/2026-07-29-mantis-security-review.md",
     "tags": [
       "security",
       "ai-agents",
       "code-review"
     ],
-    "description": "Como agentes especializados podem analisar, reproduzir e corrigir vulnerabilidades de software."
+    "description": "Como agentes especializados podem analisar, reproduzir e corrigir vulnerabilidades de software.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
   },
   {
+    "title": "Kimi K3 local com Unsloth Dynamic",
     "date": "2026-07-29",
+    "published": "2026-07-29",
+    "modified": "2026-07-29",
     "slug": "kimi-k3-local",
+    "url": "https://ronanrodrigo.dev/notes/2026/07/29/kimi-k3-local/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/kimi-k3-local.md",
     "path": "_posts/2026-07-29-kimi-k3-local.md",
     "tags": [
       "local-llm",
@@ -482,11 +907,21 @@
       "quantization",
       "hardware"
     ],
-    "description": "Requisitos e quantizações dinâmicas para executar o Kimi K3 localmente com Unsloth."
+    "description": "Requisitos e quantizações dinâmicas para executar o Kimi K3 localmente com Unsloth.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
   },
   {
+    "title": "Kilo Code - Agentes de IA open source desafiando ecossistemas proprietários",
     "date": "2026-07-29",
+    "published": "2026-07-29",
+    "modified": "2026-07-29",
     "slug": "kilo-code-agentes-ia",
+    "url": "https://ronanrodrigo.dev/notes/2026/07/29/kilo-code-agentes-ia/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/kilo-code-agentes-ia.md",
     "path": "_posts/2026-07-29-kilo-code-agentes-ia.md",
     "tags": [
       "ai-agents",
@@ -494,11 +929,21 @@
       "typescript",
       "coding-assistants"
     ],
-    "description": "O Kilo Code combina agentes de codificação open source, múltiplos modelos e soberania técnica."
+    "description": "O Kilo Code combina agentes de codificação open source, múltiplos modelos e soberania técnica.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
   },
   {
+    "title": "Hyper Research - agente de pesquisa profunda com pipeline adaptativo",
     "date": "2026-07-29",
+    "published": "2026-07-29",
+    "modified": "2026-07-29",
     "slug": "hyper-research-deep-research-agent",
+    "url": "https://ronanrodrigo.dev/notes/2026/07/29/hyper-research-deep-research-agent/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/hyper-research-deep-research-agent.md",
     "path": "_posts/2026-07-29-hyper-research-deep-research-agent.md",
     "tags": [
       "ai-agents",
@@ -506,11 +951,21 @@
       "open-source",
       "agent-memory"
     ],
-    "description": "Um pipeline open source para pesquisa profunda com verificação, proveniência e memória persistente."
+    "description": "Um pipeline open source para pesquisa profunda com verificação, proveniência e memória persistente.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
   },
   {
+    "title": "DESIGN.md — Padrão Aberto para Sistemas de Design com IA",
     "date": "2026-07-29",
+    "published": "2026-07-29",
+    "modified": "2026-07-29",
     "slug": "design-md-sistemas-design-ia",
+    "url": "https://ronanrodrigo.dev/notes/2026/07/29/design-md-sistemas-design-ia/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/design-md-sistemas-design-ia.md",
     "path": "_posts/2026-07-29-design-md-sistemas-design-ia.md",
     "tags": [
       "design-systems",
@@ -518,11 +973,21 @@
       "claude",
       "design-tokens"
     ],
-    "description": "Como usar DESIGN.md para fornecer referências e tokens de design consistentes a agentes de IA."
+    "description": "Como usar DESIGN.md para fornecer referências e tokens de design consistentes a agentes de IA.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
   },
   {
+    "title": "Crawlee – Web Scraping e Automação de Navegador",
     "date": "2026-07-29",
+    "published": "2026-07-29",
+    "modified": "2026-07-29",
     "slug": "crawlee-web-scraping",
+    "url": "https://ronanrodrigo.dev/notes/2026/07/29/crawlee-web-scraping/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/crawlee-web-scraping.md",
     "path": "_posts/2026-07-29-crawlee-web-scraping.md",
     "tags": [
       "web-scraping",
@@ -530,30 +995,60 @@
       "python",
       "javascript"
     ],
-    "description": "Bibliotecas, técnicas e cuidados para coletar dados da web e preparar datasets para IA."
+    "description": "Bibliotecas, técnicas e cuidados para coletar dados da web e preparar datasets para IA.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
   },
   {
+    "title": "Sites de empregos remotos",
     "date": "2026-07-27",
+    "published": "2026-07-27",
+    "modified": "2026-07-27",
     "slug": "sites-de-empregos-remotos",
+    "url": "https://ronanrodrigo.dev/notes/2026/07/27/sites-de-empregos-remotos/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/sites-de-empregos-remotos.md",
     "path": "_posts/2026-07-27-sites-de-empregos-remotos.md",
     "tags": [
       "career"
     ],
-    "description": "Curadoria de plataformas e referências para encontrar oportunidades de trabalho remoto."
+    "description": "Curadoria de plataformas e referências para encontrar oportunidades de trabalho remoto.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
   },
   {
+    "title": "MarkItDown — convertendo documentos para Markdown",
     "date": "2026-07-27",
+    "published": "2026-07-27",
+    "modified": "2026-07-27",
     "slug": "markitdown-documentos-markdown",
+    "url": "https://ronanrodrigo.dev/notes/2026/07/27/markitdown-documentos-markdown/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/markitdown-documentos-markdown.md",
     "path": "_posts/2026-07-27-markitdown-documentos-markdown.md",
     "tags": [
       "python",
       "llm"
     ],
-    "description": "Como converter documentos em Markdown com MarkItDown para economizar tokens e preparar dados para LLMs."
+    "description": "Como converter documentos em Markdown com MarkItDown para economizar tokens e preparar dados para LLMs.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
   },
   {
+    "title": "AI Skills 10 Core Competencies for 2026",
     "date": "2026-07-27",
+    "published": "2026-07-27",
+    "modified": "2026-07-27",
     "slug": "ai-skills",
+    "url": "https://ronanrodrigo.dev/notes/2026/07/27/ai-skills/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/ai-skills.md",
     "path": "_posts/2026-07-27-ai-skills.md",
     "tags": [
       "prompt-engineering",
@@ -562,20 +1057,40 @@
       "rag",
       "llm"
     ],
-    "description": "Framework com dez competências de IA, de prompt engineering a gestão de LLMs, com guias práticos."
+    "description": "Framework com dez competências de IA, de prompt engineering a gestão de LLMs, com guias práticos.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
   },
   {
+    "title": "YouTube: Prompts e Estratégia para Crescimento de Canal",
     "date": "2026-07-26",
+    "published": "2026-07-26",
+    "modified": "2026-07-26",
     "slug": "youtube-prompts-estrategia-canal",
+    "url": "https://ronanrodrigo.dev/notes/2026/07/26/youtube-prompts-estrategia-canal/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/youtube-prompts-estrategia-canal.md",
     "path": "_posts/2026-07-26-youtube-prompts-estrategia-canal.md",
     "tags": [
       "prompt-engineering"
     ],
-    "description": "Prompts e especialistas de IA para planejar, produzir, otimizar e monetizar canais no YouTube."
+    "description": "Prompts e especialistas de IA para planejar, produzir, otimizar e monetizar canais no YouTube.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
   },
   {
+    "title": "Melhores ferramentas de IA em 2026",
     "date": "2026-07-26",
+    "published": "2026-07-26",
+    "modified": "2026-07-26",
     "slug": "melhores-ferramentas-ia-2026",
+    "url": "https://ronanrodrigo.dev/notes/2026/07/26/melhores-ferramentas-ia-2026/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/melhores-ferramentas-ia-2026.md",
     "path": "_posts/2026-07-26-melhores-ferramentas-ia-2026.md",
     "tags": [
       "ai",
@@ -583,11 +1098,21 @@
       "automation",
       "productivity"
     ],
-    "description": "Panorama de ferramentas de IA para pesquisa, criação, programação, design e automação em 2026."
+    "description": "Panorama de ferramentas de IA para pesquisa, criação, programação, design e automação em 2026.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
   },
   {
+    "title": "Hermes Agent IA open source",
     "date": "2026-07-26",
+    "published": "2026-07-26",
+    "modified": "2026-07-26",
     "slug": "hermes-agente-ia-open-source",
+    "url": "https://ronanrodrigo.dev/notes/2026/07/26/hermes-agente-ia-open-source/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/hermes-agente-ia-open-source.md",
     "path": "_posts/2026-07-26-hermes-agente-ia-open-source.md",
     "tags": [
       "ai-agents",
@@ -595,11 +1120,21 @@
       "open-source",
       "agent-memory"
     ],
-    "description": "Recursos e referências do Hermes, agente open source com memória, skills e ferramentas."
+    "description": "Recursos e referências do Hermes, agente open source com memória, skills e ferramentas.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
   },
   {
+    "title": "Ferramentas, Plugins e Skills do Claude",
     "date": "2026-07-26",
+    "published": "2026-07-26",
+    "modified": "2026-07-26",
     "slug": "ferramentas-plugins-skills-claude",
+    "url": "https://ronanrodrigo.dev/notes/2026/07/26/ferramentas-plugins-skills-claude/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/ferramentas-plugins-skills-claude.md",
     "path": "_posts/2026-07-26-ferramentas-plugins-skills-claude.md",
     "tags": [
       "claude",
@@ -607,11 +1142,21 @@
       "tools",
       "agent-skills"
     ],
-    "description": "Visão geral de MCPs, skills, plugins e conectores para estender o Claude."
+    "description": "Visão geral de MCPs, skills, plugins e conectores para estender o Claude.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
   },
   {
+    "title": "Agentes IA de Pesquisa e Automação Web",
     "date": "2026-07-26",
+    "published": "2026-07-26",
+    "modified": "2026-07-26",
     "slug": "agentes-ia-pesquisa-automacao",
+    "url": "https://ronanrodrigo.dev/notes/2026/07/26/agentes-ia-pesquisa-automacao/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/agentes-ia-pesquisa-automacao.md",
     "path": "_posts/2026-07-26-agentes-ia-pesquisa-automacao.md",
     "tags": [
       "ai-agents",
@@ -619,11 +1164,21 @@
       "web-scraping",
       "tools"
     ],
-    "description": "Agentes para pesquisa profunda na web e automação de fluxos complexos em navegadores."
+    "description": "Agentes para pesquisa profunda na web e automação de fluxos complexos em navegadores.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
   },
   {
+    "title": "OmniRoute - Gateway IA Gratuito",
     "date": "2026-07-25",
+    "published": "2026-07-25",
+    "modified": "2026-07-25",
     "slug": "omniroute-gateway-ia",
+    "url": "https://ronanrodrigo.dev/notes/2026/07/25/omniroute-gateway-ia/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/omniroute-gateway-ia.md",
     "path": "_posts/2026-07-25-omniroute-gateway-ia.md",
     "tags": [
       "ai",
@@ -631,11 +1186,21 @@
       "open-source",
       "model-routing"
     ],
-    "description": "Gateway open source que unifica provedores de IA, oferece fallback e ajuda a reduzir custos de tokens."
+    "description": "Gateway open source que unifica provedores de IA, oferece fallback e ajuda a reduzir custos de tokens.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
   },
   {
+    "title": "Ferramentas de IA Open Source",
     "date": "2026-07-25",
+    "published": "2026-07-25",
+    "modified": "2026-07-25",
     "slug": "ferramentas-ia-open-source",
+    "url": "https://ronanrodrigo.dev/notes/2026/07/25/ferramentas-ia-open-source/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/ferramentas-ia-open-source.md",
     "path": "_posts/2026-07-25-ferramentas-ia-open-source.md",
     "tags": [
       "ai",
@@ -644,22 +1209,42 @@
       "javascript",
       "security"
     ],
-    "description": "Seleção de ferramentas open source para automação, reuniões e segurança com IA."
+    "description": "Seleção de ferramentas open source para automação, reuniões e segurança com IA.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
   },
   {
+    "title": "Ferramentas Claude Avançadas",
     "date": "2026-07-24",
+    "published": "2026-07-24",
+    "modified": "2026-07-24",
     "slug": "ferramentas-claude-avancadas",
+    "url": "https://ronanrodrigo.dev/notes/2026/07/24/ferramentas-claude-avancadas/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/ferramentas-claude-avancadas.md",
     "path": "_posts/2026-07-24-ferramentas-claude-avancadas.md",
     "tags": [
       "claude",
       "tools",
       "rag"
     ],
-    "description": "Ferramentas para ampliar o Claude com APIs, grafos de conhecimento e skills especializadas."
+    "description": "Ferramentas para ampliar o Claude com APIs, grafos de conhecimento e skills especializadas.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
   },
   {
+    "title": "Colibri - Motor Local de IA",
     "date": "2026-07-24",
+    "published": "2026-07-24",
+    "modified": "2026-07-24",
     "slug": "colibri-motor-local-ia",
+    "url": "https://ronanrodrigo.dev/notes/2026/07/24/colibri-motor-local-ia/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/colibri-motor-local-ia.md",
     "path": "_posts/2026-07-24-colibri-motor-local-ia.md",
     "tags": [
       "local-llm",
@@ -667,11 +1252,21 @@
       "llm",
       "open-source"
     ],
-    "description": "Como o Colibri usa streaming seletivo para executar modelos MoE grandes em hardware comum."
+    "description": "Como o Colibri usa streaming seletivo para executar modelos MoE grandes em hardware comum.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
   },
   {
+    "title": "Turbovec: Índice Vetorial Rust com Compressão TurboQuant",
     "date": "2026-07-23",
+    "published": "2026-07-23",
+    "modified": "2026-07-23",
     "slug": "turbovec-turboquant",
+    "url": "https://ronanrodrigo.dev/notes/2026/07/23/turbovec-turboquant/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/turbovec-turboquant.md",
     "path": "_posts/2026-07-23-turbovec-turboquant.md",
     "tags": [
       "vector-database",
@@ -679,70 +1274,135 @@
       "rag",
       "quantization"
     ],
-    "description": "Referências sobre o índice vetorial Rust Turbovec e a compressão de embeddings com TurboQuant."
+    "description": "Referências sobre o índice vetorial Rust Turbovec e a compressão de embeddings com TurboQuant.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
   },
   {
+    "title": "Trilhas e cursos de IA",
     "date": "2026-07-23",
+    "published": "2026-07-23",
+    "modified": "2026-07-23",
     "slug": "trilhas-cursos-ia",
+    "url": "https://ronanrodrigo.dev/notes/2026/07/23/trilhas-cursos-ia/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/trilhas-cursos-ia.md",
     "path": "_posts/2026-07-23-trilhas-cursos-ia.md",
     "tags": [
       "ai",
       "prompt-engineering",
       "ai-agents"
     ],
-    "description": "Cursos e trilhas para aprender IA, prompt engineering, agentes, automação e APIs."
+    "description": "Cursos e trilhas para aprender IA, prompt engineering, agentes, automação e APIs.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
   },
   {
+    "title": "Self-host IA: Coolify, agentes e RAG",
     "date": "2026-07-23",
+    "published": "2026-07-23",
+    "modified": "2026-07-23",
     "slug": "self-host-ia-coolify-agentes-rag",
+    "url": "https://ronanrodrigo.dev/notes/2026/07/23/self-host-ia-coolify-agentes-rag/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/self-host-ia-coolify-agentes-rag.md",
     "path": "_posts/2026-07-23-self-host-ia-coolify-agentes-rag.md",
     "tags": [
       "ai-agents",
       "rag",
       "open-source"
     ],
-    "description": "Ferramentas open source para hospedar aplicações, agentes, RAG e serviços de IA por conta própria."
+    "description": "Ferramentas open source para hospedar aplicações, agentes, RAG e serviços de IA por conta própria.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
   },
   {
+    "title": "Repos de IA (GitHub Trending)",
     "date": "2026-07-23",
+    "published": "2026-07-23",
+    "modified": "2026-07-23",
     "slug": "repos-ia-github-trending",
+    "url": "https://ronanrodrigo.dev/notes/2026/07/23/repos-ia-github-trending/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/repos-ia-github-trending.md",
     "path": "_posts/2026-07-23-repos-ia-github-trending.md",
     "tags": [
       "ai",
       "github",
       "open-source"
     ],
-    "description": "Curadoria de projetos de IA em destaque no GitHub, com foco em agentes, contexto e dados."
+    "description": "Curadoria de projetos de IA em destaque no GitHub, com foco em agentes, contexto e dados.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
   },
   {
+    "title": "Como criar um arquivo Agents.md",
     "date": "2026-07-23",
+    "published": "2026-07-23",
+    "modified": "2026-07-23",
     "slug": "como-criar-agents",
+    "url": "https://ronanrodrigo.dev/notes/2026/07/23/como-criar-agents/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/como-criar-agents.md",
     "path": "_posts/2026-07-23-como-criar-agents.md",
     "tags": [
       "ai-agents",
       "documentation",
       "github"
     ],
-    "description": "Estrutura recomendada e exemplos reais para orientar agentes de IA em repositórios."
+    "description": "Estrutura recomendada e exemplos reais para orientar agentes de IA em repositórios.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
   },
   {
+    "title": "AGENTS.md - Instruções Oficiais de Criação",
     "date": "2026-07-23",
+    "published": "2026-07-23",
+    "modified": "2026-07-23",
     "slug": "agents-oficiais-criacao",
+    "url": "https://ronanrodrigo.dev/notes/2026/07/23/agents-oficiais-criacao/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/agents-oficiais-criacao.md",
     "path": "_posts/2026-07-23-agents-oficiais-criacao.md",
     "tags": [
       "ai-agents",
       "documentation",
       "github"
     ],
-    "description": "Boas práticas oficiais para criar arquivos AGENTS.md úteis para agentes de IA."
+    "description": "Boas práticas oficiais para criar arquivos AGENTS.md úteis para agentes de IA.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
   },
   {
+    "title": "Ciclo criado pela IA",
     "date": "2026-05-28",
+    "published": "2026-05-28",
+    "modified": "2026-05-28",
     "slug": "ciclo-criado-pela-ia",
+    "url": "https://ronanrodrigo.dev/notes/2026/05/28/ciclo-criado-pela-ia/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/ciclo-criado-pela-ia.md",
     "path": "_posts/2026-05-28-ciclo-criado-pela-ia.md",
     "tags": [
       "productivity"
     ],
-    "description": "Como o ganho de produtividade com IA pode aumentar o ritmo e a densidade do trabalho sem reduzir a carga percebida."
+    "description": "Como o ganho de produtividade com IA pode aumentar o ritmo e a densidade do trabalho sem reduzir a carga percebida.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
   }
 ]
