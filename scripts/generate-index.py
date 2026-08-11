@@ -77,6 +77,14 @@ def parse_frontmatter(path: Path) -> dict:
     return frontmatter
 
 
+def dated_url(date: str, slug: str) -> str:
+    match = re.fullmatch(r"(\d{4})-(\d{2})-(\d{2})", date)
+    if not match:
+        raise ValueError(f"Invalid post date for {slug}: {date}")
+    year, month, day = match.groups()
+    return f"{BASE_URL}/{year}/{month}/{day}/{slug}/"
+
+
 def post_metadata(path: Path) -> dict:
     match = re.match(r"(\d{4}-\d{2}-\d{2})-(.+)\.md$", path.name)
     if not match:
@@ -95,7 +103,7 @@ def post_metadata(path: Path) -> dict:
         "published": date,
         "modified": frontmatter.get("modified", date),
         "slug": slug,
-        "url": f"{BASE_URL}/{slug}/",
+        "url": dated_url(date, slug),
         "markdown_url": f"{BASE_URL}/{slug}.md",
         "path": path.as_posix(),
         "tags": tags,

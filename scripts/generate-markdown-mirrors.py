@@ -58,6 +58,14 @@ def frontmatter(path: Path) -> tuple[dict[str, str | list[str]], str]:
     return values, match.group(2).lstrip()
 
 
+def dated_url(date: str, slug: str) -> str:
+    match = re.fullmatch(r"(\d{4})-(\d{2})-(\d{2})", date)
+    if not match:
+        raise ValueError(f"Invalid post date for {slug}: {date}")
+    year, month, day = match.groups()
+    return f"{BASE_URL}/{year}/{month}/{day}/{slug}/"
+
+
 def post_metadata(path: Path) -> tuple[str, dict[str, str | list[str]], str]:
     match = re.match(r"(\d{4}-\d{2}-\d{2})-(.+)\.md$", path.name)
     if not match:
@@ -71,7 +79,7 @@ def post_metadata(path: Path) -> tuple[str, dict[str, str | list[str]], str]:
 
 def render_mirror(slug: str, metadata: dict[str, str | list[str]], body: str) -> str:
     title = str(metadata["title"])
-    date = str(metadata.get("date", ""))
+    date = str(metadata["date"])
     description = str(metadata.get("description", ""))
     tags = metadata.get("tags", [])
     tags_text = ", ".join(str(tag) for tag in tags) if isinstance(tags, list) else str(tags)
@@ -83,7 +91,7 @@ def render_mirror(slug: str, metadata: dict[str, str | list[str]], body: str) ->
         header.append(f"- Tags: {tags_text}")
     header.extend(
         [
-            f"- Página HTML: {BASE_URL}/{slug}/",
+            f"- Página HTML: {dated_url(date, slug)}",
             "",
             "---",
             "",
