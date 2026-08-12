@@ -15,7 +15,6 @@
     {% seo %}
     {% feed_meta %}
 
-    <!-- Machine-readable discovery resources. These are complementary signals, not agent instructions. -->
     <link rel="canonical" href="{{ page_url }}">
     <link rel="describedby" type="text/markdown" title="Índice e guia para agentes de IA" href="{{ '/llms.txt' | relative_url }}">
     <link rel="alternate" type="text/plain" title="Índice e guia para agentes de IA" href="{{ '/llms.txt' | relative_url }}">
@@ -67,32 +66,18 @@
     <link rel="stylesheet" href="{{ '/assets/css/tag-pages.css' | relative_url }}?v={{ site.time | date: '%s' }}">
     <link rel="stylesheet" href="{{ '/assets/css/agent-notice.css' | relative_url }}?v={{ site.time | date: '%s' }}">
 
-    <!-- Google Tag Manager -->
+    <!-- Google Analytics 4 -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-0TE9HBV804"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      gtag('config', 'G-0TE9HBV804');
-    </script>
-
-    <!-- Firebase Analytics -->
-    <script type="module">
-      import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.4/firebase-app.js";
-      import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.12.4/firebase-analytics.js";
-      
-      const firebaseConfig = {
-        apiKey: "AIzaSyC5UXudhyrm7MAcV3AYF2LzDFxvsh--AbY",
-        authDomain: "ronanrodrigo-dev.firebaseapp.com",
-        projectId: "ronanrodrigo-dev",
-        storageBucket: "ronanrodrigo-dev.firebasestorage.app",
-        messagingSenderId: "42504195489",
-        appId: "1:42504195489:web:fd3a6d54cbcbac5ef84fe0",
-        measurementId: "G-0TE9HBV804"
-      };
-      
-      const app = initializeApp(firebaseConfig);
-      const analytics = getAnalytics(app);
+      gtag('config', 'G-0TE9HBV804', {
+        page_title: document.title,
+        page_location: window.location.href,
+        page_path: window.location.pathname + window.location.search,
+        send_page_view: true
+      });
     </script>
   </head>
 
