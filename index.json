@@ -1,5 +1,29 @@
 [
   {
+    "title": "NVIDIA NOOA: Agentes como Classes Python Nativas",
+    "date": "2026-08-12",
+    "published": "2026-08-12",
+    "modified": "2026-08-12",
+    "slug": "nvidia-nooa-agentes-python",
+    "url": "https://ronanrodrigo.dev/notes/2026/08/12/nvidia-nooa-agentes-python/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/nvidia-nooa-agentes-python.md",
+    "path": "_posts/2026-08-12-nvidia-nooa-agentes-python.md",
+    "tags": [
+      "ia",
+      "agentes",
+      "python",
+      "engineering",
+      "nvidia",
+      "framework"
+    ],
+    "description": "Curadoria sobre NOOA, framework open source da NVIDIA que simplifica construção de agentes integrando engenharia de agentes com engenharia de software através de classes Python.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
+  },
+  {
     "title": "Loop Engineering: Orquestração Automática de Agentes de IA",
     "date": "2026-08-11",
     "published": "2026-08-11",
