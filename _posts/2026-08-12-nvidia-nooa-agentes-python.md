@@ -24,7 +24,7 @@ Coloque tudo isso dentro de um objeto Python:
 
 Um método Python tradicional continua determinístico. Já um método com `...` pode ser executado pelo LLM como um método agentic, permitindo que o modelo complete a implementação em tempo de execução.
 
-[Veja a postagem original no LinkedIn](https://lnkd.in/dnYddWMe)
+[Acesse o repositório oficial no GitHub](https://github.com/NVIDIA-NeMO/labs-OO-Agents)
 
 ## Arquitetura e Características Principais
 
@@ -81,8 +81,6 @@ pip install nooa-memory   # subsistema de memória de longo prazo
 ```
 
 É agnóstico de modelo e funciona com qualquer backend suportado por LiteLLM: OpenAI, Anthropic, Ollama, vLLM e qualquer endpoint compatível com OpenAI.
-
-[Acesse o repositório oficial no GitHub](https://github.com/NVIDIA-NeMO/labs-OO-Agents)
 
 ## Primeiros Passos
 
