@@ -67,6 +67,15 @@
     <link rel="stylesheet" href="{{ '/assets/css/tag-pages.css' | relative_url }}?v={{ site.time | date: '%s' }}">
     <link rel="stylesheet" href="{{ '/assets/css/agent-notice.css' | relative_url }}?v={{ site.time | date: '%s' }}">
 
+    <!-- Google Tag Manager -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0TE9HBV804"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-0TE9HBV804');
+    </script>
+
     <!-- Firebase Analytics -->
     <script type="module">
       import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.4/firebase-app.js";
