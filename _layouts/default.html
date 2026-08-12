@@ -66,6 +66,25 @@
     <link rel="stylesheet" href="{{ '/assets/css/table-overrides.css' | relative_url }}?v={{ site.time | date: '%s' }}">
     <link rel="stylesheet" href="{{ '/assets/css/tag-pages.css' | relative_url }}?v={{ site.time | date: '%s' }}">
     <link rel="stylesheet" href="{{ '/assets/css/agent-notice.css' | relative_url }}?v={{ site.time | date: '%s' }}">
+
+    <!-- Firebase Analytics -->
+    <script type="module">
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.4/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.12.4/firebase-analytics.js";
+      
+      const firebaseConfig = {
+        apiKey: "AIzaSyBmNf3NUeYI8sAfr72dHdOyiQZ9YzF4q0E",
+        authDomain: "ronanrodrigo-dev.firebaseapp.com",
+        projectId: "ronanrodrigo-dev",
+        storageBucket: "ronanrodrigo-dev.appspot.com",
+        messagingSenderId: "42504195489",
+        appId: "1:42504195489:web:fd3a6d54cbcbac5ef84fe0",
+        measurementId: "G-0TE9HBV804"
+      };
+      
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+    </script>
   </head>
 
   <body>
