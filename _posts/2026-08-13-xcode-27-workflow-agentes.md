@@ -9,9 +9,9 @@ tags:
 layout: post
 ---
 
-## Fluxo de trabalho para Xcode 27 compartilhado em imagem
+## Um fluxo de trabalho com agentes no Xcode 27
 
-A imagem compartilhada propõe usar agentes de programação com escopo e supervisão: definir o plano e as restrições, executar uma mudança focada, revisar os diffs relevantes, rodar testes, consultar ferramentas de perfil quando fizer sentido e manter a responsabilidade humana pela arquitetura, segurança e aprovação antes do merge. Como a imagem não informa uma fonte pública, este item é descrito somente a partir do conteúdo visual recebido.
+Use agentes de programação com escopo e supervisão: defina o plano e as restrições, execute uma mudança focada, revise os diffs relevantes, rode testes e consulte ferramentas de perfil quando fizer sentido. A equipe continua responsável pela arquitetura, segurança e aprovação antes do merge.
 
 ## O que há de novo no Xcode 27
 
