@@ -1,5 +1,29 @@
 [
   {
+    "title": "30 Things to Install into Claude",
+    "date": "2026-08-13",
+    "published": "2026-08-13",
+    "modified": "2026-08-13",
+    "slug": "30-coisas-para-instalar-no-claude",
+    "url": "https://ronanrodrigo.dev/notes/2026/08/13/30-coisas-para-instalar-no-claude/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/30-coisas-para-instalar-no-claude.md",
+    "path": "_posts/2026-08-13-30-coisas-para-instalar-no-claude.md",
+    "tags": [
+      "claude",
+      "ferramentas",
+      "mcp",
+      "extensoes",
+      "ia",
+      "desenvolvimento"
+    ],
+    "description": "Lista completa dos 30 repositórios, ferramentas, skills e extensões mais relevantes para potencializar Claude Code",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
+  },
+  {
     "title": "NVIDIA NOOA: Agentes como Classes Python Nativas",
     "date": "2026-08-12",
     "published": "2026-08-12",
