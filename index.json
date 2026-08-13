@@ -1,5 +1,27 @@
 [
   {
+    "title": "Spec Kit: desenvolvimento orientado por especificações com agentes de IA",
+    "date": "2026-08-13",
+    "published": "2026-08-13",
+    "modified": "2026-08-13",
+    "slug": "spec-kit",
+    "url": "https://ronanrodrigo.dev/notes/2026/08/13/spec-kit/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/spec-kit.md",
+    "path": "_posts/2026-08-13-spec-kit.md",
+    "tags": [
+      "ai-agents",
+      "desenvolvimento",
+      "github",
+      "open-source"
+    ],
+    "description": "Uma curadoria de fontes oficiais sobre o toolkit aberto do GitHub para transformar especificações em planos, tarefas e implementação.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
+  },
+  {
     "title": "30 Things to Install into Claude",
     "date": "2026-08-13",
     "published": "2026-08-13",
