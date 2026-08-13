@@ -1,5 +1,26 @@
 [
   {
+    "title": "Xcode 27: um fluxo de trabalho para agentes de programação",
+    "date": "2026-08-13",
+    "published": "2026-08-13",
+    "modified": "2026-08-13",
+    "slug": "xcode-27-workflow-agentes",
+    "url": "https://ronanrodrigo.dev/notes/2026/08/13/xcode-27-workflow-agentes/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/xcode-27-workflow-agentes.md",
+    "path": "_posts/2026-08-13-xcode-27-workflow-agentes.md",
+    "tags": [
+      "ai-agents",
+      "desenvolvimento",
+      "swift"
+    ],
+    "description": "Uma curadoria sobre o uso de planejamento, mudanças delimitadas, revisão, testes e análise de perfil ao trabalhar com agentes no Xcode 27.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
+  },
+  {
     "title": "Spec Kit: desenvolvimento orientado por especificações com agentes de IA",
     "date": "2026-08-13",
     "published": "2026-08-13",
