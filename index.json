@@ -43,6 +43,30 @@
     "status": "published"
   },
   {
+    "title": "OpenMausBot: um chat desktop para uma equipe de agentes",
+    "date": "2026-08-13",
+    "published": "2026-08-13",
+    "modified": "2026-08-13",
+    "slug": "openmausbot-chat-agentes",
+    "url": "https://ronanrodrigo.dev/notes/2026/08/13/openmausbot-chat-agentes/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/openmausbot-chat-agentes.md",
+    "path": "_posts/2026-08-13-openmausbot-chat-agentes.md",
+    "tags": [
+      "ai-agents",
+      "agentes",
+      "open-source",
+      "mcp",
+      "claude",
+      "codex"
+    ],
+    "description": "Um app open source, local-first, que organiza Claude, Codex e outros agentes como contatos em uma interface de conversa.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
+  },
+  {
     "title": "30 Things to Install into Claude",
     "date": "2026-08-13",
     "published": "2026-08-13",
