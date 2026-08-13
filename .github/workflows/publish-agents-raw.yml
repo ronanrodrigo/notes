@@ -1,4 +1,4 @@
-name: Publish agent-readable resources
+name: Prepare and publish site
 
 on:
   push:
@@ -7,16 +7,56 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
 concurrency:
-  group: pages
-  cancel-in-progress: true
+  group: notes-main-pipeline
+  cancel-in-progress: false
 
 jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+          fetch-depth: 0
+
+      - name: Normalize note links
+        run: python3 scripts/normalize-note-links.py
+
+      - name: Remove eligible note H1 headings
+        run: python3 scripts/remove-note-h1.py
+
+      - name: Generate site indexes
+        run: |
+          python3 scripts/generate-index.py
+          python3 scripts/generate-list-tags.py
+
+      - name: Commit and push prepared content
+        shell: bash
+        run: |
+          if git diff --quiet -- index.json list-tags.json && \
+             { [ ! -d _notes ] || git diff --quiet -- _notes; }; then
+            echo 'Nenhuma alteração gerada; nenhum commit necessário.'
+            exit 0
+          fi
+
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add index.json list-tags.json
+          if [ -d _notes ]; then
+            git add _notes
+          fi
+          git commit -m 'chore: update generated site content [skip ci]'
+          git pull --rebase origin '${{ github.ref_name }}'
+          git push origin HEAD:${{ github.ref_name }}
+
   publish:
+    needs: prepare
     runs-on: ubuntu-latest
     environment:
       name: github-pages
@@ -24,6 +64,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+          fetch-depth: 0
 
       - name: Build Jekyll site
         uses: actions/jekyll-build-pages@v1
