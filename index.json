@@ -1,5 +1,29 @@
 [
   {
+    "title": "Xirp e a camada de contexto para agentes de codigo",
+    "date": "2026-08-14",
+    "published": "2026-08-14",
+    "modified": "2026-08-14",
+    "slug": "xirp-contexto-agentes",
+    "url": "https://ronanrodrigo.dev/notes/2026/08/14/xirp-contexto-agentes/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/xirp-contexto-agentes.md",
+    "path": "_posts/2026-08-14-xirp-contexto-agentes.md",
+    "tags": [
+      "ai-agents",
+      "agent-memory",
+      "context-engineering",
+      "documentation",
+      "llm",
+      "tools"
+    ],
+    "description": "Uma curadoria sobre memoria institucional, documentacao viva e contexto organizacional para agentes de desenvolvimento.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
+  },
+  {
     "title": "Xcode 27: um fluxo de trabalho para agentes de programação",
     "date": "2026-08-13",
     "published": "2026-08-13",
