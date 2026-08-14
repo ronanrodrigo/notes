@@ -24,6 +24,29 @@
     "status": "published"
   },
   {
+    "title": "Unstract para extração de documentos",
+    "date": "2026-08-14",
+    "published": "2026-08-14",
+    "modified": "2026-08-14",
+    "slug": "unstract-document-extraction",
+    "url": "https://ronanrodrigo.dev/notes/2026/08/14/unstract-document-extraction/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/unstract-document-extraction.md",
+    "path": "_posts/2026-08-14-unstract-document-extraction.md",
+    "tags": [
+      "ai",
+      "automation",
+      "llm",
+      "open-source",
+      "prompt-engineering"
+    ],
+    "description": "Uma curadoria sobre transformar documentos não estruturados em dados estruturados usando prompts, LLMs e automações.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
+  },
+  {
     "title": "De loops a grafos: padrões para sistemas agentic",
     "date": "2026-08-14",
     "published": "2026-08-14",
