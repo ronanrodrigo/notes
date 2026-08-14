@@ -24,6 +24,29 @@
     "status": "published"
   },
   {
+    "title": "De loops a grafos: padrões para sistemas agentic",
+    "date": "2026-08-14",
+    "published": "2026-08-14",
+    "modified": "2026-08-14",
+    "slug": "loops-graphs-padroes-agentic",
+    "url": "https://ronanrodrigo.dev/notes/2026/08/14/loops-graphs-padroes-agentic/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/loops-graphs-padroes-agentic.md",
+    "path": "_posts/2026-08-14-loops-graphs-padroes-agentic.md",
+    "tags": [
+      "ai-agents",
+      "orchestration",
+      "agent-memory",
+      "workflow-engines",
+      "prompt-engineering"
+    ],
+    "description": "Curadoria sobre reflexão, ferramentas, planejamento e colaboração multiagente na construção de sistemas de IA.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
+  },
+  {
     "title": "Xcode 27: um fluxo de trabalho para agentes de programação",
     "date": "2026-08-13",
     "published": "2026-08-13",
