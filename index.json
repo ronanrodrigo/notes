@@ -1,5 +1,29 @@
 [
   {
+    "title": "Direção estética e design de interfaces frontend",
+    "date": "2026-08-15",
+    "published": "2026-08-15",
+    "modified": "2026-08-15",
+    "slug": "design-frontend-direcao-estetica",
+    "url": "https://ronanrodrigo.dev/notes/2026/08/15/design-frontend-direcao-estetica/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/design-frontend-direcao-estetica.md",
+    "path": "_posts/2026-08-15-design-frontend-direcao-estetica.md",
+    "tags": [
+      "design",
+      "frontend",
+      "estetica",
+      "tipografia",
+      "ui",
+      "design-systems"
+    ],
+    "description": "Guia sobre como estabelecer uma direção estética intencional, evitar padrões genéricos e criar interfaces visualmente memoráveis com tipografia, cor, movimento e composição espacial.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
+  },
+  {
     "title": "Xirp e a camada de contexto para agentes de codigo",
     "date": "2026-08-14",
     "published": "2026-08-14",
