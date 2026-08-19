@@ -1,5 +1,28 @@
 [
   {
+    "title": "Happy: Codex e Claude Code no celular",
+    "date": "2026-08-18",
+    "published": "2026-08-18",
+    "modified": "2026-08-18",
+    "slug": "happy-codex-claude-code-mobile",
+    "url": "https://ronanrodrigo.dev/notes/2026/08/18/happy-codex-claude-code-mobile/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/happy-codex-claude-code-mobile.md",
+    "path": "_posts/2026-08-18-happy-codex-claude-code-mobile.md",
+    "tags": [
+      "ai-agents",
+      "mobile",
+      "open-source",
+      "claude",
+      "tools"
+    ],
+    "description": "Cliente open-source para acompanhar e controlar sessões de Codex e Claude Code pela web e por dispositivos móveis.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
+  },
+  {
     "title": "Direção estética e design de interfaces frontend",
     "date": "2026-08-15",
     "published": "2026-08-15",
