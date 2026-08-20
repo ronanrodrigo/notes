@@ -1,5 +1,28 @@
 [
   {
+    "title": "Graft: contexto persistente para agentes de programação",
+    "date": "2026-08-20",
+    "published": "2026-08-20",
+    "modified": "2026-08-20",
+    "slug": "graft-grafo-contexto-codebase",
+    "url": "https://ronanrodrigo.dev/notes/2026/08/20/graft-grafo-contexto-codebase/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/graft-grafo-contexto-codebase.md",
+    "path": "_posts/2026-08-20-graft-grafo-contexto-codebase.md",
+    "tags": [
+      "ai-agents",
+      "code-analysis",
+      "open-source",
+      "mcp",
+      "tree-sitter"
+    ],
+    "description": "Curadoria sobre uma ferramenta open-source que transforma repositórios em grafos de contexto legíveis por agentes de código.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
+  },
+  {
     "title": "Happy: Codex e Claude Code no celular",
     "date": "2026-08-18",
     "published": "2026-08-18",
