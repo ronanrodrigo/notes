@@ -1,5 +1,28 @@
 [
   {
+    "title": "Skills para agentes de programação",
+    "date": "2026-08-21",
+    "published": "2026-08-21",
+    "modified": "2026-08-21",
+    "slug": "skills-agentes",
+    "url": "https://ronanrodrigo.dev/notes/2026/08/21/skills-agentes/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/skills-agentes.md",
+    "path": "_posts/2026-08-21-skills-agentes.md",
+    "tags": [
+      "ai-agents",
+      "agent-skills",
+      "open-source",
+      "tools",
+      "prompt-engineering"
+    ],
+    "description": "Curadoria de coleções, padrões e especificações para ampliar agentes de IA com instruções reutilizáveis.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
+  },
+  {
     "title": "Graft: contexto persistente para agentes de programação",
     "date": "2026-08-20",
     "published": "2026-08-20",
