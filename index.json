@@ -1,5 +1,28 @@
 [
   {
+    "title": "Shepherd: Execução Reversível para Agentes de IA",
+    "date": "2026-08-24",
+    "published": "2026-08-24",
+    "modified": "2026-08-24",
+    "slug": "shepherd-reversible-ai-agents",
+    "url": "https://ronanrodrigo.dev/notes/2026/08/24/shepherd-reversible-ai-agents/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/shepherd-reversible-ai-agents.md",
+    "path": "_posts/2026-08-24-shepherd-reversible-ai-agents.md",
+    "tags": [
+      "agents",
+      "ai",
+      "python",
+      "security",
+      "automation"
+    ],
+    "description": "Framework Python para traços de execução reversíveis, permitindo que meta-agentes observem, bifurquem, reproduzam e revertam execuções de agentes.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
+  },
+  {
     "title": "Skills para agentes de programação",
     "date": "2026-08-21",
     "published": "2026-08-21",
