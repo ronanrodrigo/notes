@@ -1,5 +1,28 @@
 [
   {
+    "title": "Sete ferramentas open source que substituem serviços de IA pagos",
+    "date": "2026-08-25",
+    "published": "2026-08-25",
+    "modified": "2026-08-25",
+    "slug": "ferramentas-open-source-alternativas-ia-pagas",
+    "url": "https://ronanrodrigo.dev/notes/2026/08/25/ferramentas-open-source-alternativas-ia-pagas/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/ferramentas-open-source-alternativas-ia-pagas.md",
+    "path": "_posts/2026-08-25-ferramentas-open-source-alternativas-ia-pagas.md",
+    "tags": [
+      "ai",
+      "open-source",
+      "tools",
+      "local-llm",
+      "productivity"
+    ],
+    "description": "Alternativas gratuitas e locais a HeyGen, Gamma, Otter.ai, Cursor, Manus, Perplexity e Grammarly.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
+  },
+  {
     "title": "Shepherd: Execução Reversível para Agentes de IA",
     "date": "2026-08-24",
     "published": "2026-08-24",
