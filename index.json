@@ -1,5 +1,29 @@
 [
   {
+    "title": "Dez repositórios de Agent Skills que valem a instalação",
+    "date": "2026-08-26",
+    "published": "2026-08-26",
+    "modified": "2026-08-26",
+    "slug": "agent-skills-repos-destaque",
+    "url": "https://ronanrodrigo.dev/notes/2026/08/26/agent-skills-repos-destaque/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/agent-skills-repos-destaque.md",
+    "path": "_posts/2026-08-26-agent-skills-repos-destaque.md",
+    "tags": [
+      "ai-agents",
+      "agent-skills",
+      "claude",
+      "open-source",
+      "prompt-engineering",
+      "tools"
+    ],
+    "description": "Curadoria de coleções e skills para agentes de código, do framework de metodologia da Anthropic até otimizadores de tokens e design.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
+  },
+  {
     "title": "Sete ferramentas open source que substituem serviços de IA pagos",
     "date": "2026-08-25",
     "published": "2026-08-25",
