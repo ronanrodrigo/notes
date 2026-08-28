@@ -1,5 +1,29 @@
 [
   {
+    "title": "OpenDesign e Wondel.ai: design generativo e skills de negócio para agentes",
+    "date": "2026-08-27",
+    "published": "2026-08-27",
+    "modified": "2026-08-27",
+    "slug": "opendesign-wondelai-skills",
+    "url": "https://ronanrodrigo.dev/notes/2026/08/27/opendesign-wondelai-skills/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/opendesign-wondelai-skills.md",
+    "path": "_posts/2026-08-27-opendesign-wondelai-skills.md",
+    "tags": [
+      "agent-skills",
+      "ai-agents",
+      "open-source",
+      "claude",
+      "design-systems",
+      "tools"
+    ],
+    "description": "Dois repositórios que estendem agentes de código — um app desktop open-source de design e uma coleção de skills baseadas em livros best-sellers — ambos sobre o padrão Agent Skills.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
+  },
+  {
     "title": "Dez repositórios de Agent Skills que valem a instalação",
     "date": "2026-08-26",
     "published": "2026-08-26",
