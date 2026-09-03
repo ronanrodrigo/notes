@@ -1,5 +1,28 @@
 [
   {
+    "title": "Quatro repositórios de IA para automatizar vídeo e desenvolvimento",
+    "date": "2026-09-03",
+    "published": "2026-09-03",
+    "modified": "2026-09-03",
+    "slug": "repositorios-ia-video-e-agentes",
+    "url": "https://ronanrodrigo.dev/notes/2026/09/03/repositorios-ia-video-e-agentes/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/repositorios-ia-video-e-agentes.md",
+    "path": "_posts/2026-09-03-repositorios-ia-video-e-agentes.md",
+    "tags": [
+      "ai",
+      "ai-agents",
+      "open-source",
+      "automation",
+      "tools"
+    ],
+    "description": "Curadoria de ferramentas open source para monetizar com IA: vídeos programáticos, cortes com IA, agentes de código autônomos e avatares para live streaming.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
+  },
+  {
     "title": "awesome-gamedev-agent-skills: 68 skills de game dev para agentes de código",
     "date": "2026-08-28",
     "published": "2026-08-28",
