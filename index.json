@@ -1,5 +1,718 @@
 [
   {
+    "title": "Zero: a linguagem de programação para agentes",
+    "date": "2026-09-04",
+    "published": "2026-09-04",
+    "modified": "2026-09-04",
+    "slug": "zero-linguagem-programacao-agentes",
+    "url": "https://ronanrodrigo.dev/notes/2026/09/04/zero-linguagem-programacao-agentes/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/zero-linguagem-programacao-agentes.md",
+    "path": "_posts/2026-09-04-zero-linguagem-programacao-agentes.md",
+    "tags": [
+      "llm",
+      "open-source",
+      "tools",
+      "ai-agents",
+      "github"
+    ],
+    "description": "Linguagem experimental do Vercel Labs desenhada para agentes de IA.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
+  },
+  {
+    "title": "Windows-Switch-Claude-Account: trocar de conta Claude no Windows",
+    "date": "2026-09-04",
+    "published": "2026-09-04",
+    "modified": "2026-09-04",
+    "slug": "windows-switch-claude-account-powershell",
+    "url": "https://ronanrodrigo.dev/notes/2026/09/04/windows-switch-claude-account-powershell/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/windows-switch-claude-account-powershell.md",
+    "path": "_posts/2026-09-04-windows-switch-claude-account-powershell.md",
+    "tags": [
+      "claude",
+      "open-source",
+      "tools",
+      "automation",
+      "productivity"
+    ],
+    "description": "Script PowerShell sem dependências para alternar entre contas da Anthropic.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
+  },
+  {
+    "title": "Ultron CLI: gerenciador concorrente de múltiplos perfis para o Codex",
+    "date": "2026-09-04",
+    "published": "2026-09-04",
+    "modified": "2026-09-04",
+    "slug": "ultron-cli-multi-identidade-codex",
+    "url": "https://ronanrodrigo.dev/notes/2026/09/04/ultron-cli-multi-identidade-codex/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/ultron-cli-multi-identidade-codex.md",
+    "path": "_posts/2026-09-04-ultron-cli-multi-identidade-codex.md",
+    "tags": [
+      "open-source",
+      "tools",
+      "typescript",
+      "ai-agents",
+      "automation"
+    ],
+    "description": "Utilitário em Bun e TypeScript que isola tokens, histórico e MCPs por identidade.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
+  },
+  {
+    "title": "Tesseract: motor OCR open source",
+    "date": "2026-09-04",
+    "published": "2026-09-04",
+    "modified": "2026-09-04",
+    "slug": "tesseract-motor-ocr-open-source",
+    "url": "https://ronanrodrigo.dev/notes/2026/09/04/tesseract-motor-ocr-open-source/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/tesseract-motor-ocr-open-source.md",
+    "path": "_posts/2026-09-04-tesseract-motor-ocr-open-source.md",
+    "tags": [
+      "open-source",
+      "tools",
+      "python",
+      "automation",
+      "ai"
+    ],
+    "description": "Motor de OCR com LSTM para extração de texto em imagens e PDFs.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
+  },
+  {
+    "title": "Skeeper: versionar PRDs, specs e ADRs em repo lateral",
+    "date": "2026-09-04",
+    "published": "2026-09-04",
+    "modified": "2026-09-04",
+    "slug": "skeeper-versionar-specs-prd-adr",
+    "url": "https://ronanrodrigo.dev/notes/2026/09/04/skeeper-versionar-specs-prd-adr/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/skeeper-versionar-specs-prd-adr.md",
+    "path": "_posts/2026-09-04-skeeper-versionar-specs-prd-adr.md",
+    "tags": [
+      "ai-agents",
+      "documentation",
+      "open-source",
+      "tools",
+      "productivity"
+    ],
+    "description": "Ferramenta que versiona artefatos de especificação sem poluir os PRs do projeto principal.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
+  },
+  {
+    "title": "RTK: proxy CLI que reduz tokens em comandos dev",
+    "date": "2026-09-04",
+    "published": "2026-09-04",
+    "modified": "2026-09-04",
+    "slug": "rtk-proxy-economizar-tokens-dev",
+    "url": "https://ronanrodrigo.dev/notes/2026/09/04/rtk-proxy-economizar-tokens-dev/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/rtk-proxy-economizar-tokens-dev.md",
+    "path": "_posts/2026-09-04-rtk-proxy-economizar-tokens-dev.md",
+    "tags": [
+      "llm",
+      "coding-assistants",
+      "open-source",
+      "rust",
+      "tools"
+    ],
+    "description": "Proxy em Rust que corta 60 a 90 por cento do consumo de tokens em comandos comuns de desenvolvimento.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
+  },
+  {
+    "title": "Quokka: inspecionar e limpar dispositivo USB pelo terminal",
+    "date": "2026-09-04",
+    "published": "2026-09-04",
+    "modified": "2026-09-04",
+    "slug": "quokka-inspecionar-dispositivo-usb-terminal",
+    "url": "https://ronanrodrigo.dev/notes/2026/09/04/quokka-inspecionar-dispositivo-usb-terminal/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/quokka-inspecionar-dispositivo-usb-terminal.md",
+    "path": "_posts/2026-09-04-quokka-inspecionar-dispositivo-usb-terminal.md",
+    "tags": [
+      "open-source",
+      "rust",
+      "tools",
+      "mobile",
+      "hardware"
+    ],
+    "description": "Ferramenta Rust que mostra armazenamento, apps, mídia e logs ao vivo sem root ou jailbreak.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
+  },
+  {
+    "title": "PM-Skills: marketplace com mais de 100 skills de produto",
+    "date": "2026-09-04",
+    "published": "2026-09-04",
+    "modified": "2026-09-04",
+    "slug": "pm-skills-marketplace-produto-agentes",
+    "url": "https://ronanrodrigo.dev/notes/2026/09/04/pm-skills-marketplace-produto-agentes/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/pm-skills-marketplace-produto-agentes.md",
+    "path": "_posts/2026-09-04-pm-skills-marketplace-produto-agentes.md",
+    "tags": [
+      "agent-skills",
+      "open-source",
+      "productivity",
+      "tools",
+      "ai-agents"
+    ],
+    "description": "Coleção de skills e comandos de discovery a growth para product managers com agentes.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
+  },
+  {
+    "title": "Open-SPDD: gerenciador de templates de comandos para codar com IA",
+    "date": "2026-09-04",
+    "published": "2026-09-04",
+    "modified": "2026-09-04",
+    "slug": "open-spdd-templates-comandos-ia",
+    "url": "https://ronanrodrigo.dev/notes/2026/09/04/open-spdd-templates-comandos-ia/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/open-spdd-templates-comandos-ia.md",
+    "path": "_posts/2026-09-04-open-spdd-templates-comandos-ia.md",
+    "tags": [
+      "prompt-engineering",
+      "open-source",
+      "tools",
+      "coding-assistants",
+      "productivity"
+    ],
+    "description": "Gerenciador de templates de comandos no fluxo SPDD para assistentes de código.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
+  },
+  {
+    "title": "Oh-My-OpenAgent: harness TUI para ultrawork com menos tokens",
+    "date": "2026-09-04",
+    "published": "2026-09-04",
+    "modified": "2026-09-04",
+    "slug": "oh-my-openagent-ultrawork-tokens",
+    "url": "https://ronanrodrigo.dev/notes/2026/09/04/oh-my-openagent-ultrawork-tokens/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/oh-my-openagent-ultrawork-tokens.md",
+    "path": "_posts/2026-09-04-oh-my-openagent-ultrawork-tokens.md",
+    "tags": [
+      "ai-agents",
+      "open-source",
+      "orchestration",
+      "tools",
+      "claude"
+    ],
+    "description": "Harness com TUI e orquestração para Claude, Codex, Gemini e OpenCode.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
+  },
+  {
+    "title": "My-Workflow: sistema operacional de agentes agnóstico de stack",
+    "date": "2026-09-04",
+    "published": "2026-09-04",
+    "modified": "2026-09-04",
+    "slug": "my-workflow-sistema-operacional-agentes-stack",
+    "url": "https://ronanrodrigo.dev/notes/2026/09/04/my-workflow-sistema-operacional-agentes-stack/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/my-workflow-sistema-operacional-agentes-stack.md",
+    "path": "_posts/2026-09-04-my-workflow-sistema-operacional-agentes-stack.md",
+    "tags": [
+      "ai-agents",
+      "open-source",
+      "orchestration",
+      "workflow-engines",
+      "tools"
+    ],
+    "description": "Workflow spec-driven com delivery loop para orquestrar agentes em qualquer stack.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
+  },
+  {
+    "title": "My-Skills: coleção pessoal com TSG Flow de visão a tasks",
+    "date": "2026-09-04",
+    "published": "2026-09-04",
+    "modified": "2026-09-04",
+    "slug": "my-skills-colecao-pessoal-tsg-flow",
+    "url": "https://ronanrodrigo.dev/notes/2026/09/04/my-skills-colecao-pessoal-tsg-flow/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/my-skills-colecao-pessoal-tsg-flow.md",
+    "path": "_posts/2026-09-04-my-skills-colecao-pessoal-tsg-flow.md",
+    "tags": [
+      "agent-skills",
+      "open-source",
+      "prompt-engineering",
+      "documentation",
+      "ai-agents"
+    ],
+    "description": "Coleção de skills com guias de handoff entre Visão, Domain Map, PRD, TechSpec e tasks.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
+  },
+  {
+    "title": "MarketingSkills: skills de marketing para agentes de código",
+    "date": "2026-09-04",
+    "published": "2026-09-04",
+    "modified": "2026-09-04",
+    "slug": "marketingskills-cro-seo-agentes",
+    "url": "https://ronanrodrigo.dev/notes/2026/09/04/marketingskills-cro-seo-agentes/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/marketingskills-cro-seo-agentes.md",
+    "path": "_posts/2026-09-04-marketingskills-cro-seo-agentes.md",
+    "tags": [
+      "agent-skills",
+      "open-source",
+      "tools",
+      "ai-agents",
+      "productivity"
+    ],
+    "description": "Coleção de CRO, copywriting, SEO, analytics e growth para Claude Code e agentes.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
+  },
+  {
+    "title": "Maestro: o terminal Bloomberg para agentes CLI",
+    "date": "2026-09-04",
+    "published": "2026-09-04",
+    "modified": "2026-09-04",
+    "slug": "maestro-terminal-bloomberg-agentes-cli",
+    "url": "https://ronanrodrigo.dev/notes/2026/09/04/maestro-terminal-bloomberg-agentes-cli/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/maestro-terminal-bloomberg-agentes-cli.md",
+    "path": "_posts/2026-09-04-maestro-terminal-bloomberg-agentes-cli.md",
+    "tags": [
+      "ai-agents",
+      "tools",
+      "open-source",
+      "productivity",
+      "claude"
+    ],
+    "description": "Painel de controle para agentes de terminal com acompanhamento de sessões e custos.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
+  },
+  {
+    "title": "LLM-Usage-Bar: medidor de limites de plano na barra do macOS",
+    "date": "2026-09-04",
+    "published": "2026-09-04",
+    "modified": "2026-09-04",
+    "slug": "llm-usage-bar-limites-plano-macos",
+    "url": "https://ronanrodrigo.dev/notes/2026/09/04/llm-usage-bar-limites-plano-macos/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/llm-usage-bar-limites-plano-macos.md",
+    "path": "_posts/2026-09-04-llm-usage-bar-limites-plano-macos.md",
+    "tags": [
+      "swift",
+      "tools",
+      "open-source",
+      "productivity",
+      "llm"
+    ],
+    "description": "Gauge SwiftUI para cotas de Claude, Codex, Grok e Antigravity em múltiplas contas.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
+  },
+  {
+    "title": "Knip: encontrar arquivos e exports não usados em JS e TS",
+    "date": "2026-09-04",
+    "published": "2026-09-04",
+    "modified": "2026-09-04",
+    "slug": "knip-encontrar-codigo-morto-js-ts",
+    "url": "https://ronanrodrigo.dev/notes/2026/09/04/knip-encontrar-codigo-morto-js-ts/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/knip-encontrar-codigo-morto-js-ts.md",
+    "path": "_posts/2026-09-04-knip-encontrar-codigo-morto-js-ts.md",
+    "tags": [
+      "code-review",
+      "javascript",
+      "typescript",
+      "open-source",
+      "tools"
+    ],
+    "description": "Linter de código morto para dependências, arquivos e exports antes do ship.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
+  },
+  {
+    "title": "Free-Claude-Code: usar Claude Code e Codex com tokens gratuitos",
+    "date": "2026-09-04",
+    "published": "2026-09-04",
+    "modified": "2026-09-04",
+    "slug": "free-claude-code-tokens-gratuitos-terminal",
+    "url": "https://ronanrodrigo.dev/notes/2026/09/04/free-claude-code-tokens-gratuitos-terminal/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/free-claude-code-tokens-gratuitos-terminal.md",
+    "path": "_posts/2026-09-04-free-claude-code-tokens-gratuitos-terminal.md",
+    "tags": [
+      "open-source",
+      "tools",
+      "claude",
+      "coding-assistants",
+      "productivity"
+    ],
+    "description": "Ponte que promete mais de 1,3 bilhão de tokens gratuitos no terminal, app, IDE ou celular.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
+  },
+  {
+    "title": "Firstmate: fale com um agente e entregue com uma tripulação",
+    "date": "2026-09-04",
+    "published": "2026-09-04",
+    "modified": "2026-09-04",
+    "slug": "firstmate-fale-com-um-agente",
+    "url": "https://ronanrodrigo.dev/notes/2026/09/04/firstmate-fale-com-um-agente/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/firstmate-fale-com-um-agente.md",
+    "path": "_posts/2026-09-04-firstmate-fale-com-um-agente.md",
+    "tags": [
+      "ai-agents",
+      "orchestration",
+      "open-source",
+      "tools",
+      "automation"
+    ],
+    "description": "Orquestrador que distribui o trabalho entre múltiplos agentes a partir de um comando.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
+  },
+  {
+    "title": "Docs-MCP-Server: docs fundamentadas via MCP sem depender do Context7",
+    "date": "2026-09-04",
+    "published": "2026-09-04",
+    "modified": "2026-09-04",
+    "slug": "docs-mcp-server-alternativa-context7",
+    "url": "https://ronanrodrigo.dev/notes/2026/09/04/docs-mcp-server-alternativa-context7/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/docs-mcp-server-alternativa-context7.md",
+    "path": "_posts/2026-09-04-docs-mcp-server-alternativa-context7.md",
+    "tags": [
+      "mcp",
+      "open-source",
+      "tools",
+      "coding-assistants",
+      "documentation"
+    ],
+    "description": "Servidor MCP open source que leva documentação atualizada ao agente na hora do código.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
+  },
+  {
+    "title": "Docforge: boilerplate para design docs com ajuda de agentes",
+    "date": "2026-09-04",
+    "published": "2026-09-04",
+    "modified": "2026-09-04",
+    "slug": "docforge-boilerplate-design-docs-ia",
+    "url": "https://ronanrodrigo.dev/notes/2026/09/04/docforge-boilerplate-design-docs-ia/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/docforge-boilerplate-design-docs-ia.md",
+    "path": "_posts/2026-09-04-docforge-boilerplate-design-docs-ia.md",
+    "tags": [
+      "ai-agents",
+      "documentation",
+      "open-source",
+      "tools",
+      "prompt-engineering"
+    ],
+    "description": "Ponto de partida para padronizar design docs de novos softwares com walkthrough dinâmico via agente.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
+  },
+  {
+    "title": "Compozy: sistema operacional para times de agentes de IA",
+    "date": "2026-09-04",
+    "published": "2026-09-04",
+    "modified": "2026-09-04",
+    "slug": "compozy-sistema-operacional-agentes-ia",
+    "url": "https://ronanrodrigo.dev/notes/2026/09/04/compozy-sistema-operacional-agentes-ia/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/compozy-sistema-operacional-agentes-ia.md",
+    "path": "_posts/2026-09-04-compozy-sistema-operacional-agentes-ia.md",
+    "tags": [
+      "ai-agents",
+      "orchestration",
+      "open-source",
+      "tools",
+      "claude"
+    ],
+    "description": "Orquestrador que transforma CLIs como Claude Code, Codex, Gemini CLI e Cursor em um time com memória e jobs automáticos via navegador.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
+  },
+  {
+    "title": "Compozy KB: CLI em Go para bases de conhecimento por tópicos",
+    "date": "2026-09-04",
+    "published": "2026-09-04",
+    "modified": "2026-09-04",
+    "slug": "compozy-kb-bases-conhecimento-topicos",
+    "url": "https://ronanrodrigo.dev/notes/2026/09/04/compozy-kb-bases-conhecimento-topicos/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/compozy-kb-bases-conhecimento-topicos.md",
+    "path": "_posts/2026-09-04-compozy-kb-bases-conhecimento-topicos.md",
+    "tags": [
+      "ai-agents",
+      "rag",
+      "open-source",
+      "tools",
+      "documentation"
+    ],
+    "description": "CLI que constrói bases de conhecimento temáticas no padrão Karpathy KB, só com Markdown local.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
+  },
+  {
+    "title": "Codex-Loop: manter tarefas do Codex rodando até a meta",
+    "date": "2026-09-04",
+    "published": "2026-09-04",
+    "modified": "2026-09-04",
+    "slug": "codex-loop-tarefas-continuas-codex",
+    "url": "https://ronanrodrigo.dev/notes/2026/09/04/codex-loop-tarefas-continuas-codex/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/codex-loop-tarefas-continuas-codex.md",
+    "path": "_posts/2026-09-04-codex-loop-tarefas-continuas-codex.md",
+    "tags": [
+      "ai-agents",
+      "automation",
+      "open-source",
+      "tools",
+      "productivity"
+    ],
+    "description": "Utilitário Go que mantém tarefas do Codex em loop até cumprir meta de tempo ou rodadas.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
+  },
+  {
+    "title": "Claude-GLM-Wrapper: alternar rápido entre Claude e GLM",
+    "date": "2026-09-04",
+    "published": "2026-09-04",
+    "modified": "2026-09-04",
+    "slug": "claude-glm-wrapper-alternar-modelos",
+    "url": "https://ronanrodrigo.dev/notes/2026/09/04/claude-glm-wrapper-alternar-modelos/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/claude-glm-wrapper-alternar-modelos.md",
+    "path": "_posts/2026-09-04-claude-glm-wrapper-alternar-modelos.md",
+    "tags": [
+      "claude",
+      "open-source",
+      "tools",
+      "llm",
+      "coding-assistants"
+    ],
+    "description": "Wrapper que troca configs para usar modelos GLM sem perder login ou resetar API.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
+  },
+  {
+    "title": "Claude-DB: memória persistente para o Claude Code",
+    "date": "2026-09-04",
+    "published": "2026-09-04",
+    "modified": "2026-09-04",
+    "slug": "claude-db-memoria-persistente-claude-code",
+    "url": "https://ronanrodrigo.dev/notes/2026/09/04/claude-db-memoria-persistente-claude-code/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/claude-db-memoria-persistente-claude-code.md",
+    "path": "_posts/2026-09-04-claude-db-memoria-persistente-claude-code.md",
+    "tags": [
+      "agent-skills",
+      "claude",
+      "open-source",
+      "tools",
+      "ai-agents"
+    ],
+    "description": "Plugin que dá ao Claude Code um banco próprio para lembrar entre sessões.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
+  },
+  {
+    "title": "Claude-Code-Agent-Monitor: dashboard realtime para agentes",
+    "date": "2026-09-04",
+    "published": "2026-09-04",
+    "modified": "2026-09-04",
+    "slug": "claude-code-agent-monitor-dashboard",
+    "url": "https://ronanrodrigo.dev/notes/2026/09/04/claude-code-agent-monitor-dashboard/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/claude-code-agent-monitor-dashboard.md",
+    "path": "_posts/2026-09-04-claude-code-agent-monitor-dashboard.md",
+    "tags": [
+      "ai-agents",
+      "tools",
+      "open-source",
+      "typescript",
+      "claude"
+    ],
+    "description": "Painel com SQLite, React e WebSockets para sessões, subagentes e Kanban.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
+  },
+  {
+    "title": "CCTree: sessões hierárquicas para o Claude Code",
+    "date": "2026-09-04",
+    "published": "2026-09-04",
+    "modified": "2026-09-04",
+    "slug": "cctree-sessoes-hierarquicas-claude-code",
+    "url": "https://ronanrodrigo.dev/notes/2026/09/04/cctree-sessoes-hierarquicas-claude-code/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/cctree-sessoes-hierarquicas-claude-code.md",
+    "path": "_posts/2026-09-04-cctree-sessoes-hierarquicas-claude-code.md",
+    "tags": [
+      "claude",
+      "open-source",
+      "tools",
+      "context-engineering",
+      "orchestration"
+    ],
+    "description": "Gerenciador de sessões com fluxo de contexto bidirecional entre níveis.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
+  },
+  {
+    "title": "Antigravity Awesome Skills: control plane com mais de 2.100 skills",
+    "date": "2026-09-04",
+    "published": "2026-09-04",
+    "modified": "2026-09-04",
+    "slug": "antigravity-awesome-skills-catalogo-2100",
+    "url": "https://ronanrodrigo.dev/notes/2026/09/04/antigravity-awesome-skills-catalogo-2100/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/antigravity-awesome-skills-catalogo-2100.md",
+    "path": "_posts/2026-09-04-antigravity-awesome-skills-catalogo-2100.md",
+    "tags": [
+      "agent-skills",
+      "open-source",
+      "tools",
+      "ai-agents",
+      "mcp"
+    ],
+    "description": "Catálogo local com CLI, MCP próprio e Workbench para o Antigravity.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
+  },
+  {
+    "title": "Android Skills: skills oficiais para desenvolvimento Android",
+    "date": "2026-09-04",
+    "published": "2026-09-04",
+    "modified": "2026-09-04",
+    "slug": "android-skills-oficiais-google",
+    "url": "https://ronanrodrigo.dev/notes/2026/09/04/android-skills-oficiais-google/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/android-skills-oficiais-google.md",
+    "path": "_posts/2026-09-04-android-skills-oficiais-google.md",
+    "tags": [
+      "mobile",
+      "agent-skills",
+      "open-source",
+      "documentation",
+      "ai-agents"
+    ],
+    "description": "Repositório oficial de instruções modulares otimizadas para IA no desenvolvimento Android.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
+  },
+  {
+    "title": "AGH: workplace aberto e local-first para agentes de IA",
+    "date": "2026-09-04",
+    "published": "2026-09-04",
+    "modified": "2026-09-04",
+    "slug": "agh-workplace-aberto-agentes-ia",
+    "url": "https://ronanrodrigo.dev/notes/2026/09/04/agh-workplace-aberto-agentes-ia/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/agh-workplace-aberto-agentes-ia.md",
+    "path": "_posts/2026-09-04-agh-workplace-aberto-agentes-ia.md",
+    "tags": [
+      "ai-agents",
+      "open-source",
+      "orchestration",
+      "tools",
+      "automation"
+    ],
+    "description": "Runtime local-first com sessões duráveis e rede agente-a-agente, hoje arquivado.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
+  },
+  {
+    "title": "Agent-Skills-Eval: test runner para skills de agentes",
+    "date": "2026-09-04",
+    "published": "2026-09-04",
+    "modified": "2026-09-04",
+    "slug": "agent-skills-eval-test-runner-skills",
+    "url": "https://ronanrodrigo.dev/notes/2026/09/04/agent-skills-eval-test-runner-skills/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/agent-skills-eval-test-runner-skills.md",
+    "path": "_posts/2026-09-04-agent-skills-eval-test-runner-skills.md",
+    "tags": [
+      "agent-skills",
+      "testing",
+      "open-source",
+      "tools",
+      "ai-agents"
+    ],
+    "description": "Executor de testes para skills no padrão agentskills.io.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
+  },
+  {
     "title": "Quatro repositórios de IA para automatizar vídeo e desenvolvimento",
     "date": "2026-09-03",
     "published": "2026-09-03",
