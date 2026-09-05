@@ -1,5 +1,28 @@
 [
   {
+    "title": "Skills oficiais do Google Ads para agentes de IA",
+    "date": "2026-09-05",
+    "published": "2026-09-05",
+    "modified": "2026-09-05",
+    "slug": "skills-oficiais-google-ads",
+    "url": "https://ronanrodrigo.dev/notes/2026/09/05/skills-oficiais-google-ads/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/skills-oficiais-google-ads.md",
+    "path": "_posts/2026-09-05-skills-oficiais-google-ads.md",
+    "tags": [
+      "agent-skills",
+      "ai-agents",
+      "mcp",
+      "tools",
+      "open-source"
+    ],
+    "description": "Google liberou pacote gratuito de agent skills para Ads, Analytics, Gemini, Cloud e Firebase, além do MCP server oficial do Google Ads.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
+  },
+  {
     "title": "Zero: a linguagem de programação para agentes",
     "date": "2026-09-04",
     "published": "2026-09-04",
