@@ -1,5 +1,5 @@
 ---
-title: "Open Notebook, OpenSEO, Book-to-Skill, AI Job Search e ComfyUI: 5 open source do carrossel"
+title: "Open Notebook, OpenSEO, Book-to-Skill, AI Job Search e ComfyUI: 5 open source para agentes e IA aplicada"
 description: "Alternativa open source ao NotebookLM, SEO com MCP, livro virando skill, framework de busca de emprego no Claude Code e geracao de imagem e video na propria GPU."
 date: 2026-09-06
 tags:
@@ -11,9 +11,9 @@ tags:
 layout: post
 ---
 
-## Seleção de repositórios open source para agentes e IA aplicada
+## Repositórios open source para agentes e IA aplicada
 
-Curadoria de Fabiano Carvalho Jr. (@fabianocarvalhojr) reunindo nove repositórios open source voltados a agentes de código e fluxos com IA. Cinco deles ainda não tinham aparecido por aqui e valem o registro: estudo e pesquisa com RAG local, SEO completo com servidor MCP, transformação de livros em skills, automação da busca de emprego e geração de imagem e vídeo na própria GPU.
+Cinco projetos open source voltados a agentes de código e fluxos com IA que valem o registro:
 
 ## Open Notebook
 

@@ -11,9 +11,9 @@ tags:
 layout: post
 ---
 
-## Carrossel do obrunookamoto sobre plugins de design para agentes
+## Skills que elevam a qualidade visual do que os agentes geram
 
-Sequência de posts de Bruno Okamoto (@obrunookamoto) apresentando quatro plugins considerados sensacionais para elevar a qualidade visual do que os agentes de IA geram: um para injetar critério de gosto antes de gerar a UI, um filtro de qualidade com as regras oficiais da Vercel, um sistema de design pronto extraído de sites de referência via DESIGN.md e um tradutor de referência visual em código. A tese do carrossel é que o problema do frontend vibe-coded não se resolve pedindo para "ficar bonito", e sim com gosto explícito, sistema fechado e auditoria antes da produção.
+Quatro recursos para elevar a qualidade visual do que os agentes de IA geram:
 
 ## Taste Skill: o anti-frontend-genérico dos agentes
 

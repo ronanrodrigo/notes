@@ -11,9 +11,9 @@ tags:
 layout: post
 ---
 
-## Carrossel do Hudson Brendon sobre as skills do Google
+## Pacote oficial de agent skills do Google
 
-Sequência de posts de Hudson Brendon (@99hud) mostrando que o Google liberou de graça um pacote de agent skills: são 132 manuais prontos, um para cada ferramenta — Ads, Analytics, Gemini, Cloud e Firebase. Só de Google Ads são 13 skills, escritas por quem fez a ferramenta. Uma delas diagnostica a conta sozinha — queda de conversão, verba travada, anúncio perdendo impressão. Há também o MCP oficial do Google Ads: conecta o Claude na conta e pergunta em português. A mensagem central é que essas skills não fazem o trabalho no lugar do gestor, mas tiram o braçal de ler documentação e cavar relatório do caminho.
+O Google liberou de graça um pacote de agent skills:
 
 ## Agent Skills for Google products and technologies
 
