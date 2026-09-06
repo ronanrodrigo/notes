@@ -1,5 +1,28 @@
 [
   {
+    "title": "4 skills que tiram o frontend de IA do genérico: taste, guidelines, DESIGN.md e image-to-code",
+    "date": "2026-09-06",
+    "published": "2026-09-06",
+    "modified": "2026-09-06",
+    "slug": "skills-frontend-taste-guidelines-design",
+    "url": "https://ronanrodrigo.dev/notes/2026/09/06/skills-frontend-taste-guidelines-design/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/skills-frontend-taste-guidelines-design.md",
+    "path": "_posts/2026-09-06-skills-frontend-taste-guidelines-design.md",
+    "tags": [
+      "agent-skills",
+      "ai-agents",
+      "open-source",
+      "tools",
+      "design-systems"
+    ],
+    "description": "Taste Skill, web-design-guidelines da Vercel, awesome-design-md e image-to-code-skill: gosto, filtro de qualidade, design system pronto e tradução de referência visual em código.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
+  },
+  {
     "title": "Skills oficiais do Google Ads para agentes de IA",
     "date": "2026-09-05",
     "published": "2026-09-05",
