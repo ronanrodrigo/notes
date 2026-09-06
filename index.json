@@ -23,6 +23,29 @@
     "status": "published"
   },
   {
+    "title": "Open Notebook, OpenSEO, Book-to-Skill, AI Job Search e ComfyUI: 5 open source do carrossel",
+    "date": "2026-09-06",
+    "published": "2026-09-06",
+    "modified": "2026-09-06",
+    "slug": "repos-carrossel-open-notebook-openseo",
+    "url": "https://ronanrodrigo.dev/notes/2026/09/06/repos-carrossel-open-notebook-openseo/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/repos-carrossel-open-notebook-openseo.md",
+    "path": "_posts/2026-09-06-repos-carrossel-open-notebook-openseo.md",
+    "tags": [
+      "ai-agents",
+      "open-source",
+      "tools",
+      "llm",
+      "rag"
+    ],
+    "description": "Alternativa open source ao NotebookLM, SEO com MCP, livro virando skill, framework de busca de emprego no Claude Code e geracao de imagem e video na propria GPU.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
+  },
+  {
     "title": "Skills oficiais do Google Ads para agentes de IA",
     "date": "2026-09-05",
     "published": "2026-09-05",
