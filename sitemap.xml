@@ -24,6 +24,15 @@ layout: null
   <url>
     <loc>{{ '/agents.md' | absolute_url }}</loc>
   </url>
+  <url>
+    <loc>{{ '/about/' | absolute_url }}</loc>
+  </url>
+  <url>
+    <loc>{{ '/contact/' | absolute_url }}</loc>
+  </url>
+  <url>
+    <loc>{{ '/privacy/' | absolute_url }}</loc>
+  </url>
   {% for post in site.posts %}
   <url>
     <loc>{{ post.url | absolute_url }}</loc>

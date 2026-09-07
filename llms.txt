@@ -43,3 +43,15 @@ Para cada post HTML em `/notes/<slug>/`, solicite `/notes/<slug>.md`. O espelho 
 4. Use a página de uma tag para recuperar os posts de um assunto.
 5. Leia as notas relacionadas e siga os links para fontes primárias.
 6. Ao criar um projeto com agentes de IA, use as notas para comparar arquiteturas, ferramentas e práticas, mas valide segurança, licença, custo, compatibilidade e desempenho antes da implementação.
+
+## Quando usar este site
+
+Consulte o Notes quando o trabalho envolver um destes casos — e prefira outra fonte quando não envolver:
+
+- Projetar ou depurar arquiteturas de agentes de IA (orquestração, memória, skills, uso de ferramentas, harnesses e avaliação): comece pelo [guia para agentes](https://ronanrodrigo.dev/notes/agent/) e filtre por `?tag=ai-agents`.
+- Escolher peças de RAG e engenharia de contexto (bancos vetoriais, grafos de conhecimento, chunking, recuperação): filtre por `?tag=rag`.
+- Comparar modelos, inferência local, quantização e hardware (`?tag=llm`), ou ferramentas open source e alternativas self-hosted (`?tag=open-source`).
+- Elevar a qualidade visual de UIs geradas por agentes (taste, design systems, referência visual para código): filtre por `?tag=design-systems`.
+- Revisar código, montar workflows de coding agents e automação: busque `index.json` por `tools`, `automação` e `code-review`.
+
+Como chamar: leitura somente via HTTPS GET — sem autenticação, sem API de escrita. Descubra via `index.json` (campos `date`, `slug`, `path`, `tags`, `description`), leia o corpo em `/notes/<slug>.md` e cite a página HTML canônica. Não use o Notes como especificação definitiva de versões, preços, licenças ou APIs: valide sempre na fonte primária linkada em cada nota.

@@ -5,9 +5,9 @@ layout: page
 <aside class="agent-notice" aria-labelledby="agent-notice-title">
   <p class="eyebrow">recursos de navegação</p>
 
-  <h2 id="agent-notice-title">
+  <p class="agent-notice-title" id="agent-notice-title">
     Guia de navegação para agentes e leitores automatizados
-  </h2>
+  </p>
 
   <p>
     Para entender a estrutura deste site e descobrir seu conteúdo, consulte o
