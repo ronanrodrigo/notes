@@ -17,6 +17,29 @@ Ferramenta open-source que constrói um grafo de contexto do repositório em arq
 
 [Acesse o projeto no GitHub](https://github.com/NanoNets/Graft)
 
+## Benchmark: Cold Claude Code vs. Claude Code + Graft
+
+Benchmark controlado de 162 execuções (mesmo agente, mesmas ferramentas de arquivo, mudando só o contexto): 46% menos tool calls, 42% menos tokens e 60% menos tempo, sem perda de corretude. Os picos por tarefa chegam a 4x mais barato e 3x mais rápido. A metodologia inclui reprodução dos cinco PRs merged do SWE-bench avaliado com 21% menos custo.
+
+[Acesse a fonte original](https://github.com/NanoNets/Graft)
+
+## GitHub App: blast-radius review em todo PR
+
+O projeto oferece um GitHub App que adiciona revisão automática de blast radius em cada pull request — mostra o que cada mudança depende e o que depende dela. Instalação direto pela página do app no repositório.
+
+[Acesse a fonte original](https://github.com/NanoNets/Graft)
+
+## Quick start: dois comandos
+
+```bash
+npm install -g @nanonets/graft
+graft init
+```
+
+O `graft init` constrói o grafo em `graft/` (ignorado pelo git, cache local regenerável) e conecta o agente — a partir da próxima sessão, os nós correspondentes entram em cada prompt e o grafo se reconstrói em background. Funciona com Claude Code, Cursor, Codex, Gemini e qualquer agente que lê arquivos.
+
+[Acesse a fonte original](https://graft.nanonets.ai)
+
 ## Tree-sitter
 
 Gerador de parsers e biblioteca de parsing incremental que produz árvores sintáticas concretas e consegue atualizá-las eficientemente durante a edição. É a base técnica que torna possível ao Graft construir seu grafo estrutural sem depender de um modelo ou de uma rede.
