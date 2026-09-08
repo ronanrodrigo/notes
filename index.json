@@ -1,5 +1,29 @@
 [
   {
+    "title": "speech.md: transcrição de voz 100% on-device no macOS",
+    "date": "2026-09-08",
+    "published": "2026-09-08",
+    "modified": "2026-09-08",
+    "slug": "speech-md-transcricao-voz-on-device-macos",
+    "url": "https://ronanrodrigo.dev/notes/2026/09/08/speech-md-transcricao-voz-on-device-macos/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/speech-md-transcricao-voz-on-device-macos.md",
+    "path": "_posts/2026-09-08-speech-md-transcricao-voz-on-device-macos.md",
+    "tags": [
+      "swift",
+      "open-source",
+      "tools",
+      "local-llm",
+      "ai",
+      "productivity"
+    ],
+    "description": "Ditados, reuniões e arquivos de áudio transcritos no próprio Mac com SpeechAnalyzer, ScreenCaptureKit e Foundation Models.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
+  },
+  {
     "title": "4 skills que tiram o frontend de IA do genérico: taste, guidelines, DESIGN.md e image-to-code",
     "date": "2026-09-06",
     "published": "2026-09-06",
