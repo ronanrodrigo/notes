@@ -1,5 +1,27 @@
 [
   {
+    "title": "Spell UI, Refero Styles e Inspora: componentes, design systems e referências",
+    "date": "2026-09-08",
+    "published": "2026-09-08",
+    "modified": "2026-09-08",
+    "slug": "spell-ui-refero-inspora-referencias-design",
+    "url": "https://ronanrodrigo.dev/notes/2026/09/08/spell-ui-refero-inspora-referencias-design/",
+    "markdown_url": "https://ronanrodrigo.dev/notes/spell-ui-refero-inspora-referencias-design.md",
+    "path": "_posts/2026-09-08-spell-ui-refero-inspora-referencias-design.md",
+    "tags": [
+      "design-systems",
+      "ai-agents",
+      "tools",
+      "open-source"
+    ],
+    "description": "Spell UI para componentes React animados, Refero Styles para DESIGN.md de produtos reais e Inspora para arquivo curado de design visual.",
+    "author": {
+      "name": "Ronan Rodrigo Nunes",
+      "url": "https://ronanrodrigo.dev/"
+    },
+    "status": "published"
+  },
+  {
     "title": "speech.md: transcrição de voz 100% on-device no macOS",
     "date": "2026-09-08",
     "published": "2026-09-08",
